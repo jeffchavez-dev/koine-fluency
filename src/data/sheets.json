@@ -439,169 +439,70 @@
       "greek_title": "Περὶ Τροφῆς",
       "english_title": "Eating & Drinking",
       "category": "daily-life",
-      "note": "δός or δίδου? δός μοι (aorist) asks for the thing once — pass me the bread. δίδου μοι (present) asks for it habitually — keep giving me bread. Mark's aorist imperatives are almost always the single, decisive request.",
-      "terms": [
+      "description": "Essential vocabulary for expressing hunger, thirst, food requests, eating preferences, and dining actions in everyday conversation.",
+      "sections": [
         {
-          "greek": "πεινῶ.",
-          "english": "I am hungry."
+          "title": "Hunger & Thirst",
+          "terms": [
+            {"greek": "πεινῶ.", "english": "I am hungry.", "examples": [{"greek": "πεινῶ μέγα", "english": "I am very hungry", "reference": "Matthew 4:2"}]},
+            {"greek": "διψῶ.", "english": "I am thirsty.", "examples": [{"greek": "διψῶ καὶ οὐκ ἔχω πιεῖν", "english": "I am thirsty and have nothing to drink", "reference": "John 19:28"}]},
+            {"greek": "οὐ πεινῶ ἔτι.", "english": "I am not hungry any more.", "examples": []},
+            {"greek": "κεχόρτασμαι.", "english": "I am full, satisfied.", "examples": [{"greek": "ἐχορτάσθησαν", "english": "they were satisfied", "reference": "Mark 8:8"}]}
+          ]
         },
         {
-          "greek": "διψῶ.",
-          "english": "I am thirsty."
+          "title": "Requests for Food & Drink",
+          "terms": [
+            {"greek": "δός μοι τὸν ἄρτον, ἀντιβολῶ.", "english": "Give me the bread, please.", "examples": []},
+            {"greek": "δός μοι ὕδωρ.", "english": "Give me water.", "examples": [{"greek": "δός μοι ὕδωρ πιεῖν", "english": "Give me water to drink", "reference": "John 4:7"}]},
+            {"greek": "δός μοι πεῖν", "english": "Give me (something) to drink", "examples": []},
+            {"greek": "δός μοι τὸ ποτήριον.", "english": "Give me the cup.", "examples": [{"greek": "τὸ ποτήριον τὸ ἐμόν", "english": "my cup", "reference": "Mark 10:39"}]}
+          ]
         },
         {
-          "greek": "δός μοι τὸν ἄρτον, ἀντιβολῶ.",
-          "english": "Give me the bread, please."
+          "title": "Dining & Preferences",
+          "terms": [
+            {"greek": "θέλω φαγεῖν.", "english": "I want to eat.", "examples": []},
+            {"greek": "θέλω πιεῖν.", "english": "I want to drink.", "examples": []},
+            {"greek": "οὐ θέλω φαγεῖν.", "english": "I do not want to eat.", "examples": []},
+            {"greek": "καλόν ἐστιν· ἡδύ ἐστιν.", "english": "It is good; it is delicious.", "examples": []},
+            {"greek": "ἱκανῶς ἔχω.", "english": "I have had enough.", "examples": []}
+          ]
         },
         {
-          "greek": "δός μοι ὕδωρ.",
-          "english": "Give me water."
+          "title": "Actions & Preparation",
+          "terms": [
+            {"greek": "λάβε καὶ φάγε.", "english": "Take and eat.", "examples": [{"greek": "λάβετε, φάγετε", "english": "Take, eat", "reference": "Mark 14:22"}]},
+            {"greek": "κλάσον τὸν ἄρτον.", "english": "Break the bread.", "examples": [{"greek": "κλάσας τὸν ἄρτον", "english": "breaking the bread", "reference": "Mark 14:22"}]},
+            {"greek": "ἀνακλίθητε.", "english": "Recline at table.", "examples": [{"greek": "κατακλίθητε", "english": "recline", "reference": "Mark 14:3"}]},
+            {"greek": "νίψαι τὰς χεῖρας.", "english": "Wash your hands.", "examples": [{"greek": "νίψαντας τὰς χεῖρας", "english": "having washed their hands", "reference": "Mark 7:2"}]}
+          ]
         },
         {
-          "greek": "δός μοι πεῖν",
-          "english": "Give me (something) to drink"
+          "title": "Aspect & Intention",
+          "terms": [
+            {"greek": "μέλλω ἐσθίειν.", "english": "I am about to eat.", "examples": []},
+            {"greek": "ὑπάγω φαγεῖν.", "english": "I am going off to eat.", "examples": []},
+            {"greek": "δεῦτε, φάγωμεν.", "english": "Come, let us eat.", "examples": []}
+          ]
         },
         {
-          "greek": "δός μοι τὸ ποτήριον.",
-          "english": "Give me the cup."
-        },
-        {
-          "greek": "δός μοι τὸν πίνακα.",
-          "english": "Give me the plate."
-        },
-        {
-          "greek": "δός μοι τὸ κοχλιάριον.",
-          "english": "Give me the spoon."
-        },
-        {
-          "greek": "δὸς αὐτῷ τὸ ἅλας.",
-          "english": "Give him the salt."
-        },
-        {
-          "greek": "οὐ πεινῶ ἔτι.",
-          "english": "I am not hungry any more."
-        },
-        {
-          "greek": "κεχόρτασμαι.",
-          "english": "I am full, satisfied."
-        },
-        {
-          "greek": "ἱκανῶς ἔχω.",
-          "english": "I have had enough."
-        },
-        {
-          "greek": "καλόν ἐστιν· ἡδύ ἐστιν.",
-          "english": "It is good; it is delicious."
-        },
-        {
-          "greek": "θέλω φαγεῖν.",
-          "english": "I want to eat."
-        },
-        {
-          "greek": "θέλω πιεῖν.",
-          "english": "I want to drink."
-        },
-        {
-          "greek": "οὐ θέλω φαγεῖν.",
-          "english": "I do not want to eat."
-        },
-        {
-          "greek": "μέλλω ἐσθίειν.",
-          "english": "I am about to eat."
-        },
-        {
-          "greek": "ὑπάγω φαγεῖν.",
-          "english": "I am going off to eat."
-        },
-        {
-          "greek": "λάβε καὶ φάγε.",
-          "english": "Take and eat."
-        },
-        {
-          "greek": "κλάσον τὸν ἄρτον.",
-          "english": "Break the bread."
-        },
-        {
-          "greek": "ἀνακλίθητε.",
-          "english": "Recline at table."
-        },
-        {
-          "greek": "νίψαι τὰς χεῖρας.",
-          "english": "Wash your hands."
-        },
-        {
-          "greek": "πλῦνον τὸ ποτήριον.",
-          "english": "Wash the cup."
-        },
-        {
-          "greek": "δεῦτε, φάγωμεν.",
-          "english": "Come, let us eat."
-        },
-        {
-          "greek": "τί ἐσθίομεν σήμερον;",
-          "english": "What are we eating today?"
-        },
-        {
-          "greek": "νηστεύω σήμερον.",
-          "english": "I am fasting today."
-        },
-        {
-          "greek": "εὐχαριστῶ σοι.",
-          "english": "Thank you."
-        },
-        {
-          "greek": "εὐχαριστήσωμεν πρὸ τοῦ φαγεῖν.",
-          "english": "Let us give thanks before eating."
-        },
-        {
-          "greek": "εὐλόγησον τὸν ἄρτον.",
-          "english": "Bless the bread."
-        },
-        {
-          "greek": "ἐσθίω, φάγομαι, ἔφαγον",
-          "english": "I eat"
-        },
-        {
-          "greek": "πίνω, πίομαι, ἔπιον",
-          "english": "I drink"
-        },
-        {
-          "greek": "γεύομαι",
-          "english": "I taste"
-        },
-        {
-          "greek": "χορτάζομαι",
-          "english": "I am filled"
-        },
-        {
-          "greek": "δειπνέω",
-          "english": "I dine, take supper"
-        },
-        {
-          "greek": "ἀριστάω",
-          "english": "I take the morning meal"
-        },
-        {
-          "greek": "νηστεύω",
-          "english": "I fast"
-        },
-        {
-          "greek": "εὐχαριστέω / εὐλογέω",
-          "english": "I give thanks / bless"
-        },
-        {
-          "greek": "κλάω",
-          "english": "I break bread"
-        },
-        {
-          "greek": "ἀνάκειμαι / κατάκειμαι",
-          "english": "I recline at table"
-        },
-        {
-          "greek": "διψάω / πεινάω",
-          "english": "I thirst / I hunger"
+          "title": "Dining Verbs",
+          "terms": [
+            {"greek": "ἐσθίω, φάγομαι, ἔφαγον", "english": "I eat", "examples": [{"greek": "ἔφαγον πάντες", "english": "they all ate", "reference": "Mark 6:42"}]},
+            {"greek": "πίνω, πίομαι, ἔπιον", "english": "I drink", "examples": [{"greek": "ἔπιον ἐξ αὐτοῦ", "english": "they drank from it", "reference": "Mark 14:23"}]},
+            {"greek": "γεύομαι", "english": "I taste", "examples": [{"greek": "γεύσηται τὸν θάνατον", "english": "taste death", "reference": "Mark 9:1"}]},
+            {"greek": "δειπνέω", "english": "I dine, take supper", "examples": []},
+            {"greek": "χορτάζομαι", "english": "I am filled", "examples": [{"greek": "χορτάσθησαν", "english": "they were filled", "reference": "Mark 6:42"}]}
+          ]
         }
-      ]
+      ],
+      "principles": [
+        "δός (aorist imperative) asks for the thing once, one specific request — pass me the bread. δίδου (present imperative) asks for it habitually — keep giving me bread. Mark's aorist imperatives are almost always the single, decisive request.",
+        "The middle voice of ἐσθίω (φάγομαι) emphasizes personal participation in eating; the active voice emphasizes the action itself",
+        "Dining customs in Mark: reclined at table, bread broken and shared, wine passed around"
+      ],
+      "drill_instruction": "Substitution Drill: Start with 'δός μοι τὸν ἄρτον' and substitute: δός μοι τὸ ποτήριον, δός μοι τὸ ἅλας, δός μοι τὸ κρέας. This builds muscle memory for the accusative object constructions."
     },
     {
       "id": 8,
