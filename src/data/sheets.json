@@ -14,30 +14,31 @@
       "greek_title": "Τὰ Ἐρωτηματικά Α΄",
       "english_title": "Question Words I",
       "category": "interrogatives",
+      "note": "Drill instruction: Take any verse and circle it with questions before moving on — τίς; τί ἐποίησεν; ποῦ; πότε; διὰ τί; The information is not the point; the repetition is.",
       "terms": [
         {
           "greek": "τίς; τί;",
-          "english": "Who? Which one? (gen. τίνος, dat. τίνι, acc. τίνα)"
+          "english": "Who? Which one? (gen. τίνος, dat. τίνι, acc. τίνα) — Mark 4:41, 8:29, 10:51, 5:9"
         },
         {
           "greek": "πόθεν;",
-          "english": "From where?"
+          "english": "From where? — Mark 6:2, 8:4"
         },
         {
           "greek": "τί;",
-          "english": "What? (neuter often means Why?)"
+          "english": "What? Why? (neuter often means Why?) — Mark 10:51, 5:9, 4:40, 12:35"
         },
         {
           "greek": "πῶς;",
-          "english": "How?"
+          "english": "How? — Mark 4:13, 12:35, 4:41"
         },
         {
           "greek": "ποῦ;",
-          "english": "Where?"
+          "english": "Where? — Mark 14:14, 14:12"
         },
         {
           "greek": "πότε;",
-          "english": "When?"
+          "english": "When? — Mark 13:4, 13:33"
         },
         {
           "greek": "ποῖ;",
@@ -45,7 +46,7 @@
         },
         {
           "greek": "διὰ τί;",
-          "english": "Why? For what reason?"
+          "english": "Why? For what reason? — Mark 2:18, 11:31"
         }
       ]
     },
@@ -55,30 +56,31 @@
       "greek_title": "Τὰ Ἐρωτηματικά Β΄",
       "english_title": "Question Words II",
       "category": "interrogatives",
+      "note": "Drill instruction: Take any verse and circle it with questions before moving on — τίς; τί ἐποίησεν; ποῦ; πότε; διὰ τί; The information is not the point; the repetition is.",
       "terms": [
         {
           "greek": "ποῖος, -α, -ον;",
-          "english": "Of what kind? Which?"
+          "english": "Of what kind? Which? — Mark 11:28, 12:28"
         },
         {
           "greek": "πόσος, -η, -ον;",
-          "english": "How much? How many?"
+          "english": "How much? How many? — Mark 6:38, 8:5, 9:21"
         },
         {
           "greek": "ποσάκις;",
-          "english": "How often? How many times?"
+          "english": "How often? How many times? — Matthew 18:21, 23:37"
         },
         {
           "greek": "πηλίκος, -η, -ον;",
-          "english": "How big? How great?"
+          "english": "How big? How great? — Galatians 6:11, Hebrews 7:4"
         },
         {
           "greek": "ποδαπός, -ή, -όν;",
-          "english": "Of what country or sort?"
+          "english": "Of what country or sort? — Mark 13:1, Luke 1:29"
         },
         {
           "greek": "πότερον … ἤ;",
-          "english": "Which of two? Whether ... or?"
+          "english": "Which of two? Whether ... or? — Mark 2:9"
         }
       ]
     },
@@ -91,11 +93,11 @@
       "terms": [
         {
           "greek": "χαῖρε / χαίρετε",
-          "english": "Hello, greetings (sg./pl.)"
+          "english": "Hello, greetings (sg./pl.) — imperative: literally 'rejoice!'"
         },
         {
           "greek": "εἰρήνη σοι / ὑμῖν",
-          "english": "Peace to you (sg./pl.)"
+          "english": "Peace to you (sg./pl.) — Luke 24:36"
         },
         {
           "greek": "ἀντιβολῶ / παρακαλῶ",
@@ -131,7 +133,7 @@
         },
         {
           "greek": "καλῶς ἥκεις",
-          "english": "Welcome"
+          "english": "Welcome (lit. you have come well)"
         },
         {
           "greek": "ὁ κύριος μετὰ σοῦ",
@@ -171,7 +173,7 @@
         },
         {
           "greek": "κακῶς ἔχω",
-          "english": "I am unwell"
+          "english": "I am unwell — Mark 1:34 (κακῶς ἔχοντας)"
         },
         {
           "greek": "μετρίως",
@@ -231,7 +233,7 @@
         },
         {
           "greek": "Ῥωμαϊστί",
-          "english": "In Latin"
+          "english": "In Latin — John 19:20"
         },
         {
           "greek": "λέγε μοι Ἑλληνιστί",
@@ -247,13 +249,14 @@
         },
         {
           "greek": "ὕπαγε εἰς εἰρήνην",
-          "english": "Go in peace"
+          "english": "Go in peace — Mark 5:34"
         },
         {
           "greek": "εἰς αὖθις",
           "english": "Until next time"
         }
-      ]
+      ],
+      "note": "Principle: χαῖρε is an imperative — 'rejoice!' Greek greeting is a command to be glad. The reply is simply χαῖρε καὶ σύ."
     },
     {
       "id": 5,
@@ -273,26 +276,6 @@
         {
           "greek": "ἐρωτῆσαί σέ τι βούλομαι.",
           "english": "I want to ask you something."
-        },
-        {
-          "greek": "ἀπόκριναί μοι, ἀντιβολῶ.",
-          "english": "Answer me, please."
-        },
-        {
-          "greek": "λέγε φωνῇ μεγάλῃ.",
-          "english": "Speak in a loud voice."
-        },
-        {
-          "greek": "τίς ἀποκρίνεται;",
-          "english": "Who is answering?"
-        },
-        {
-          "greek": "μικρὸν ἀνάμεινον.",
-          "english": "Wait a moment."
-        },
-        {
-          "greek": "μὴ φοβοῦ, λέγε μόνον.",
-          "english": "Don't be afraid — just speak."
         },
         {
           "greek": "αὖθις εἰπέ, ἀντιβολῶ.",
@@ -320,7 +303,7 @@
         },
         {
           "greek": "συνίετε;",
-          "english": "Do you (all) understand?"
+          "english": "Do you (all) understand? — Mark 8:17"
         },
         {
           "greek": "ὀρθῶς εἶπας.",
@@ -331,20 +314,24 @@
           "english": "I've made a mistake — correct me."
         },
         {
+          "greek": "λέγε φωνῇ μεγάλῃ.",
+          "english": "Speak in a loud voice."
+        },
+        {
+          "greek": "μὴ φοβοῦ, λέγε μόνον.",
+          "english": "Don't be afraid — just speak."
+        },
+        {
           "greek": "οὐ καταλαμβάνω.",
           "english": "I do not understand."
         },
         {
           "greek": "οὐ συνίημι. / οὐ νοῶ.",
-          "english": "I don't comprehend."
+          "english": "I don't comprehend. — Mark 8:17"
         },
         {
           "greek": "οὔπω συνῆκα.",
           "english": "I haven't understood yet."
-        },
-        {
-          "greek": "νῦν καταλαμβάνω!",
-          "english": "Now I understand!"
         },
         {
           "greek": "τί σημαίνει τοῦτο;",
@@ -379,10 +366,6 @@
           "english": "What person and number?"
         },
         {
-          "greek": "οὔπω νοεῖτε οὐδὲ συνίετε;",
-          "english": "Don't you understand yet?"
-        },
-        {
           "greek": "οὐκ οἶδα. / οὐ γινώσκω.",
           "english": "I don't know."
         },
@@ -391,26 +374,31 @@
           "english": "I have forgotten."
         },
         {
-          "greek": "τέλος ἔχει.",
-          "english": "It is finished / that's the end."
-        },
-        {
-          "greek": "ἀναπαυσώμεθα ὀλίγον.",
-          "english": "Let us rest a little."
-        },
-        {
           "greek": "ἀρξώμεθα.",
           "english": "Let us begin."
         },
         {
           "greek": "ἄγωμεν.",
-          "english": "Let's go / let's get on."
+          "english": "Let's go / let's get on. — Mark 1:38"
+        },
+        {
+          "greek": "ἀναπαυσώμεθα ὀλίγον.",
+          "english": "Let us rest a little. — Mark 6:31"
+        },
+        {
+          "greek": "τέλος ἔχει.",
+          "english": "It is finished / that's the end."
         },
         {
           "greek": "αὔριον πάλιν.",
           "english": "Again tomorrow."
+        },
+        {
+          "greek": "ἀπόκριναί μοι, ἀντιβολῶ.",
+          "english": "Answer me, please. — Mark 11:30"
         }
-      ]
+      ],
+      "note": "Drill instruction: take any verse and circle it with questions before moving on — τίς; τί ἐποίησεν; ποῦ; πότε; διὰ τί; The information is not the point; the repetition is."
     },
     {
       "id": 6,
@@ -421,7 +409,7 @@
       "terms": [
         {
           "greek": "ἄκουε! / ἀκούετε!",
-          "english": "Listen! (sg./pl.)"
+          "english": "Listen! (sg./pl.) — Mark 4:3, 12:29"
         },
         {
           "greek": "ἀναγίνωσκε! / ἀναγινώσκετε!",
@@ -429,7 +417,7 @@
         },
         {
           "greek": "ἀνάγνωθι τοῦτο",
-          "english": "Read this"
+          "english": "Read this — Mark 12:10"
         },
         {
           "greek": "λέγε! / λέγετε!",
@@ -441,19 +429,19 @@
         },
         {
           "greek": "βλέπε! / ἴδε!",
-          "english": "Look! See!"
+          "english": "Look! See! — Mark 13:1"
         },
         {
           "greek": "μένε! / μένετε!",
-          "english": "Stay! Wait! (sg./pl.)"
+          "english": "Stay! Wait! (sg./pl.) — Mark 9:5"
         },
         {
           "greek": "δεῦρο! / δεῦτε!",
-          "english": "Come here! (sg./pl.)"
+          "english": "Come here! (sg./pl.) — Mark 1:17"
         },
         {
           "greek": "ἔγειρε! / ἀνάστηθι!",
-          "english": "Get up! Rise! (sg.)"
+          "english": "Get up! Rise! — Mark 2:11, Acts 9:34"
         },
         {
           "greek": "κάθισον! / καθίσατε!",
@@ -461,11 +449,11 @@
         },
         {
           "greek": "σιώπα! / σιωπᾶτε!",
-          "english": "Be quiet! (sg./pl.)"
+          "english": "Be quiet! (sg./pl.) — Mark 4:39"
         },
         {
           "greek": "δός μοι …",
-          "english": "Give me ..."
+          "english": "Give me ... — Mark 7:28"
         },
         {
           "greek": "δεῖξόν μοι …",
@@ -481,7 +469,7 @@
         },
         {
           "greek": "ὁ διδάσκαλος",
-          "english": "Teacher"
+          "english": "Teacher — Mark 4:38"
         },
         {
           "greek": "ὁ μαθητής, -οῦ",
@@ -489,7 +477,7 @@
         },
         {
           "greek": "ἡ μαθήτρια",
-          "english": "Female student"
+          "english": "Female student — Acts 9:36"
         },
         {
           "greek": "ὁ γραμματεύς",
@@ -504,16 +492,16 @@
           "english": "Brother, sister"
         },
         {
-          "greek": "ῥαββί",
-          "english": "Rabbi, my teacher"
+          "greek": "ὁ ῥαββί",
+          "english": "Rabbi, my teacher — John 13"
         },
         {
           "greek": "τὸ βιβλίον",
-          "english": "Book, scroll"
+          "english": "Book, scroll — Mark 10:4"
         },
         {
           "greek": "ἡ βίβλος",
-          "english": "Book"
+          "english": "Book — Mark 12:26"
         },
         {
           "greek": "ἡ γραφή",
@@ -533,7 +521,7 @@
         },
         {
           "greek": "τὸ μέλαν",
-          "english": "Ink"
+          "english": "Ink — 2 Corinthians 3:3"
         },
         {
           "greek": "ὁ πίναξ",
@@ -541,7 +529,7 @@
         },
         {
           "greek": "ἡ θύρα",
-          "english": "Door"
+          "english": "Door — Mark 1:33"
         },
         {
           "greek": "ἡ καθέδρα",
@@ -553,11 +541,11 @@
         },
         {
           "greek": "ὁ λύχνος, ἡ λυχνία",
-          "english": "Lamp, lampstand"
+          "english": "Lamp, lampstand — Mark 4:21"
         },
         {
           "greek": "ἡ σχολή",
-          "english": "School, lecture-hall"
+          "english": "School, lecture-hall — Acts 19:9"
         },
         {
           "greek": "ὧδε / ἐκεῖ",
@@ -577,7 +565,7 @@
         },
         {
           "greek": "ὑπὸ τὴν κλίνην",
-          "english": "Under the bed"
+          "english": "Under the bed — Mark 4:21"
         },
         {
           "greek": "παρὰ τῇ θύρᾳ",
@@ -587,7 +575,8 @@
           "greek": "ἐν μέσῳ ἡμῶν",
           "english": "In our midst"
         }
-      ]
+      ],
+      "note": "Total-Physical-Response drill: the teacher commands, the class obeys in silence — ἔγειρε· ἐλθὲ πρὸς τὴν θύραν· ἄνοιξον τὴν θύραν· κάθισον. No translation, no explanation. Comprehension shows up in the body first."
     },
     {
       "id": 7,
@@ -595,6 +584,7 @@
       "greek_title": "Περὶ Τροφῆς",
       "english_title": "Eating & Drinking",
       "category": "daily-life",
+      "note": "δός or δίδου? δός μοι (aorist) asks for the thing once — pass me the bread. δίδου μοι (present) asks for it habitually — keep giving me bread. Mark's aorist imperatives are almost always the single, decisive request.",
       "terms": [
         {
           "greek": "πεινῶ.",
