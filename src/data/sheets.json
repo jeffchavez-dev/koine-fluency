@@ -248,141 +248,92 @@
       "greek_title": "Ἐν τῇ Σχολῇ Α΄",
       "english_title": "Classroom Questions",
       "category": "communication",
-      "terms": [
+      "description": "Essential classroom language for asking permission, requesting repetition, checking understanding, and managing comprehension in Greek-only environments.",
+      "sections": [
         {
-          "greek": "ἐρώτησιν ἔχω.",
-          "english": "I have a question."
+          "title": "Asking Permission & Posing Questions",
+          "terms": [
+            {"greek": "ἐρώτησιν ἔχω.", "english": "I have a question.", "examples": []},
+            {"greek": "ἔξεστίν μοι ἐρωτῆσαι;", "english": "May I ask a question?", "examples": [{"greek": "ἔξεστιν ἢ οὐκ ἔξεστιν;", "english": "Is it permitted or not permitted?", "reference": "Mark 3:4"}]},
+            {"greek": "ἐρωτῆσαί σέ τι βούλομαι.", "english": "I want to ask you something.", "examples": []}
+          ]
         },
         {
-          "greek": "ἔξεστίν μοι ἐρωτῆσαι;",
-          "english": "May I ask?"
+          "title": "Request for Repetition & Slower Speech",
+          "terms": [
+            {"greek": "αὖθις εἰπέ, ἀντιβολῶ.", "english": "Say it again, please.", "examples": [{"greek": "πάλιν", "english": "again", "reference": "Mark 14:69"}]},
+            {"greek": "πάλιν εἰπέ.", "english": "Repeat it.", "examples": [{"greek": "ἔλεγον αὐτῷ τὸ αὐτό.", "english": "they said the same thing to him", "reference": "Mark 14:69"}]},
+            {"greek": "βραδέως λέγε.", "english": "Speak slowly.", "examples": []},
+            {"greek": "βραδύτερον, ἀντιβολῶ.", "english": "More slowly, please.", "examples": []},
+            {"greek": "λέγε φωνῇ μεγάλῃ.", "english": "Speak in a loud voice.", "examples": [{"greek": "ἐκραύγασεν φωνῇ μεγάλῃ", "english": "he cried out with a loud voice", "reference": "Mark 1:26"}]}
+          ]
         },
         {
-          "greek": "ἐρωτῆσαί σέ τι βούλομαι.",
-          "english": "I want to ask you something."
+          "title": "Checking Understanding",
+          "terms": [
+            {"greek": "δῆλόν ἐστιν;", "english": "Is it clear?", "examples": []},
+            {"greek": "δῆλόν ἐστιν.", "english": "It's clear.", "examples": []},
+            {"greek": "οὐ δῆλόν μοι.", "english": "It's not clear to me.", "examples": []},
+            {"greek": "συνίετε;", "english": "Do you (all) understand?", "examples": [{"greek": "συνίετε ταῦτα;", "english": "Do you understand all these things?", "reference": "Mark 8:17"}]},
+            {"greek": "ὀρθῶς εἶπας.", "english": "You said it correctly.", "examples": [{"greek": "ὀρθῶς ἀπεκρίθη", "english": "you have answered correctly", "reference": "Mark 12:34"}]}
+          ]
         },
         {
-          "greek": "αὖθις εἰπέ, ἀντιβολῶ.",
-          "english": "Say it again, please."
+          "title": "Expressing Comprehension Problems",
+          "terms": [
+            {"greek": "οὐ καταλαμβάνω.", "english": "I do not understand.", "examples": []},
+            {"greek": "οὐ συνίημι.", "english": "I don't comprehend.", "examples": [{"greek": "πῶς δύνασθε νοῆσαι;", "english": "How can you understand?", "reference": "Mark 8:17"}]},
+            {"greek": "οὐ νοῶ.", "english": "I don't grasp it.", "examples": [{"greek": "ἐπὶ τὸ νοῦν φέρειν", "english": "to bring to mind", "reference": "Luke 1:66"}]},
+            {"greek": "οὔπω συνῆκα.", "english": "I haven't understood yet.", "examples": []},
+            {"greek": "ἡμάρτηκα· διόρθωσόν με.", "english": "I've made a mistake—correct me.", "examples": []}
+          ]
         },
         {
-          "greek": "πάλιν εἰπέ.",
-          "english": "Repeat it."
+          "title": "Asking About Meaning & Grammar",
+          "terms": [
+            {"greek": "τί σημαίνει τοῦτο;", "english": "What does this mean?", "examples": [{"greek": "τί ἐστιν τὸ ῥῆμα;", "english": "What is the word?", "reference": "John 16:18"}]},
+            {"greek": "τί ἐστι τὸ ῥῆμα τοῦτο;", "english": "What is this word?", "examples": []},
+            {"greek": "πῶς γράφεται;", "english": "How is it written / spelled?", "examples": []},
+            {"greek": "τί μέρος λόγου ἐστίν;", "english": "What part of speech is it?", "examples": []},
+            {"greek": "ἐν ποίᾳ πτώσει ἐστίν;", "english": "In what case is it?", "examples": []},
+            {"greek": "ἐν ποίῳ χρόνῳ;", "english": "In what tense?", "examples": []},
+            {"greek": "ποία ἔγκλισις;", "english": "What mood?", "examples": []},
+            {"greek": "ποία διάθεσις;", "english": "What voice?", "examples": []},
+            {"greek": "ποῖον πρόσωπον καὶ ποῖος ἀριθμός;", "english": "What person and number?", "examples": []}
+          ]
         },
         {
-          "greek": "βραδέως λέγε.",
-          "english": "Speak slowly."
+          "title": "Expressing Ignorance & Forgetting",
+          "terms": [
+            {"greek": "οὐκ οἶδα.", "english": "I don't know.", "examples": [{"greek": "εἶπεν· οὐκ οἶδα.", "english": "he said, I do not know", "reference": "Mark 14:71"}]},
+            {"greek": "οὐ γινώσκω.", "english": "I do not know.", "examples": [{"greek": "οὐ γινώσκουσιν", "english": "they did not know", "reference": "Mark 1:27"}]},
+            {"greek": "ἐπελαθόμην.", "english": "I have forgotten.", "examples": [{"greek": "ἐπελάθετο τῶν ἀρτῶν", "english": "they had forgotten to bring bread", "reference": "Mark 8:14"}]}
+          ]
         },
         {
-          "greek": "βραδύτερον, ἀντιβολῶ.",
-          "english": "More slowly, please."
+          "title": "Encouragement & Managing Fear",
+          "terms": [
+            {"greek": "μὴ φοβοῦ, λέγε μόνον.", "english": "Don't be afraid—just speak.", "examples": [{"greek": "μὴ φοβοῦ", "english": "do not fear", "reference": "Mark 5:36"}]}
+          ]
         },
         {
-          "greek": "δῆλόν ἐστιν;",
-          "english": "Is it clear?"
-        },
-        {
-          "greek": "δῆλόν ἐστιν. / οὐ δῆλόν μοι.",
-          "english": "It's clear. / It's not clear to me."
-        },
-        {
-          "greek": "συνίετε;",
-          "english": "Do you (all) understand? — Mark 8:17"
-        },
-        {
-          "greek": "ὀρθῶς εἶπας.",
-          "english": "You said it correctly."
-        },
-        {
-          "greek": "ἡμάρτηκα· διόρθωσόν με.",
-          "english": "I've made a mistake — correct me."
-        },
-        {
-          "greek": "λέγε φωνῇ μεγάλῃ.",
-          "english": "Speak in a loud voice."
-        },
-        {
-          "greek": "μὴ φοβοῦ, λέγε μόνον.",
-          "english": "Don't be afraid — just speak."
-        },
-        {
-          "greek": "οὐ καταλαμβάνω.",
-          "english": "I do not understand."
-        },
-        {
-          "greek": "οὐ συνίημι. / οὐ νοῶ.",
-          "english": "I don't comprehend. — Mark 8:17"
-        },
-        {
-          "greek": "οὔπω συνῆκα.",
-          "english": "I haven't understood yet."
-        },
-        {
-          "greek": "τί σημαίνει τοῦτο;",
-          "english": "What does this mean?"
-        },
-        {
-          "greek": "τί ἐστι τὸ ῥῆμα τοῦτο;",
-          "english": "What is this word?"
-        },
-        {
-          "greek": "πῶς γράφεται;",
-          "english": "How is it written / spelled?"
-        },
-        {
-          "greek": "τί μέρος λόγου ἐστίν;",
-          "english": "What part of speech is it?"
-        },
-        {
-          "greek": "ἐν ποίᾳ πτώσει ἐστίν;",
-          "english": "In what case is it?"
-        },
-        {
-          "greek": "ἐν ποίῳ χρόνῳ;",
-          "english": "In what tense?"
-        },
-        {
-          "greek": "ποία ἔγκλισις; ποία διάθεσις;",
-          "english": "What mood? What voice?"
-        },
-        {
-          "greek": "ποῖον πρόσωπον καὶ ποῖος ἀριθμός;",
-          "english": "What person and number?"
-        },
-        {
-          "greek": "οὐκ οἶδα. / οὐ γινώσκω.",
-          "english": "I don't know."
-        },
-        {
-          "greek": "ἐπελαθόμην.",
-          "english": "I have forgotten."
-        },
-        {
-          "greek": "ἀρξώμεθα.",
-          "english": "Let us begin."
-        },
-        {
-          "greek": "ἄγωμεν.",
-          "english": "Let's go / let's get on. — Mark 1:38"
-        },
-        {
-          "greek": "ἀναπαυσώμεθα ὀλίγον.",
-          "english": "Let us rest a little. — Mark 6:31"
-        },
-        {
-          "greek": "τέλος ἔχει.",
-          "english": "It is finished / that's the end."
-        },
-        {
-          "greek": "αὔριον πάλιν.",
-          "english": "Again tomorrow."
-        },
-        {
-          "greek": "ἀπόκριναί μοι, ἀντιβολῶ.",
-          "english": "Answer me, please. — Mark 11:30"
+          "title": "Classroom Management & Conclusion",
+          "terms": [
+            {"greek": "ἀρξώμεθα.", "english": "Let us begin.", "examples": []},
+            {"greek": "ἄγωμεν.", "english": "Let's go / let's continue.", "examples": [{"greek": "ἄγωμεν ἀλλαχόσε", "english": "Let us go to the next towns", "reference": "Mark 1:38"}]},
+            {"greek": "ἀναπαυσώμεθα ὀλίγον.", "english": "Let us rest a little.", "examples": [{"greek": "ἀναπαύεσθε ὀλίγον", "english": "rest a little while", "reference": "Mark 6:31"}]},
+            {"greek": "τέλος ἔχει.", "english": "It is finished / that's the end.", "examples": [{"greek": "τέλος ἔχουσιν", "english": "they have come to an end", "reference": "1 Peter 4:7"}]},
+            {"greek": "αὔριον πάλιν.", "english": "Again tomorrow.", "examples": []},
+            {"greek": "ἀπόκριναί μοι, ἀντιβολῶ.", "english": "Answer me, please.", "examples": [{"greek": "ἀποκρίθη ὁ Ἰησοῦς", "english": "Jesus answered", "reference": "Mark 11:30"}]}
+          ]
         }
       ],
-      "note": "Drill instruction: take any verse and circle it with questions before moving on — τίς; τί ἐποίησεν; ποῦ; πότε; διὰ τί; The information is not the point; the repetition is."
+      "principles": [
+        "The subjunctive mood (ἄγωμεν, ἀρξώμεθα) expresses cohortative wishes: 'let us...'",
+        "τί vs ποῖος: τί (what?) for identity or substance; ποῖος (what kind?) for quality or category",
+        "In Greek-only instruction, these phrases keep learners engaged without resorting to English metalanguage"
+      ],
+      "drill_instruction": "Circle-and-Ask Drill: Take any verse and circle out with questions: τίς; τί ἐποίησεν; ποῦ; πότε; διὰ τί; The information is secondary; the repetition builds neural pathways. Start with simple narratives (Mark's healing stories) where concrete objects invite questions."
     },
     {
       "id": 6,
