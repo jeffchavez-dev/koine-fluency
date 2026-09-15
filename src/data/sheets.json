@@ -1,0 +1,542 @@
+{
+  "sheets": [
+    {
+      "id": 1,
+      "number": "01",
+      "greek_title": "Τίτλος",
+      "english_title": "Title & Contents",
+      "category": "structure",
+      "description": "Overview of the 20 wall sheets for building active fluency in Koine Greek",
+      "content": "Twenty wall sheets for building active fluency in Koine: the interrogatives that open every conversation, the phrases that keep a classroom, a kitchen and a bedroom running in Greek, and a grammar in which every term introduces itself in the first person."
+    },
+    {
+      "id": 2,
+      "number": "02",
+      "greek_title": "Τὰ Ἐρωτηματικά Α΄",
+      "english_title": "Question Words I",
+      "category": "interrogatives",
+      "terms": [
+        {
+          "greek": "τίς; τί;",
+          "english": "Who? Which one? (gen. τίνος, dat. τίνι, acc. τίνα)",
+          "examples": [
+            {
+              "greek": "τίς ἄρα οὗτός ἐστιν;",
+              "english": "Who then is this?",
+              "reference": "Μᾶρκ. 4:41"
+            },
+            {
+              "greek": "ὑμεῖς δὲ τίνα με λέγετε εἶναι;",
+              "english": "But you — who do you say that I am?",
+              "reference": "Μᾶρκ. 8:29"
+            }
+          ]
+        },
+        {
+          "greek": "πόθεν;",
+          "english": "From where?",
+          "examples": [
+            {
+              "greek": "πόθεν τούτῳ ταῦτα;",
+              "english": "Where did this man get these things?",
+              "reference": "Μᾶρκ. 6:2"
+            }
+          ]
+        },
+        {
+          "greek": "τί;",
+          "english": "What? (neuter often means Why?)",
+          "examples": [
+            {
+              "greek": "τί σοι θέλεις ποιήσω;",
+              "english": "What do you want me to do for you?",
+              "reference": "Μᾶρκ. 10:51"
+            }
+          ]
+        },
+        {
+          "greek": "πῶς;",
+          "english": "How?",
+          "examples": [
+            {
+              "greek": "καὶ πῶς πάσας τὰς παραβολὰς γνώσεσθε;",
+              "english": "Then how will you understand all the parables?",
+              "reference": "Μᾶρκ. 4:13"
+            }
+          ]
+        },
+        {
+          "greek": "ποῦ;",
+          "english": "Where?",
+          "examples": [
+            {
+              "greek": "ποῦ ἐστιν τὸ κατάλυμά μου;",
+              "english": "Where is my guest room?",
+              "reference": "Μᾶρκ. 14:14"
+            }
+          ]
+        },
+        {
+          "greek": "πότε;",
+          "english": "When?",
+          "examples": [
+            {
+              "greek": "εἰπὲ ἡμῖν πότε ταῦτα ἔσται;",
+              "english": "Tell us, when will these things be?",
+              "reference": "Μᾶρκ. 13:4"
+            }
+          ]
+        },
+        {
+          "greek": "ποῖ;",
+          "english": "To where? Whither?",
+          "examples": [
+            {
+              "greek": "ποῦ θέλεις ἀπελθόντες ἑτοιμάσωμεν;",
+              "english": "Where do you want us to go and prepare?",
+              "reference": "Μᾶρκ. 14:12"
+            }
+          ]
+        },
+        {
+          "greek": "διὰ τί;",
+          "english": "Why? For what reason?",
+          "examples": [
+            {
+              "greek": "διὰ τί οἱ μαθηταὶ Ἰωάννου νηστεύουσιν;",
+              "english": "Why do John's disciples fast?",
+              "reference": "Various"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "number": "03",
+      "greek_title": "Τὰ Ἐρωτηματικά Β΄",
+      "english_title": "Question Words II",
+      "category": "interrogatives",
+      "description": "Interrogatives that decline like adjectives",
+      "terms": [
+        {
+          "greek": "ποῖος, -α, -ον;",
+          "english": "Of what kind? Which?",
+          "examples": [
+            {
+              "greek": "ἐν ποίᾳ ἐξουσίᾳ ταῦτα ποιεῖς;",
+              "english": "By what authority are you doing these things?",
+              "reference": "Μᾶρκ. 11:28"
+            }
+          ]
+        },
+        {
+          "greek": "πόσος, -η, -ον;",
+          "english": "How much? How many?",
+          "examples": [
+            {
+              "greek": "πόσους ἄρτους ἔχετε;",
+              "english": "How many loaves do you have?",
+              "reference": "Μᾶρκ. 6:38"
+            }
+          ]
+        },
+        {
+          "greek": "ποσάκις;",
+          "english": "How often? How many times?",
+          "examples": [
+            {
+              "greek": "ποσάκις ἁμαρτήσει εἰς ἐμὲ ὁ ἀδελφός μου;",
+              "english": "How often shall my brother sin against me?",
+              "reference": "Ματθ. 18:21"
+            }
+          ]
+        },
+        {
+          "greek": "πηλίκος, -η, -ον;",
+          "english": "How big? How great?",
+          "examples": [
+            {
+              "greek": "ἴδετε πηλίκοις ὑμῖν γράμμασιν ἔγραψα;",
+              "english": "See with what large letters I have written to you!",
+              "reference": "Γαλ. 6:11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "number": "04",
+      "greek_title": "Χαιρετισμοί",
+      "english_title": "Greetings & Courtesy",
+      "category": "communication",
+      "terms": [
+        {
+          "greek": "Χαίρε! (sg.) Χαίρετε! (pl.)",
+          "english": "Greetings! Hello!",
+          "examples": []
+        },
+        {
+          "greek": "Εἰρήνη σοι.",
+          "english": "Peace be to you.",
+          "examples": []
+        },
+        {
+          "greek": "Σὰς εὖ λέγω.",
+          "english": "I wish you well.",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "number": "05",
+      "greek_title": "Ἐν τῇ Σχολῇ Α΄",
+      "english_title": "Classroom Questions",
+      "category": "communication",
+      "terms": [
+        {
+          "greek": "Τί ἐστιν τοῦτο;",
+          "english": "What is this?",
+          "examples": []
+        },
+        {
+          "greek": "Τίς ἐστιν ὗτος;",
+          "english": "Who is this?",
+          "examples": []
+        },
+        {
+          "greek": "Πῶς λέγεται;",
+          "english": "How is it called? What is it called?",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "number": "06",
+      "greek_title": "Ἐν τῇ Σχολῇ Β΄",
+      "english_title": "Commands & Objects",
+      "category": "communication",
+      "terms": [
+        {
+          "greek": "Εἰπέ!",
+          "english": "Tell! Say!",
+          "examples": []
+        },
+        {
+          "greek": "Ἀκούσατε!",
+          "english": "Listen!",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "number": "11",
+      "greek_title": "Τὰ Μέρη τοῦ Λόγου Α΄",
+      "english_title": "Parts of Speech I",
+      "category": "grammar",
+      "description": "The major word classes in Greek",
+      "terms": [
+        {
+          "greek": "ὄνομα",
+          "english": "Noun — a thing or person",
+          "examples": []
+        },
+        {
+          "greek": "ῥῆμα",
+          "english": "Verb — an action or state",
+          "examples": []
+        },
+        {
+          "greek": "ἐπίθετον",
+          "english": "Adjective — describes a noun",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "number": "12",
+      "greek_title": "Τὰ Μέρη τοῦ Λόγου Β΄",
+      "english_title": "Parts of Speech II",
+      "category": "grammar",
+      "terms": [
+        {
+          "greek": "ἀντωνυμία",
+          "english": "Pronoun — stands for a noun",
+          "examples": []
+        },
+        {
+          "greek": "πρόθεσις",
+          "english": "Preposition — shows relationship",
+          "examples": []
+        },
+        {
+          "greek": "σύνδεσμος",
+          "english": "Conjunction — connects words or clauses",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "number": "13",
+      "greek_title": "Τὰ Μέρη τοῦ Λόγου Γ΄",
+      "english_title": "Parts of Speech III",
+      "category": "grammar",
+      "terms": [
+        {
+          "greek": "ἐπίρρημα",
+          "english": "Adverb — modifies a verb or adjective",
+          "examples": []
+        },
+        {
+          "greek": "μετοχή",
+          "english": "Participle — verbal adjective",
+          "examples": []
+        },
+        {
+          "greek": "ἄρθρον",
+          "english": "Article — the definite article",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "number": "14",
+      "greek_title": "Ἡ Πτῶσις",
+      "english_title": "The Cases",
+      "category": "grammar",
+      "description": "The five cases of Greek nouns",
+      "terms": [
+        {
+          "greek": "Ἡ ὀνοματική",
+          "english": "The Nominative — subject of the verb",
+          "examples": []
+        },
+        {
+          "greek": "Ἡ γενική",
+          "english": "The Genitive — possession or relationship",
+          "examples": []
+        },
+        {
+          "greek": "Ἡ δοτική",
+          "english": "The Dative — indirect object",
+          "examples": []
+        },
+        {
+          "greek": "Ἡ αἰτιατική",
+          "english": "The Accusative — direct object",
+          "examples": []
+        },
+        {
+          "greek": "Ἡ κλητική",
+          "english": "The Vocative — direct address",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "number": "15",
+      "greek_title": "Τὸ Γένος & Ὁ Ἀριθμός",
+      "english_title": "Gender & Number",
+      "category": "grammar",
+      "terms": [
+        {
+          "greek": "Τὸ γένος",
+          "english": "Gender — masculine, feminine, or neuter",
+          "examples": []
+        },
+        {
+          "greek": "Ὁ ἀριθμός",
+          "english": "Number — singular, dual, or plural",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "number": "16",
+      "greek_title": "Ὁ Χρόνος",
+      "english_title": "The Tenses",
+      "category": "grammar",
+      "description": "The verbal tenses in Greek",
+      "terms": [
+        {
+          "greek": "Ὁ ἐνεστώς",
+          "english": "The Present — action in process",
+          "examples": []
+        },
+        {
+          "greek": "Ὁ ἀόριστος",
+          "english": "The Aorist — simple past action",
+          "examples": []
+        },
+        {
+          "greek": "Ὁ ἐπὶ τέλει",
+          "english": "The Perfect — past action with present relevance",
+          "examples": []
+        },
+        {
+          "greek": "Ὁ ὑπερσυντέλικος",
+          "english": "The Pluperfect — action completed before another past action",
+          "examples": []
+        },
+        {
+          "greek": "Ὁ μέλλων",
+          "english": "The Future — action yet to come",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "number": "17",
+      "greek_title": "Ἡ Διάθεσις",
+      "english_title": "The Voices",
+      "category": "grammar",
+      "terms": [
+        {
+          "greek": "Ἡ ἐνεργητική",
+          "english": "The Active Voice — subject performs the action",
+          "examples": []
+        },
+        {
+          "greek": "Ἡ μέση",
+          "english": "The Middle Voice — subject acts for their own interest",
+          "examples": []
+        },
+        {
+          "greek": "Ἡ παθητική",
+          "english": "The Passive Voice — subject receives the action",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "number": "18",
+      "greek_title": "Ἡ Ἔγκλισις",
+      "english_title": "The Moods",
+      "category": "grammar",
+      "description": "How the speaker leans toward reality",
+      "terms": [
+        {
+          "greek": "Ἡ ὁριστική",
+          "english": "The Indicative — states what is",
+          "examples": [
+            {
+              "greek": "ἦλθεν ὁ Ἰησοῦς εἰς τὴν Γαλιλαίαν.",
+              "english": "Jesus came into Galilee.",
+              "reference": "Μᾶρκ. 1:14"
+            }
+          ]
+        },
+        {
+          "greek": "Ἡ ὑποτακτική",
+          "english": "The Subjunctive — states what may be or is wanted",
+          "examples": [
+            {
+              "greek": "ἐποίησεν δώδεκα ἵνα ὦσιν μετ' αὐτοῦ.",
+              "english": "He appointed twelve so that they might be with him.",
+              "reference": "Μᾶρκ. 3:14"
+            }
+          ]
+        },
+        {
+          "greek": "Ἡ προστακτική",
+          "english": "The Imperative — commands action",
+          "examples": [
+            {
+              "greek": "μετανοεῖτε καὶ πιστεύετε ἐν τῷ εὐαγγελίῳ.",
+              "english": "Repent and believe in the gospel.",
+              "reference": "Μᾶρκ. 1:15"
+            }
+          ]
+        },
+        {
+          "greek": "Ἡ εὐκτική",
+          "english": "The Optative — expresses a wish",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "number": "19",
+      "greek_title": "Τὸ Πρόσωπον & Ἡ Περίοδος",
+      "english_title": "Person & Sentence",
+      "category": "grammar",
+      "description": "Person of the verb and sentence structure",
+      "terms": [
+        {
+          "greek": "τὸ πρῶτον πρόσωπον",
+          "english": "First Person — I/we",
+          "examples": []
+        },
+        {
+          "greek": "τὸ δεύτερον πρόσωπον",
+          "english": "Second Person — you",
+          "examples": []
+        },
+        {
+          "greek": "τὸ τρίτον πρόσωπον",
+          "english": "Third Person — he/she/it/they",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "number": "20",
+      "greek_title": "Πῶς Δεῖ Μελετᾶν",
+      "english_title": "How to Drill",
+      "category": "drilling",
+      "description": "Five techniques for building active fluency",
+      "drills": [
+        {
+          "name": "Circling a Fact",
+          "greek": "Α΄ · CIRCLING A FACT",
+          "description": "Take one true statement and surround it with questions",
+          "example": "τοῦτο βιβλίον ἐστίν. (This is a book.) → τί ἐστιν τοῦτο; → βιβλίον ἐστὶν ἢ ποτήριον;"
+        },
+        {
+          "name": "Substitution",
+          "greek": "Β΄ · SUBSTITUTION",
+          "description": "Keep the frame, change one slot. Feel the endings shift in your mouth",
+          "example": "ὁ Ἰησοῦς λαλεῖ. → οἱ μαθηταὶ λαλοῦσιν."
+        },
+        {
+          "name": "Commands with the Body",
+          "greek": "Δ΄ · COMMANDS WITH THE BODY",
+          "description": "One person commands, others obey in silence. No translation",
+          "example": "ἔγειρε · ἐλθὲ πρὸς τὴν θύραν · ἄνοιξον αὐτήν · κάθισον"
+        },
+        {
+          "name": "Retelling a Scene",
+          "greek": "Ε΄ · RETELLING A SCENE",
+          "description": "Read a paragraph of Mark, close the book, answer three questions aloud",
+          "prompts": [
+            "τίς; (Who?)",
+            "τί γίνεται; (What happens?)",
+            "διὰ τί; (Why?)"
+          ]
+        },
+        {
+          "name": "Parsing Aloud",
+          "greek": "ΤῸ ῬΗ͂ΜΑ ἈΝΑΛΎΕΙΝ",
+          "description": "Parse verbs and nouns aloud with a fixed formula",
+          "examples": [
+            "ῥῆμα · χρόνος, διάθεσις, ἔγκλισις, πρόσωπον, ἀριθμός",
+            "ὄνομα · γένος, ἀριθμός, πτῶσις"
+          ]
+        }
+      ]
+    }
+  ]
+}
