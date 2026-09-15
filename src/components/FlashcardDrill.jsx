@@ -163,7 +163,15 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
             </div>
 
             {/* Controls */}
-            <div className="mt-6 flex gap-3 justify-center">
+            <div className="mt-6 flex gap-3 justify-center flex-wrap">
+              {!isFlipped && (
+                <button
+                  onClick={nextCard}
+                  className="px-6 py-2 bg-slate-600 text-white rounded-lg hover:bg-slate-700 transition font-semibold text-sm"
+                >
+                  ⊳ Skip
+                </button>
+              )}
               {isFlipped && (
                 <>
                   <button
