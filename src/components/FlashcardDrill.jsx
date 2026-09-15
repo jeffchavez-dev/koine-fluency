@@ -96,6 +96,13 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
     }
   }
 
+  const prevCard = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1)
+      setIsFlipped(false)
+    }
+  }
+
   return (
     <div className="flex-1 flex flex-col bg-slate-900 overflow-auto">
       {/* Header */}
@@ -164,6 +171,14 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
 
             {/* Controls */}
             <div className="mt-6 flex gap-3 justify-center flex-wrap">
+              {currentIndex > 0 && (
+                <button
+                  onClick={prevCard}
+                  className="px-6 py-2 bg-slate-600 text-white rounded-lg hover:bg-slate-700 transition font-semibold text-sm"
+                >
+                  ⊲ Back
+                </button>
+              )}
               {!isFlipped && (
                 <button
                   onClick={nextCard}
