@@ -14,74 +14,99 @@
       "greek_title": "Τὰ Ἐρωτηματικά Α΄",
       "english_title": "Question Words I",
       "category": "interrogatives",
-      "note": "Drill instruction: Take any verse and circle it with questions before moving on — τίς; τί ἐποίησεν; ποῦ; πότε; διὰ τί; The information is not the point; the repetition is.",
-      "terms": [
+      "sections": [
         {
-          "greek": "τίς; τί;",
-          "english": "Who? Which one? (gen. τίνος, dat. τίνι, acc. τίνα)",
-          "examples": [
-            {"greek": "τίς ἄρα οὗτός ἐστιν ὅτι καὶ ὁ ἄνεμος καὶ ἡ θάλασσα ὑπακούει αὐτῷ;", "english": "Who then is this, that even the wind and the sea obey him?", "reference": "Mark 4:41"},
-            {"greek": "ὑμεῖς δὲ τίνα με λέγετε εἶναι;", "english": "But you — who do you say that I am?", "reference": "Mark 8:29"},
-            {"greek": "τί ὄνομά σοι;", "english": "What is your name?", "reference": "Mark 5:9"}
+          "title": "Identity Questions",
+          "terms": [
+            {
+              "greek": "τίς; τί;",
+              "english": "Who? Which one? (gen. τίνος, dat. τίνι, acc. τίνα)",
+              "examples": [
+                {"greek": "τίς ἄρα οὗτός ἐστιν ὅτι καὶ ὁ ἄνεμος καὶ ἡ θάλασσα ὑπακούει αὐτῷ;", "english": "Who then is this, that even the wind and the sea obey him?", "reference": "Mark 4:41"},
+                {"greek": "ὑμεῖς δὲ τίνα με λέγετε εἶναι;", "english": "But you — who do you say that I am?", "reference": "Mark 8:29"},
+                {"greek": "τί ὄνομά σοι;", "english": "What is your name?", "reference": "Mark 5:9"}
+              ]
+            }
           ]
         },
         {
-          "greek": "πόθεν;",
-          "english": "From where?",
-          "examples": [
-            {"greek": "πόθεν τούτῳ ταῦτα;", "english": "Where did this man get these things?", "reference": "Mark 6:2"},
-            {"greek": "πόθεν τούτους δυνήσεταί τις ὧδε χορτάσαι ἄρτων ἐπ' ἐρημίας;", "english": "From where will anyone be able to feed these people with bread here in the wilderness?", "reference": "Mark 8:4"}
+          "title": "Object Questions",
+          "terms": [
+            {
+              "greek": "τί;",
+              "english": "What? Why? (neuter often means Why?)",
+              "examples": [
+                {"greek": "τί σοι θέλεις ποιήσω;", "english": "What do you want me to do for you?", "reference": "Mark 10:51"},
+                {"greek": "τί δειλοί ἐστε; οὔπω ἔχετε πίστιν;", "english": "Why are you afraid? Have you still no faith?", "reference": "Mark 4:40"}
+              ]
+            }
           ]
         },
         {
-          "greek": "τί;",
-          "english": "What? Why? (neuter often means Why?)",
-          "examples": [
-            {"greek": "τί σοι θέλεις ποιήσω;", "english": "What do you want me to do for you?", "reference": "Mark 10:51"},
-            {"greek": "τί δειλοί ἐστε; οὔπω ἔχετε πίστιν;", "english": "Why are you afraid? Have you still no faith?", "reference": "Mark 4:40"},
-            {"greek": "τί ὄνομά σοι;", "english": "What is your name?", "reference": "Mark 5:9"}
+          "title": "Location Questions",
+          "terms": [
+            {
+              "greek": "πόθεν;",
+              "english": "From where?",
+              "examples": [
+                {"greek": "πόθεν τούτῳ ταῦτα;", "english": "Where did this man get these things?", "reference": "Mark 6:2"},
+                {"greek": "πόθεν τούτους δυνήσεταί τις ὧδε χορτάσαι ἄρτων ἐπ' ἐρημίας;", "english": "From where will anyone be able to feed these people with bread here in the wilderness?", "reference": "Mark 8:4"}
+              ]
+            },
+            {
+              "greek": "ποῦ;",
+              "english": "Where?",
+              "examples": [
+                {"greek": "ποῦ ἐστιν τὸ κατάλυμά μου ὅπου τὸ πάσχα μετὰ τῶν μαθητῶν μου φάγω;", "english": "Where is my guest room, where I may eat the Passover with my disciples?", "reference": "Mark 14:14"},
+                {"greek": "ποῦ θέλεις ἀπελθόντες ἑτοιμάσωμεν ἵνα φάγῃς τὸ πάσχα;", "english": "Where do you want us to go and prepare for you to eat the Passover?", "reference": "Mark 14:12"}
+              ]
+            },
+            {
+              "greek": "ποῖ;",
+              "english": "To where? Whither?",
+              "examples": [
+                {"greek": "ποῖ ὑπάγεις;", "english": "Where are you going?", "reference": "John 13:36"}
+              ]
+            }
           ]
         },
         {
-          "greek": "πῶς;",
-          "english": "How?",
-          "examples": [
-            {"greek": "καὶ πῶς πάσας τὰς παραβολὰς γνώσεσθε;", "english": "Then how will you understand all the parables?", "reference": "Mark 4:13"},
-            {"greek": "πῶς λέγουσιν οἱ γραμματεῖς ὅτι ὁ χριστὸς υἱὸς Δαυίδ ἐστιν;", "english": "How do the scribes say that the Christ is the son of David?", "reference": "Mark 12:35"}
+          "title": "Time & Manner Questions",
+          "terms": [
+            {
+              "greek": "πότε;",
+              "english": "When?",
+              "examples": [
+                {"greek": "εἰπὲ ἡμῖν πότε ταῦτα ἔσται;", "english": "Tell us, when will these things be?", "reference": "Mark 13:4"},
+                {"greek": "οὐκ οἴδατε γὰρ πότε ὁ καιρός ἐστιν.", "english": "For you do not know when the time is.", "reference": "Mark 13:33"}
+              ]
+            },
+            {
+              "greek": "πῶς;",
+              "english": "How?",
+              "examples": [
+                {"greek": "καὶ πῶς πάσας τὰς παραβολὰς γνώσεσθε;", "english": "Then how will you understand all the parables?", "reference": "Mark 4:13"},
+                {"greek": "πῶς λέγουσιν οἱ γραμματεῖς ὅτι ὁ χριστὸς υἱὸς Δαυίδ ἐστιν;", "english": "How do the scribes say that the Christ is the son of David?", "reference": "Mark 12:35"}
+              ]
+            }
           ]
         },
         {
-          "greek": "ποῦ;",
-          "english": "Where?",
-          "examples": [
-            {"greek": "ποῦ ἐστιν τὸ κατάλυμά μου ὅπου τὸ πάσχα μετὰ τῶν μαθητῶν μου φάγω;", "english": "Where is my guest room, where I may eat the Passover with my disciples?", "reference": "Mark 14:14"},
-            {"greek": "ποῦ θέλεις ἀπελθόντες ἑτοιμάσωμεν ἵνα φάγῃς τὸ πάσχα;", "english": "Where do you want us to go and prepare for you to eat the Passover?", "reference": "Mark 14:12"}
-          ]
-        },
-        {
-          "greek": "πότε;",
-          "english": "When?",
-          "examples": [
-            {"greek": "εἰπὲ ἡμῖν πότε ταῦτα ἔσται;", "english": "Tell us, when will these things be?", "reference": "Mark 13:4"},
-            {"greek": "οὐκ οἴδατε γὰρ πότε ὁ καιρός ἐστιν.", "english": "For you do not know when the time is.", "reference": "Mark 13:33"}
-          ]
-        },
-        {
-          "greek": "ποῖ;",
-          "english": "To where? Whither?",
-          "examples": [
-            {"greek": "ποῖ πορεύῃ; (or Koine: ποῦ ὑπάγεις;)", "english": "Where are you going (to)?", "reference": "Classical vs Koine"}
-          ]
-        },
-        {
-          "greek": "διὰ τί;",
-          "english": "Why? For what reason?",
-          "examples": [
-            {"greek": "διὰ τί οἱ μαθηταὶ Ἰωάννου καὶ οἱ μαθηταὶ τῶν Φαρισαίων νηστεύουσιν, οἱ δὲ σοὶ μαθηταὶ οὐ νηστεύουσιν;", "english": "Why do John's disciples and the Pharisees' disciples fast, but your disciples do not fast?", "reference": "Mark 2:18"},
-            {"greek": "διὰ τί οὐκ ἐπιστεύσατε αὐτῷ;", "english": "Why did you not believe him?", "reference": "Mark 11:31"}
+          "title": "Reason Questions",
+          "terms": [
+            {
+              "greek": "διὰ τί;",
+              "english": "Why? For what reason?",
+              "examples": [
+                {"greek": "διὰ τί οἱ μαθηταὶ Ἰωάννου καὶ οἱ μαθηταὶ τῶν Φαρισαίων νηστεύουσιν, οἱ δὲ σοὶ μαθηταὶ οὐ νηστεύουσιν;", "english": "Why do John's disciples and the Pharisees' disciples fast, but your disciples do not fast?", "reference": "Mark 2:18"},
+                {"greek": "διὰ τί οὐκ ἐπιστεύσατε αὐτῷ;", "english": "Why did you not believe him?", "reference": "Mark 11:31"}
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "principles": ["τίς (who) is used for persons; τί (what) is used for things and can mean 'why'", "πόθεν (from where) indicates source; ποῦ (where) indicates location; ποῖ (to where) indicates direction", "πότε (when) asks about time; πῶς (how) asks about manner; διὰ τί (why) asks about reason"],
+      "drill_instruction": "Circling Drill: Take any verse from Mark and ask all the interrogative questions about it — τίς ἐποίησεν; τί ἐποίησεν; ποῦ; πότε; πῶς; διὰ τί; The information is not the point; the repetition builds fluency."
     },
     {
       "id": 3,
@@ -89,57 +114,69 @@
       "greek_title": "Τὰ Ἐρωτηματικά Β΄",
       "english_title": "Question Words II",
       "category": "interrogatives",
-      "note": "Drill instruction: Take any verse and circle it with questions before moving on — τίς; τί ἐποίησεν; ποῦ; πότε; διὰ τί; The information is not the point; the repetition is.",
-      "terms": [
+      "sections": [
         {
-          "greek": "ποῖος, -α, -ον;",
-          "english": "Of what kind? Which?",
-          "examples": [
-            {"greek": "ἐν ποίᾳ ἐξουσίᾳ ταῦτα ποιεῖς;", "english": "By what authority are you doing these things?", "reference": "Mark 11:28"},
-            {"greek": "ποία ἐστὶν ἐντολὴ πρώτη πάντων;", "english": "Which commandment is first of all?", "reference": "Mark 12:28"}
+          "title": "Quality Questions",
+          "terms": [
+            {
+              "greek": "ποῖος, -α, -ον;",
+              "english": "Of what kind? Which?",
+              "examples": [
+                {"greek": "ἐν ποίᾳ ἐξουσίᾳ ταῦτα ποιεῖς;", "english": "By what authority are you doing these things?", "reference": "Mark 11:28"},
+                {"greek": "ποία ἐστὶν ἐντολὴ πρώτη πάντων;", "english": "Which commandment is first of all?", "reference": "Mark 12:28"}
+              ]
+            },
+            {
+              "greek": "ποδαπός, -ή, -όν;",
+              "english": "Of what country or sort?",
+              "examples": [
+                {"greek": "ποδαποί εἰσι λίθοι καὶ οἰκοδομαί;", "english": "What sort of stones and buildings are these?", "reference": "Mark 13:1"}
+              ]
+            }
           ]
         },
         {
-          "greek": "πόσος, -η, -ον;",
-          "english": "How much? How many?",
-          "examples": [
-            {"greek": "πόσους ἄρτους ἔχετε; ὑπάγετε ἴδετε.", "english": "How many loaves do you have? Go and see.", "reference": "Mark 6:38"},
-            {"greek": "πόσους ἔχετε ἄρτους;", "english": "How many loaves do you have?", "reference": "Mark 8:5"},
-            {"greek": "πόσος χρόνος ἐστὶν ὡς τοῦτο γέγονεν αὐτῷ;", "english": "How long has it been since this happened to him?", "reference": "Mark 9:21"}
+          "title": "Quantity Questions",
+          "terms": [
+            {
+              "greek": "πόσος, -η, -ον;",
+              "english": "How much? How many?",
+              "examples": [
+                {"greek": "πόσους ἄρτους ἔχετε;", "english": "How many loaves do you have?", "reference": "Mark 6:38"},
+                {"greek": "πόσος χρόνος ἐστὶν ὡς τοῦτο γέγονεν αὐτῷ;", "english": "How long has it been since this happened to him?", "reference": "Mark 9:21"}
+              ]
+            },
+            {
+              "greek": "ποσάκις;",
+              "english": "How often? How many times?",
+              "examples": [
+                {"greek": "ποσάκις ἁμαρτήσει ὁ ἀδελφός μου;", "english": "How often shall my brother sin against me?", "reference": "Matthew 18:21"}
+              ]
+            },
+            {
+              "greek": "πηλίκος, -η, -ον;",
+              "english": "How big? How great?",
+              "examples": [
+                {"greek": "πηλίκοις γράμμασιν ἔγραψα;", "english": "What large letters I have written!", "reference": "Galatians 6:11"}
+              ]
+            }
           ]
         },
         {
-          "greek": "ποσάκις;",
-          "english": "How often? How many times?",
-          "examples": [
-            {"greek": "ποσάκις ἁμαρτήσει εἰς ἐμὲ ὁ ἀδελφός μου καὶ ἀφήσω αὐτῷ;", "english": "How often shall my brother sin against me and I forgive him?", "reference": "Matthew 18:21"},
-            {"greek": "ποσάκις ἠθέλησα ἐπισυναγαγεῖν τὰ τέκνα σου.", "english": "How often I longed to gather your children together.", "reference": "Matthew 23:37"}
-          ]
-        },
-        {
-          "greek": "πηλίκος, -η, -ον;",
-          "english": "How big? How great?",
-          "examples": [
-            {"greek": "ἴδετε πηλίκοις ὑμῖν γράμμασιν ἔγραψα τῇ ἐμῇ χειρί.", "english": "See with what large letters I have written to you with my own hand.", "reference": "Galatians 6:11"},
-            {"greek": "θεωρεῖτε δὲ πηλίκος οὗτος.", "english": "See how great this man was.", "reference": "Hebrews 7:4"}
-          ]
-        },
-        {
-          "greek": "ποδαπός, -ή, -όν;",
-          "english": "Of what country or sort?",
-          "examples": [
-            {"greek": "διδάσκαλε, ἴδε ποταποὶ λίθοι καὶ ποταπαὶ οἰκοδομαί.", "english": "Teacher, look — what stones and what buildings!", "reference": "Mark 13:1"},
-            {"greek": "διελογίζετο ποταπὸς εἴη ὁ ἀσπασμὸς οὗτος.", "english": "She wondered what sort of greeting this might be.", "reference": "Luke 1:29"}
-          ]
-        },
-        {
-          "greek": "πότερον … ἤ;",
-          "english": "Which of two? Whether ... or?",
-          "examples": [
-            {"greek": "τί ἐστιν εὐκοπώτερον, εἰπεῖν … ἀφίενταί σου αἱ ἁμαρτίαι, ἢ εἰπεῖν· ἔγειρε;", "english": "Which is easier, to say 'your sins are forgiven', or to say 'Rise'?", "reference": "Mark 2:9"}
+          "title": "Choice Questions",
+          "terms": [
+            {
+              "greek": "πότερον … ἤ;",
+              "english": "Which of two? Whether ... or?",
+              "examples": [
+                {"greek": "τί ἐστιν εὐκοπώτερον; ἀφίενταί σου αἱ ἁμαρτίαι, ἢ ἔγειρε;", "english": "Which is easier: to say 'your sins are forgiven' or to say 'Rise'?", "reference": "Mark 2:9"}
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "principles": ["ποῖος agrees like adjectives and asks about quality/type", "πόσος asks about quantity or duration", "ποσάκις (adverb) asks about frequency or repetition", "πηλίκος asks about size or importance", "ποδαπός asks about origin or classification"],
+      "drill_instruction": "Circling Drill: Extend drill from Sheet 2 to include these adjective-based questions: ποῖος; πόσος; πηλίκος; ποδαπός. Use with different subjects and direct objects to build broader interrogative fluency."
     },
     {
       "id": 4,
@@ -1162,24 +1199,43 @@
       "greek_title": "Τὰ Μέρη τοῦ Λόγου Α΄",
       "english_title": "Parts of Speech I",
       "category": "grammar",
-      "terms": [
+      "sections": [
         {
-          "greek": "ἡ περίοδος",
-          "english": "The sentence"
-        },
-        {
-          "greek": "τὸ ῥῆμα",
-          "english": "The verb"
-        },
-        {
-          "greek": "τὸ ὄνομα",
-          "english": "The noun"
-        },
-        {
-          "greek": "τὸ ἐπίθετον",
-          "english": "The adjective"
+          "title": "Core Parts of Speech",
+          "terms": [
+            {
+              "greek": "ἡ περίοδος",
+              "english": "The sentence",
+              "examples": [
+                {"greek": "περίοδος = ἄρτος + ῥῆμα + ἄλλα", "english": "A sentence = noun + verb + others", "reference": "Grammar principle"}
+              ]
+            },
+            {
+              "greek": "τὸ ὄνομα",
+              "english": "The noun",
+              "examples": [
+                {"greek": "Ἰησοῦς, θεός, ἀγάπη", "english": "Jesus, God, love (nouns)", "reference": "Mark 1:1"}
+              ]
+            },
+            {
+              "greek": "τὸ ῥῆμα",
+              "english": "The verb",
+              "examples": [
+                {"greek": "λέγει, ποιεῖ, εἶ", "english": "says, does, is (verbs)", "reference": "Mark 1:15"}
+              ]
+            },
+            {
+              "greek": "τὸ ἐπίθετον",
+              "english": "The adjective",
+              "examples": [
+                {"greek": "ἀγάπη ἀγάπη, ἱερὸς ναός, βασιλεία μεγάλη", "english": "great love, holy temple, great kingdom (adjectives modifying nouns)", "reference": "Mark 11:11"}
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "principles": ["The sentence (περίοδος) is built from nouns (ὄνομα) and verbs (ῥῆμα)", "Adjectives (ἐπίθετον) modify nouns and agree in gender, number, and case", "Every clause needs a verb; nouns and adjectives support the verb"],
+      "drill_instruction": "Identification Drill: Read sentences from Mark and identify the core parts: τὸ ὄνομα (noun), τὸ ῥῆμα (verb), τὸ ἐπίθετον (adjective). Example: 'ὁ θεὸς ἀγαπᾷ τὸν κόσμον' — ὄνομα (θεός), ῥῆμα (ἀγαπᾷ), ὄνομα (κόσμος)."
     },
     {
       "id": 12,
@@ -1187,24 +1243,43 @@
       "greek_title": "Τὰ Μέρη τοῦ Λόγου Β΄",
       "english_title": "Parts of Speech II",
       "category": "grammar",
-      "terms": [
+      "sections": [
         {
-          "greek": "ἡ ἀντωνυμία",
-          "english": "The pronoun"
-        },
-        {
-          "greek": "ἡ πρόθεσις",
-          "english": "The preposition"
-        },
-        {
-          "greek": "τὸ ἄρθρον",
-          "english": "The article"
-        },
-        {
-          "greek": "τὸ ἐπίρρημα",
-          "english": "The adverb"
+          "title": "Supporting Parts of Speech",
+          "terms": [
+            {
+              "greek": "ἡ ἀντωνυμία",
+              "english": "The pronoun",
+              "examples": [
+                {"greek": "ἐγώ, σύ, αὐτός", "english": "I, you, he/she/it (pronouns)", "reference": "Mark 1:2"}
+              ]
+            },
+            {
+              "greek": "τὸ ἄρθρον",
+              "english": "The article",
+              "examples": [
+                {"greek": "ὁ λόγος, ἡ ἀλήθεια, τὸ φῶς", "english": "the word, the truth, the light (articles marking nouns)", "reference": "John 1:1"}
+              ]
+            },
+            {
+              "greek": "ἡ πρόθεσις",
+              "english": "The preposition",
+              "examples": [
+                {"greek": "ἐν τῷ ἱερῷ, εἰς τὴν οἰκίαν, ἀπὸ Ναζαρέτ", "english": "in the temple, into the house, from Nazareth (prepositions + case)", "reference": "Mark 1:21"}
+              ]
+            },
+            {
+              "greek": "τὸ ἐπίρρημα",
+              "english": "The adverb",
+              "examples": [
+                {"greek": "εὐθὺς (immediately), πάλιν (again), σήμερον (today)", "english": "immediately, again, today (adverbs modifying verbs)", "reference": "Mark 1:12"}
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "principles": ["Pronouns (ἀντωνυμία) replace nouns and agree in person, number, gender", "The article (ἄρθρον) marks definiteness and agrees with nouns", "Prepositions (πρόθεσις) govern specific cases to show relationships", "Adverbs (ἐπίρρημα) modify verbs and are indeclinable"],
+      "drill_instruction": "Substitution Drill: Replace nouns with pronouns; add articles to bare nouns; add prepositions before nouns to change meaning. Example: 'θεός ἀγαπᾷ κόσμος' → 'ὁ θεὸς ἀγαπᾷ τὸν κόσμον' (adding articles and case agreement)."
     },
     {
       "id": 13,
@@ -1212,24 +1287,43 @@
       "greek_title": "Τὰ Μέρη τοῦ Λόγου Γ΄",
       "english_title": "Parts of Speech III",
       "category": "grammar",
-      "terms": [
+      "sections": [
         {
-          "greek": "ὁ σύνδεσμος",
-          "english": "The conjunction"
-        },
-        {
-          "greek": "ἡ μετοχή",
-          "english": "The participle"
-        },
-        {
-          "greek": "τὸ ἀπαρέμφατον",
-          "english": "The infinitive"
-        },
-        {
-          "greek": "τὸ ἐπιφώνημα",
-          "english": "The interjection"
+          "title": "Advanced Parts of Speech",
+          "terms": [
+            {
+              "greek": "ὁ σύνδεσμος",
+              "english": "The conjunction",
+              "examples": [
+                {"greek": "καί (and), ἀλλά (but), ὅτι (that), ὅταν (when)", "english": "and, but, that, when (conjunctions linking clauses)", "reference": "Mark 1:14"}
+              ]
+            },
+            {
+              "greek": "ἡ μετοχή",
+              "english": "The participle",
+              "examples": [
+                {"greek": "λέγων, ἰδών, γενόμενος", "english": "saying, seeing, becoming (verbal adjectives)", "reference": "Mark 1:4"}
+              ]
+            },
+            {
+              "greek": "τὸ ἀπαρέμφατον",
+              "english": "The infinitive",
+              "examples": [
+                {"greek": "λέγειν, ἰδεῖν, γενέσθαι", "english": "to say, to see, to become (verbal nouns)", "reference": "Mark 1:15"}
+              ]
+            },
+            {
+              "greek": "τὸ ἐπιφώνημα",
+              "english": "The interjection",
+              "examples": [
+                {"greek": "ὦ, ἀμήν, αἲ αἲ", "english": "O! amen, woe! (exclamations)", "reference": "Mark 15:34"}
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "principles": ["Conjunctions (σύνδεσμος) link equal clauses or introduce dependent clauses", "Participles (μετοχή) combine verbal and adjectival functions", "Infinitives (ἀπαρέμφατον) function as verbal nouns", "Interjections (ἐπιφώνημα) express emotion and are indeclinable"],
+      "drill_instruction": "Recognition Drill: Identify participles vs. infinitives in Mark's sentences; recognize conjunctions that signal purpose, result, reason, and time. Recognize that participles modify nouns while infinitives serve as objects."
     },
     {
       "id": 14,
@@ -1237,28 +1331,50 @@
       "greek_title": "Ἡ Πτῶσις",
       "english_title": "The Cases",
       "category": "grammar",
-      "terms": [
+      "sections": [
         {
-          "greek": "ἡ ὀνομαστική",
-          "english": "The nominative"
-        },
-        {
-          "greek": "ἡ γενική",
-          "english": "The genitive"
-        },
-        {
-          "greek": "ἡ δοτική",
-          "english": "The dative"
-        },
-        {
-          "greek": "ἡ αἰτιατική",
-          "english": "The accusative"
-        },
-        {
-          "greek": "ἡ κλητική",
-          "english": "The vocative"
+          "title": "The Five Cases",
+          "terms": [
+            {
+              "greek": "ἡ ὀνομαστική",
+              "english": "The nominative (subject)",
+              "examples": [
+                {"greek": "ὁ θεὸς ἀγαπᾷ", "english": "God loves (nominative subject)", "reference": "John 3:16"}
+              ]
+            },
+            {
+              "greek": "ἡ γενική",
+              "english": "The genitive (possession, source)",
+              "examples": [
+                {"greek": "ὁ λόγος τοῦ θεοῦ", "english": "the word of God (genitive showing possession)", "reference": "Mark 7:13"}
+              ]
+            },
+            {
+              "greek": "ἡ δοτική",
+              "english": "The dative (indirect object, location)",
+              "examples": [
+                {"greek": "δίδωμι αὐτῷ", "english": "I give to him (dative indirect object)", "reference": "Mark 12:17"}
+              ]
+            },
+            {
+              "greek": "ἡ αἰτιατική",
+              "english": "The accusative (direct object, movement)",
+              "examples": [
+                {"greek": "Ἰησοῦν ἠκολούθησαν", "english": "they followed Jesus (accusative direct object)", "reference": "Mark 1:20"}
+              ]
+            },
+            {
+              "greek": "ἡ κλητική",
+              "english": "The vocative (address)",
+              "examples": [
+                {"greek": "ὦ διδάσκαλε", "english": "O teacher! (vocative address)", "reference": "Mark 4:38"}
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "principles": ["Cases show the relationship of nouns to verbs and other words", "Nominative = subject; Accusative = direct object; Genitive/Dative show other relationships", "Each case has its own article form in all genders and numbers"],
+      "drill_instruction": "Case Identification Drill: Read Mark sentences and identify the case of each noun. Example: 'τὸν θεὸν ἀγαπῶ' — θεόν is accusative (object). 'ἡ ἀγάπη τοῦ θεοῦ' — θεοῦ is genitive (possession)."
     },
     {
       "id": 15,
@@ -1266,32 +1382,55 @@
       "greek_title": "Τὸ Γένος καὶ ὁ Ἀριθμός",
       "english_title": "Gender & Number",
       "category": "grammar",
-      "terms": [
+      "sections": [
         {
-          "greek": "τὸ ἀρσενικόν",
-          "english": "Masculine"
+          "title": "Gender Categories",
+          "terms": [
+            {
+              "greek": "τὸ ἀρσενικόν",
+              "english": "Masculine",
+              "examples": [
+                {"greek": "ὁ ἀνθρωπος, ὁ θεός, ὁ κύριος", "english": "man, God, Lord (masculine nouns)", "reference": "Mark 1:17"}
+              ]
+            },
+            {
+              "greek": "τὸ θηλυκόν",
+              "english": "Feminine",
+              "examples": [
+                {"greek": "ἡ γυνή, ἡ αλήθεια, ἡ ψυχή", "english": "woman, truth, soul (feminine nouns)", "reference": "Mark 5:25"}
+              ]
+            },
+            {
+              "greek": "τὸ οὐδέτερον",
+              "english": "Neuter",
+              "examples": [
+                {"greek": "τὸ τέκνον, τὸ φῶς, τὸ ὕδωρ", "english": "child, light, water (neuter nouns)", "reference": "Mark 10:14"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "τὸ θηλυκόν",
-          "english": "Feminine"
-        },
-        {
-          "greek": "τὸ οὐδέτερον",
-          "english": "Neuter"
-        },
-        {
-          "greek": "ὁ ἑνικός",
-          "english": "Singular"
-        },
-        {
-          "greek": "ὁ δυϊκός",
-          "english": "Dual"
-        },
-        {
-          "greek": "ὁ πληθυντικός",
-          "english": "Plural"
+          "title": "Number Categories",
+          "terms": [
+            {
+              "greek": "ὁ ἑνικός",
+              "english": "Singular (one)",
+              "examples": [
+                {"greek": "ὁ ἀνθρωπος", "english": "one man (singular)", "reference": "Mark 1:17"}
+              ]
+            },
+            {
+              "greek": "ὁ πληθυντικός",
+              "english": "Plural (many)",
+              "examples": [
+                {"greek": "οἱ ἀνθρωποι", "english": "many men (plural)", "reference": "Mark 1:17"}
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "principles": ["Gender is grammatical (not always semantic) — learn gender with each noun", "Adjectives, articles, and pronouns must agree with nouns in gender and number", "Plural forms are used for 2 or more; dual (ὁ δυϊκός) is rare in Koine Greek"],
+      "drill_instruction": "Agreement Drill: Give a noun; student responds with agreeing article, adjective, and pronoun. Example: Teacher says 'ψυχή' → Student says 'ἡ ἁγία ψυχή, αὕτη' (feminine singular article, adjective, pronoun)."
     },
     {
       "id": 16,
@@ -1299,28 +1438,50 @@
       "greek_title": "Ὁ Χρόνος",
       "english_title": "The Tenses",
       "category": "grammar",
-      "terms": [
+      "sections": [
         {
-          "greek": "ὁ ἐνεστώς",
-          "english": "The present"
-        },
-        {
-          "greek": "ὁ μέλλων",
-          "english": "The future"
-        },
-        {
-          "greek": "ὁ ἀόριστος",
-          "english": "The aorist"
-        },
-        {
-          "greek": "ὁ ἐπὶ τέλει",
-          "english": "The perfect"
-        },
-        {
-          "greek": "ὁ ὑπερσυντέλικος",
-          "english": "The pluperfect"
+          "title": "Five Tenses in Greek",
+          "terms": [
+            {
+              "greek": "ὁ ἐνεστώς",
+              "english": "The present (ongoing action)",
+              "examples": [
+                {"greek": "λέγει (he says)", "english": "present action, speaking now", "reference": "Mark 1:24"}
+              ]
+            },
+            {
+              "greek": "ὁ ἀόριστος",
+              "english": "The aorist (simple past action)",
+              "examples": [
+                {"greek": "εἶπεν (he said)", "english": "simple completed action in past", "reference": "Mark 1:25"}
+              ]
+            },
+            {
+              "greek": "ὁ ἐπὶ τέλει",
+              "english": "The perfect (completed with ongoing result)",
+              "examples": [
+                {"greek": "γέγραπται (it stands written)", "english": "completed action with lasting result", "reference": "Mark 7:6"}
+              ]
+            },
+            {
+              "greek": "ὁ μέλλων",
+              "english": "The future (action to come)",
+              "examples": [
+                {"greek": "λέξει (he will say)", "english": "future action", "reference": "Mark 13:11"}
+              ]
+            },
+            {
+              "greek": "ὁ ὑπερσυντέλικος",
+              "english": "The pluperfect (prior to past event)",
+              "examples": [
+                {"greek": "ἐλήλυθει (he had come)", "english": "completed before another past action", "reference": "Mark 15:45"}
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "principles": ["Greek tense emphasizes aspect (how action occurs) more than time (when)", "Aorist = undefined aspect (punctiliar); Present = ongoing; Perfect = completed with result", "All tenses can express past, present, or future depending on context"],
+      "drill_instruction": "Aspect Recognition Drill: Read Mark sentences and identify whether the tense is punctiliar (aorist), ongoing (present), or resultative (perfect). Note how aspect changes meaning."
     },
     {
       "id": 17,
@@ -1328,20 +1489,36 @@
       "greek_title": "Ἡ Διάθεσις",
       "english_title": "The Voices",
       "category": "grammar",
-      "terms": [
+      "sections": [
         {
-          "greek": "ἡ ἐνεργητική",
-          "english": "The active voice"
-        },
-        {
-          "greek": "ἡ μέση",
-          "english": "The middle voice"
-        },
-        {
-          "greek": "ἡ παθητική",
-          "english": "The passive voice"
+          "title": "Three Voices",
+          "terms": [
+            {
+              "greek": "ἡ ἐνεργητική",
+              "english": "The active voice (subject acts)",
+              "examples": [
+                {"greek": "ὁ θεὸς ἀγαπᾷ τὸν κόσμον", "english": "God loves the world (subject does the action)", "reference": "John 3:16"}
+              ]
+            },
+            {
+              "greek": "ἡ μέση",
+              "english": "The middle voice (subject acts for itself)",
+              "examples": [
+                {"greek": "λαμβάνεται (he receives for himself)", "english": "subject acts with reflexive interest", "reference": "John 1:12"}
+              ]
+            },
+            {
+              "greek": "ἡ παθητική",
+              "english": "The passive voice (subject is acted upon)",
+              "examples": [
+                {"greek": "ὁ κόσμος ἀγαπᾶται ὑπὸ τοῦ θεοῦ", "english": "the world is loved by God (subject receives the action)", "reference": "John 3:16"}
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "principles": ["Active = subject does the action; Passive = subject receives the action; Middle = subject acts on/for itself", "Middle voice is more common in Greek than in English and needs to be recognized carefully", "Passive voice often appears without an expressed agent (agent understood)"],
+      "drill_instruction": "Voice Conversion Drill: Convert active sentences to passive and vice versa. Example: 'Ἰησοῦς ἐδίδασκεν' (active) → 'ἐδίδασκεν ὑπὸ Ἰησοῦ' (passive equivalent)."
     },
     {
       "id": 18,
@@ -1349,45 +1526,80 @@
       "greek_title": "Ἡ Ἔγκλισις",
       "english_title": "The Moods",
       "category": "grammar",
-      "terms": [
+      "sections": [
         {
-          "greek": "ἡ ὁριστική",
-          "english": "The indicative"
-        },
-        {
-          "greek": "ἡ ὑποτακτική",
-          "english": "The subjunctive"
-        },
-        {
-          "greek": "ἡ προστακτική",
-          "english": "The imperative"
-        },
-        {
-          "greek": "ἡ εὐκτική",
-          "english": "The optative"
+          "title": "Four Moods",
+          "terms": [
+            {
+              "greek": "ἡ ὁριστική",
+              "english": "The indicative (factual statements)",
+              "examples": [
+                {"greek": "ὁ θεὸς ἀγαπᾷ", "english": "God loves (statement of fact)", "reference": "John 3:16"}
+              ]
+            },
+            {
+              "greek": "ἡ ὑποτακτική",
+              "english": "The subjunctive (dependent/conditional)",
+              "examples": [
+                {"greek": "ἵνα ζήσῃ (in order that he may live)", "english": "subjunctive expressing purpose/condition", "reference": "Mark 5:23"}
+              ]
+            },
+            {
+              "greek": "ἡ προστακτική",
+              "english": "The imperative (commands)",
+              "examples": [
+                {"greek": "πιστεύε (believe!)", "english": "imperative command", "reference": "Mark 5:36"}
+              ]
+            },
+            {
+              "greek": "ἡ εὐκτική",
+              "english": "The optative (wishes, rare in Koine)",
+              "examples": [
+                {"greek": "εἴη (may it be)", "english": "optative expressing wish", "reference": "Luke 1:29"}
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "principles": ["Indicative states reality (past, present, future possible)", "Subjunctive appears in dependent clauses and expresses contingency/potential", "Imperative commands direct action (sing., plur., sometimes prohibitive)", "Optative (rare in Koine) expresses wishes or remote conditions"],
+      "drill_instruction": "Mood Recognition Drill: Read Mark sentences and identify the mood. Note which moods appear with which particles (ἵνα with subjunctive, μή with prohibitions, etc.)."
     },
     {
       "id": 19,
       "number": "19",
       "greek_title": "Τὸ Πρόσωπον",
-      "english_title": "Person & Sentence",
+      "english_title": "Person",
       "category": "grammar",
-      "terms": [
+      "sections": [
         {
-          "greek": "τὸ πρῶτον πρόσωπον",
-          "english": "First person"
-        },
-        {
-          "greek": "τὸ δεύτερον πρόσωπον",
-          "english": "Second person"
-        },
-        {
-          "greek": "τὸ τρίτον πρόσωπον",
-          "english": "Third person"
+          "title": "Three Persons",
+          "terms": [
+            {
+              "greek": "τὸ πρῶτον πρόσωπον",
+              "english": "First person (I/we)",
+              "examples": [
+                {"greek": "λέγω (I say), λέγομεν (we say)", "english": "first person singular/plural", "reference": "Mark 1:38"}
+              ]
+            },
+            {
+              "greek": "τὸ δεύτερον πρόσωπον",
+              "english": "Second person (you)",
+              "examples": [
+                {"greek": "λέγεις (you say), λέγετε (you all say)", "english": "second person singular/plural", "reference": "Mark 10:51"}
+              ]
+            },
+            {
+              "greek": "τὸ τρίτον πρόσωπον",
+              "english": "Third person (he/she/it/they)",
+              "examples": [
+                {"greek": "λέγει (he says), λέγουσιν (they say)", "english": "third person singular/plural", "reference": "Mark 1:25"}
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "principles": ["Person is marked on verbs through endings (first: -ω/-μι; second: -ς/ε; third: -ει/-ουσι(ν))", "Pronouns (ἐγώ, σύ, αὐτός) often repeat the person marked on the verb for emphasis", "Person combines with number (singular/plural) and tense/mood to create complete verbal forms"],
+      "drill_instruction": "Verb Parsing Drill: Given a Greek verb, identify its person and number. Example: 'λέγουσιν' = 3rd person plural. 'λέγω' = 1st person singular."
     },
     {
       "id": 20,
