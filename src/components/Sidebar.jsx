@@ -29,9 +29,11 @@ export default function Sidebar({ sheets, onSelectSheet, onChangeView, currentVi
       {/* Mobile Toggle Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="md:hidden fixed top-4 left-4 z-50 bg-yellow-600 text-white p-2 rounded"
+        className={`md:hidden fixed top-4 z-50 bg-yellow-600 text-white p-2 rounded transition-all ${
+          isOpen ? 'right-4 left-auto' : 'left-4'
+        }`}
       >
-        ☰
+        {isOpen ? '✕' : '☰'}
       </button>
 
       {/* Overlay for mobile */}

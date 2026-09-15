@@ -20,7 +20,6 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isFlipped, setIsFlipped] = useState(false)
   const [stats, setStats] = useState({ correct: 0, total: 0 })
-  const [showLessonPanel, setShowLessonPanel] = useState(false)
 
   // Build flashcard deck from all terms (handles both flat terms and sections)
   const flashcards = useMemo(() => {
@@ -101,57 +100,18 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
     <div className="flex-1 flex flex-col bg-slate-900 overflow-auto">
       {/* Header */}
       <div className="bg-slate-800 border-b border-slate-700 px-3 py-2 sticky top-0 z-10 mt-12 md:mt-0">
-        <div className="flex justify-between items-center gap-1 md:gap-2">
-          <h2 className="text-sm md:text-base font-bold text-slate-100 flex-1 truncate">Flashcard</h2>
-          <div className="flex items-center gap-1 md:gap-2 flex-shrink-0">
-            {stats.total > 0 && (
-              <div className="text-xs text-slate-400 hidden md:block">
-                {stats.correct}/{stats.total}
-              </div>
-            )}
-            <button
-              onClick={() => setShowLessonPanel(!showLessonPanel)}
-              className="px-2 py-1 bg-yellow-600 text-white text-xs rounded hover:bg-yellow-700 transition flex-shrink-0"
-              title={showLessonPanel ? "Hide lessons" : "Show lessons"}
-            >
-              {showLessonPanel ? '✕' : '◄'}
-            </button>
-          </div>
+        <div className="flex justify-between items-center gap-2">
+          <h2 className="text-sm md:text-base font-bold text-slate-100">Flashcard</h2>
+          {stats.total > 0 && (
+            <div className="text-xs text-slate-400 ml-auto">
+              {stats.correct}/{stats.total}
+            </div>
+          )}
         </div>
       </div>
 
       {/* Main Content */}
       <div className="flex-1 flex gap-3 overflow-hidden p-3">
-        {/* Lesson Selection Panel */}
-        {showLessonPanel && (
-          <div className="w-64 bg-slate-800 rounded-lg p-3 overflow-y-auto border border-slate-700">
-            <h3 className="text-xs font-semibold text-slate-400 uppercase mb-2 block">Lessons:</h3>
-            <div className="space-y-1">
-              {practiceSheets.map(sheet => (
-                <label
-                  key={sheet.id}
-                  className="flex items-start gap-2 p-1.5 rounded hover:bg-slate-700 cursor-pointer transition"
-                >
-                  <input
-                    type="checkbox"
-                    checked={selectedSheetIds.has(sheet.id)}
-                    onChange={() => onToggleLessonSelection(sheet.id)}
-                    className="mt-0.5 w-4 h-4 rounded accent-yellow-600"
-                  />
-                  <div className="flex-1 min-w-0">
-                    <div className="text-xs text-slate-300 font-medium truncate greek-text leading-tight">
-                      {sheet.greek_title}
-                    </div>
-                    <div className="text-xs text-slate-500 leading-tight">
-                      {sheet.terms?.length || 0}
-                    </div>
-                  </div>
-                </label>
-              ))}
-            </div>
-          </div>
-        )}
-
         {/* Flashcard Area */}
         {selectedSheetIds.size === 0 ? (
           <div className="flex-1 flex items-center justify-center">
