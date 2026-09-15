@@ -32,7 +32,7 @@ export default function App() {
   }
 
   return (
-    <div className="flex h-screen bg-slate-900">
+    <div className="flex h-screen bg-slate-900 w-full overflow-hidden">
       <Sidebar
         sheets={sheetsData.sheets}
         onSelectSheet={setSelectedSheetId}
@@ -41,7 +41,7 @@ export default function App() {
         progress={progress}
       />
 
-      <main className="flex-1 overflow-hidden flex flex-col">
+      <main className="flex-1 overflow-hidden flex flex-col w-full">
         {currentView === 'browser' && (
           <SheetBrowser
             sheets={sheetsData.sheets}

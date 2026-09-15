@@ -149,6 +149,127 @@ sheets_data = {
             ]
         },
         {
+            "id": 7,
+            "number": "07",
+            "greek_title": "Περὶ Τροφῆς",
+            "english_title": "Eating & Drinking",
+            "category": "daily-life",
+            "terms": [
+                {
+                    "greek": "Ἐσθίω",
+                    "english": "I eat",
+                    "examples": []
+                },
+                {
+                    "greek": "Πίνω",
+                    "english": "I drink",
+                    "examples": []
+                },
+                {
+                    "greek": "Ἄρτος",
+                    "english": "Bread",
+                    "examples": []
+                },
+                {
+                    "greek": "Ὕδωρ",
+                    "english": "Water",
+                    "examples": []
+                },
+                {
+                    "greek": "Οἶνος",
+                    "english": "Wine",
+                    "examples": []
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "number": "08",
+            "greek_title": "Τὰ Βρώματα καὶ τὰ Σκεύη",
+            "english_title": "Food & Vessels",
+            "category": "daily-life",
+            "terms": [
+                {
+                    "greek": "Ἰχθύς",
+                    "english": "Fish",
+                    "examples": []
+                },
+                {
+                    "greek": "Ἄλας",
+                    "english": "Salt",
+                    "examples": []
+                },
+                {
+                    "greek": "Ποτήριον",
+                    "english": "Cup, Goblet",
+                    "examples": []
+                },
+                {
+                    "greek": "Πίναξ",
+                    "english": "Plate, Platter",
+                    "examples": []
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "number": "09",
+            "greek_title": "Ἐν τῷ Κοιτῶνι",
+            "english_title": "Going to Sleep",
+            "category": "daily-life",
+            "terms": [
+                {
+                    "greek": "Κοίτη",
+                    "english": "Bed",
+                    "examples": []
+                },
+                {
+                    "greek": "Κοιμάομαι",
+                    "english": "I sleep",
+                    "examples": []
+                },
+                {
+                    "greek": "Ὕπνος",
+                    "english": "Sleep",
+                    "examples": []
+                },
+                {
+                    "greek": "Ἐγείρω",
+                    "english": "I wake, raise up",
+                    "examples": []
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "number": "10",
+            "greek_title": "Ἡ Νύξ",
+            "english_title": "Night & Watches",
+            "category": "daily-life",
+            "terms": [
+                {
+                    "greek": "Νύξ",
+                    "english": "Night",
+                    "examples": []
+                },
+                {
+                    "greek": "Φῶς",
+                    "english": "Light",
+                    "examples": []
+                },
+                {
+                    "greek": "Σκότος",
+                    "english": "Darkness",
+                    "examples": []
+                },
+                {
+                    "greek": "Φυλακή",
+                    "english": "Watch (of the night)",
+                    "examples": []
+                }
+            ]
+        },
+        {
             "id": 5,
             "number": "05",
             "greek_title": "Ἐν τῇ Σχολῇ Α΄",

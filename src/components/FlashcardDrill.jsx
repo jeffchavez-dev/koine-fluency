@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react'
 
 export default function FlashcardDrill({ sheets, onMarkStudied }) {
-  const [selectedCategory, setSelectedCategory] = useState('all')
+  const [selectedSheetId, setSelectedSheetId] = useState(null)
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isFlipped, setIsFlipped] = useState(false)
   const [stats, setStats] = useState({ correct: 0, total: 0 })
@@ -14,6 +14,7 @@ export default function FlashcardDrill({ sheets, onMarkStudied }) {
         sheet.terms.forEach(term => {
           cards.push({
             sheetId: sheet.id,
+            sheetTitle: sheet.english_title,
             greek: term.greek,
             english: term.english,
             category: sheet.category
@@ -25,12 +26,12 @@ export default function FlashcardDrill({ sheets, onMarkStudied }) {
   }, [sheets])
 
   const filtered = useMemo(() => {
-    if (selectedCategory === 'all') return flashcards
-    return flashcards.filter(c => c.category === selectedCategory)
-  }, [flashcards, selectedCategory])
+    if (!selectedSheetId) return flashcards
+    return flashcards.filter(c => c.sheetId === selectedSheetId)
+  }, [flashcards, selectedSheetId])
 
   const currentCard = filtered[currentIndex]
-  const categories = ['all', ...new Set(flashcards.map(c => c.category))]
+  const practiceSheets = sheets.filter(s => s.terms && s.terms.length > 0)
 
   const handleCorrect = () => {
     setStats(s => ({ ...s, correct: s.correct + 1, total: s.total + 1 }))
@@ -64,10 +65,10 @@ export default function FlashcardDrill({ sheets, onMarkStudied }) {
   }
 
   return (
-    <div className="flex-1 flex flex-col bg-slate-900 p-8">
+    <div className="flex-1 flex flex-col bg-slate-900 p-4 md:p-8 overflow-auto">
       {/* Header */}
       <div className="mb-8">
-        <div className="flex justify-between items-center mb-6">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
           <h2 className="text-2xl font-bold text-slate-100">Flashcard Drill</h2>
           <div className="text-sm text-slate-400">
             {stats.total > 0 && (
@@ -78,47 +79,60 @@ export default function FlashcardDrill({ sheets, onMarkStudied }) {
           </div>
         </div>
 
-        {/* Category Filter */}
-        <div className="flex gap-2 flex-wrap">
-          {categories.map(cat => (
+        {/* Sheet Selection */}
+        <div className="mb-4">
+          <label className="text-xs font-semibold text-slate-400 uppercase mb-2 block">Choose a Lesson:</label>
+          <div className="flex gap-2 flex-wrap">
             <button
-              key={cat}
               onClick={() => {
-                setSelectedCategory(cat)
+                setSelectedSheetId(null)
                 setCurrentIndex(0)
                 setIsFlipped(false)
                 setStats({ correct: 0, total: 0 })
               }}
-              className={`px-4 py-2 rounded text-sm transition ${
-                selectedCategory === cat
+              className={`px-3 py-2 rounded text-sm transition ${
+                selectedSheetId === null
                   ? 'bg-yellow-600 text-white'
                   : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
               }`}
             >
-              {cat.charAt(0).toUpperCase() + cat.slice(1)}
+              All Lessons
             </button>
-          ))}
+            {practiceSheets.map(sheet => (
+              <button
+                key={sheet.id}
+                onClick={() => {
+                  setSelectedSheetId(sheet.id)
+                  setCurrentIndex(0)
+                  setIsFlipped(false)
+                  setStats({ correct: 0, total: 0 })
+                }}
+                className={`px-3 py-2 rounded text-sm transition ${
+                  selectedSheetId === sheet.id
+                    ? 'bg-yellow-600 text-white'
+                    : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+                }`}
+              >
+                {sheet.number}: {sheet.english_title.split(' ')[0]}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
       {/* Card */}
-      <div className="flex-1 flex items-center justify-center">
+      <div className="flex-1 flex items-center justify-center px-4">
         <div
           onClick={() => setIsFlipped(!isFlipped)}
-          className="w-full max-w-2xl cursor-pointer"
+          className="w-full max-w-2xl cursor-pointer h-96"
         >
-          <div className="bg-gradient-to-br from-slate-800 to-slate-700 rounded-xl p-12 shadow-2xl border border-slate-600 h-96 flex flex-col items-center justify-center transition transform hover:scale-105 hover:shadow-yellow-500/20"
-            style={{
-              perspective: '1000px',
-              transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
-              transition: 'transform 0.6s'
-            }}
+          <div className="bg-gradient-to-br from-slate-800 to-slate-700 rounded-xl p-8 md:p-12 shadow-2xl border border-slate-600 h-full flex flex-col items-center justify-center transition transform hover:scale-105 hover:shadow-yellow-500/20"
           >
             <div className="text-center">
               {!isFlipped ? (
                 <div>
                   <p className="text-slate-400 text-sm mb-4">Greek</p>
-                  <p className="greek-text text-5xl text-yellow-400 font-bold">
+                  <p className="greek-text text-3xl md:text-5xl text-yellow-400 font-bold break-words">
                     {currentCard?.greek}
                   </p>
                   <p className="text-slate-500 text-sm mt-8">Click to reveal</p>
@@ -126,7 +140,7 @@ export default function FlashcardDrill({ sheets, onMarkStudied }) {
               ) : (
                 <div>
                   <p className="text-slate-400 text-sm mb-4">English</p>
-                  <p className="text-2xl text-slate-100 font-semibold">
+                  <p className="text-lg md:text-2xl text-slate-100 font-semibold break-words">
                     {currentCard?.english}
                   </p>
                 </div>

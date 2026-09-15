@@ -1,7 +1,12 @@
+import { useState } from 'react'
+
 export default function Sidebar({ sheets, onSelectSheet, onChangeView, currentView, progress }) {
+  const [isOpen, setIsOpen] = useState(true)
+
   const categories = {
     interrogatives: 'Question Words & Comm.',
     communication: 'Communication',
+    'daily-life': 'Daily Life',
     grammar: 'Grammar',
     drilling: 'Drilling'
   }
@@ -14,7 +19,27 @@ export default function Sidebar({ sheets, onSelectSheet, onChangeView, currentVi
   }, {})
 
   return (
-    <aside className="w-64 bg-slate-800 border-r border-slate-700 flex flex-col">
+    <>
+      {/* Mobile Toggle Button */}
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="md:hidden fixed top-4 left-4 z-50 bg-yellow-600 text-white p-2 rounded"
+      >
+        ☰
+      </button>
+
+      {/* Overlay for mobile */}
+      {isOpen && (
+        <div
+          className="md:hidden fixed inset-0 bg-black/50 z-30"
+          onClick={() => setIsOpen(false)}
+        />
+      )}
+
+      {/* Sidebar */}
+      <aside className={`fixed md:relative w-64 h-full bg-slate-800 border-r border-slate-700 flex flex-col transition-transform z-40 ${
+        isOpen ? 'translate-x-0' : '-translate-x-full'
+      } md:translate-x-0`}>
       {/* Header */}
       <div className="p-6 border-b border-slate-700">
         <h1 className="greek-title text-2xl mb-2">Ἡ Φωνή</h1>
@@ -75,6 +100,7 @@ export default function Sidebar({ sheets, onSelectSheet, onChangeView, currentVi
       <div className="p-4 border-t border-slate-700 text-xs text-slate-500">
         Ἀρχὴ τοῦ εὐαγγελίου
       </div>
-    </aside>
+      </aside>
+    </>
   )
 }
