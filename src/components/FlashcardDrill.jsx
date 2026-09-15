@@ -1,11 +1,26 @@
 import { useState, useMemo } from 'react'
 
-export default function FlashcardDrill({ sheets, onMarkStudied }) {
-  const [selectedSheetIds, setSelectedSheetIds] = useState(new Set())
+export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds: propSelectedSheetIds, onToggleLessonSelection: propOnToggleLessonSelection }) {
+  // Use props if provided (from App), otherwise manage local state
+  const [localSelectedSheetIds, setLocalSelectedSheetIds] = useState(new Set())
+  const selectedSheetIds = propSelectedSheetIds !== undefined ? propSelectedSheetIds : localSelectedSheetIds
+  const onToggleLessonSelection = propOnToggleLessonSelection || ((sheetId) => {
+    const newSelected = new Set(localSelectedSheetIds)
+    if (newSelected.has(sheetId)) {
+      newSelected.delete(sheetId)
+    } else {
+      newSelected.add(sheetId)
+    }
+    setLocalSelectedSheetIds(newSelected)
+    setCurrentIndex(0)
+    setIsFlipped(false)
+    setStats({ correct: 0, total: 0 })
+  })
+
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isFlipped, setIsFlipped] = useState(false)
   const [stats, setStats] = useState({ correct: 0, total: 0 })
-  const [showLessonPanel, setShowLessonPanel] = useState(true)
+  const [showLessonPanel, setShowLessonPanel] = useState(false)
 
   // Build flashcard deck from all terms (handles both flat terms and sections)
   const flashcards = useMemo(() => {
@@ -60,19 +75,6 @@ export default function FlashcardDrill({ sheets, onMarkStudied }) {
     if (s.sections) return s.sections.some(sec => sec.terms && sec.terms.length > 0)
     return s.terms && s.terms.length > 0
   })
-
-  const toggleLessonSelection = (sheetId) => {
-    const newSelected = new Set(selectedSheetIds)
-    if (newSelected.has(sheetId)) {
-      newSelected.delete(sheetId)
-    } else {
-      newSelected.add(sheetId)
-    }
-    setSelectedSheetIds(newSelected)
-    setCurrentIndex(0)
-    setIsFlipped(false)
-    setStats({ correct: 0, total: 0 })
-  }
 
   const handleCorrect = () => {
     setStats(s => ({ ...s, correct: s.correct + 1, total: s.total + 1 }))
@@ -133,7 +135,7 @@ export default function FlashcardDrill({ sheets, onMarkStudied }) {
                   <input
                     type="checkbox"
                     checked={selectedSheetIds.has(sheet.id)}
-                    onChange={() => toggleLessonSelection(sheet.id)}
+                    onChange={() => onToggleLessonSelection(sheet.id)}
                     className="mt-0.5 w-4 h-4 rounded accent-yellow-600"
                   />
                   <div className="flex-1 min-w-0">

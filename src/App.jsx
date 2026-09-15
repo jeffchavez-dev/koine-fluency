@@ -9,6 +9,7 @@ import './App.css'
 export default function App() {
   const [currentView, setCurrentView] = useState('browser')
   const [selectedSheetId, setSelectedSheetId] = useState(2)
+  const [selectedFlashcardSheets, setSelectedFlashcardSheets] = useState(new Set())
   const [progress, setProgress] = useState({})
 
   // Load progress from localStorage
@@ -31,6 +32,16 @@ export default function App() {
     }))
   }
 
+  const toggleFlashcardSheet = (sheetId) => {
+    const newSelected = new Set(selectedFlashcardSheets)
+    if (newSelected.has(sheetId)) {
+      newSelected.delete(sheetId)
+    } else {
+      newSelected.add(sheetId)
+    }
+    setSelectedFlashcardSheets(newSelected)
+  }
+
   return (
     <div className="flex h-screen bg-slate-900 w-full overflow-hidden">
       <Sidebar
@@ -39,6 +50,8 @@ export default function App() {
         onChangeView={setCurrentView}
         currentView={currentView}
         progress={progress}
+        selectedFlashcardSheets={selectedFlashcardSheets}
+        onToggleFlashcardSheet={toggleFlashcardSheet}
       />
 
       <main className="flex-1 overflow-hidden flex flex-col w-full">
@@ -53,6 +66,8 @@ export default function App() {
           <FlashcardDrill
             sheets={sheetsData.sheets}
             onMarkStudied={markSheetStudied}
+            selectedSheetIds={selectedFlashcardSheets}
+            onToggleLessonSelection={toggleFlashcardSheet}
           />
         )}
         {currentView === 'exercises' && (
