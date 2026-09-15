@@ -1691,118 +1691,84 @@
       "id": 20,
       "number": "20",
       "greek_title": "Πῶς Δεῖ Μελετᾶν",
-      "english_title": "How to Drill",
+      "english_title": "How to Build Fluency · Six Drills",
       "category": "drilling",
+      "introduction": "Fluency comes from producing the language, not from recognising it. Every drill below can be done alone in front of a wall sheet, or in pairs in three minutes. Little and often beats one long push.",
       "sections": [
         {
-          "title": "Five Drilling Techniques",
+          "title": "Α' · CIRCLING A FACT",
           "terms": [
             {
-              "greek": "ἡ Κύκλησις (Circling)",
-              "english": "Ask and re-ask the same question to establish meaning",
+              "greek": "Take one true statement and surround it with questions before moving on.",
+              "english": "The information is not the point — the repetition is.",
               "examples": [
-                {"greek": "τίς ἐποίησεν; → τί ἐποίησεν; → ποῦ ἐποίησεν; → πότε ἐποίησεν;", "english": "Who did it? What did he do? Where did he do it? When did he do it?", "reference": "Sheet 2-3 Method"}
-              ]
-            },
-            {
-              "greek": "ἡ Ἀντικατάστασις (Substitution)",
-              "english": "Replace words while keeping sentence structure to build morphology",
-              "examples": [
-                {"greek": "δός μοι τὸν ἄρτον → δός μοι τὸ ποτήριον → δός μοι τὸ κρέας", "english": "Give me the bread → Give me the cup → Give me the meat", "reference": "Sheet 7 Method"}
-              ]
-            },
-            {
-              "greek": "ἡ Προσταγή (Command/TPR)",
-              "english": "Give commands and have students respond physically to demonstrate comprehension",
-              "examples": [
-                {"greek": "ἔγειρε! ἀνάστηθι! γρηγόρει! κοιμηθῶμεν!", "english": "Get up! Rise! Stay awake! Let's sleep!", "reference": "Sheet 6 Method (Total Physical Response)"}
-              ]
-            },
-            {
-              "greek": "ἡ Ἀναδιήγησις (Retelling)",
-              "english": "Have students retell passages from memory using their own words",
-              "examples": [
-                {"greek": "Retell Mark 1:40-45 (the leper healing) using vocabulary you know", "english": "Retell the story using personal narrative (ἐγώ, σύ, αὐτός)", "reference": "Fluency Building"}
-              ]
-            },
-            {
-              "greek": "ἡ Ἀνάλυσις (Parsing/Analysis)",
-              "english": "Break down verbs and nouns into their component parts to understand form",
-              "examples": [
-                {"greek": "λέγουσιν = λέγ- (stem) + -ου (present) + -σι(ν) (3pl)", "english": "parsing shows person, number, tense, voice, mood", "reference": "Sheets 11-19 Method"}
+                {"greek": "τοῦτο βιβλίον ἐστίν. τί ἐστιν τοῦτο; — βιβλίον. βιβλίον ἐστὶν ἢ ποτήριον; — βιβλίον. ποῦ ἐστιν τὸ βιβλίον; — ἐπὶ τῆς τραπέζης. τίνος ἐστὶν τὸ βιβλίον; — ἐμόν ἐστιν.", "english": "This is a book. What is this? — A book. Is it a book or a cup? — A book. Where is the book? — On the table. Whose is the book? — It is mine.", "reference": "Circling Method"}
               ]
             }
           ]
         },
         {
-          "title": "How to Use These Techniques",
+          "title": "Β' · SUBSTITUTION",
           "terms": [
             {
-              "greek": "Ἀρχὴ τῆς Μαθήσεως",
-              "english": "Begin with Circling to establish basic vocabulary comprehension",
+              "greek": "Keep the frame, change one slot. You feel the endings shift in your mouth instead of on paper.",
+              "english": "Morphology through repetition.",
               "examples": [
-                {"greek": "Start with simple sentences, ask W-questions repeatedly", "english": "Repeat circling until students respond without thinking", "reference": "Foundation"}
-              ]
-            },
-            {
-              "greek": "Ἐπέκτασις",
-              "english": "Extend with Substitution to build morphological awareness",
-              "examples": [
-                {"greek": "Once students understand 'δός μοι τὸν ἄρτον', substitute objects", "english": "Replace nouns, then adjectives, then verbs to expand patterns", "reference": "Expansion"}
-              ]
-            },
-            {
-              "greek": "Σωματική Ἀντίδρασις",
-              "english": "Use Commands/TPR to move from comprehension to action",
-              "examples": [
-                {"greek": "Commands force students to demonstrate they understand meaning", "english": "Physical response proves comprehension; prevents translation", "reference": "Kinesthetic"}
-              ]
-            },
-            {
-              "greek": "Ἀπαγγελία",
-              "english": "Use Retelling to shift from passive recognition to active production",
-              "examples": [
-                {"greek": "Students produce their own sentences using vocabulary from passages", "english": "Move from repetition → comprehension → production", "reference": "Output"}
-              ]
-            },
-            {
-              "greek": "Σύνεσις",
-              "english": "Use Parsing/Analysis to build conscious understanding of grammar",
-              "examples": [
-                {"greek": "After fluency drills, analyze forms to understand structure", "english": "Grammar explains WHY the language works the way it does", "reference": "Reflection"}
+                {"greek": "ὁ Ἰησοῦς λαλεῖ. → οἱ μαθηταὶ λαλοῦσιν. → οἱ μαθηταὶ ἀκούουσιν. → ἀκούουσιν. → ἤκουον. → ἤκουσαν. → ἀκούσουσιν.", "english": "Jesus speaks. → The disciples speak. → The disciples listen. → They listen. → They were listening. → They heard. → They will hear.", "reference": "Substitution Drill"}
               ]
             }
           ]
         },
         {
-          "title": "Golden Rules of Drilling",
+          "title": "Γ' · NARRATING THE ROOM",
           "terms": [
             {
-              "greek": "Ἡ Ἀλήθεια",
-              "english": "The information is NOT the point — the REPETITION is",
+              "greek": "Describe what is around you and what people are doing, in the simplest Koine you have. Small, constant, out loud.",
+              "english": "Make immediate experience into Greek.",
               "examples": [
-                {"greek": "When you circle 'τίς ἐποίησεν;', the students already know who did it", "english": "The goal is to automatize the question and response, not learn facts", "reference": "Krashen Input Hypothesis"}
+                {"greek": "ὁ ἀδελφὸς γράφει. ἡ ἀδελφὴ ἐσθίει. ὁ λύχνος ἐπὶ τῆς τραπέζης ἐστίν. νῦν ἐσθίω· εἶτα καθευδήσω.", "english": "The brother is writing. The sister is eating. The lamp is on the table. Now I am eating; then I will sleep.", "reference": "Narration Method"}
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "Δ' · COMMANDS WITH THE BODY",
+          "terms": [
             {
-              "greek": "Ἡ Ὀκνηρία",
-              "english": "Repetition feels boring — embrace it for fluency",
+              "greek": "One person commands, the others obey in silence. No translation, no explanation — comprehension shows up in the body before it reaches the tongue.",
+              "english": "Total Physical Response: action proves understanding.",
               "examples": [
-                {"greek": "100 repetitions of one pattern > 10 repetitions of 10 patterns", "english": "Boring = efficient; variety = scattered learning", "reference": "Spaced Repetition"}
+                {"greek": "ἔγειρε· ἐλθὲ πρὸς τὴν θύραν· ἄνοιξον αὐτήν· κάθισον. λάβε τὸ ποτήριον καὶ δὸς αὐτὸ τῷ ἀδελφῷ.", "english": "Get up; come to the door; open it; sit down. Take the cup and give it to your brother.", "reference": "TPR Method"}
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "Ε' · RETELLING A SCENE",
+          "terms": [
             {
-              "greek": "Ἡ Δύναμις",
-              "english": "Language power comes from knowing 500 words deeply, not 5000 words shallowly",
+              "greek": "Read a paragraph of Mark, close the book, and answer three questions aloud. Two or three sentences is plenty. This single habit exercises every tier of fluency at once.",
+              "english": "Production from memory.",
               "examples": [
-                {"greek": "Master the vocabulary of Mark before expanding to other texts", "english": "Deep acquisition > broad exposure in early stages", "reference": "Comprehensible Input"}
+                {"greek": "τίς; τί γίνεται; διὰ τί; πρῶτον … εἶτα … καὶ εὐθύς … τέλος …", "english": "Who is in the scene? What happens? Why? First … then … and immediately … finally …", "reference": "Retelling Method"}
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ϛ' · GRAMMAR AS CONVERSATION",
+          "terms": [
+            {
+              "greek": "Never translate the parsing question. Ask in Greek, answer in Greek, in a fixed order.",
+              "english": "Parsing makes grammar automatic.",
+              "examples": [
+                {"greek": "τί μέρος λόγου ἐστίν; — ῥῆμα. ἐν ποίῳ χρόνῳ; — ἀόριστος. ποία διάθεσις; — παθητική. ποῖον πρόσωπον; — τρίτον, ἑνικόν.", "english": "What part of speech? — A verb. In what tense? — Aorist. What voice? — Passive. What person? — Third, singular.", "reference": "Parsing Method"}
               ]
             }
           ]
         }
       ],
-      "principles": ["All five techniques work together in sequence: Circling → Substitution → Commands → Retelling → Parsing", "Drilling builds automaticity (fluency) before studying grammar (accuracy)", "The goal is to make Greek language production as automatic as English production", "Repetition is the engine of language acquisition; variation in context prevents fossilization"],
-      "drill_instruction": "Master Drilling: Use these 5 techniques in order on any passage. Start with circling basic vocabulary (Sheets 2-3), then substitute structures (Sheets 4-10), give commands to verify comprehension (Sheets 6, 9), retell the passage in your own words, and finally parse complex forms (Sheets 11-19) to understand grammar."
+      "rhythm": "A rhythm for the fortnight: five minutes of greetings and classroom phrases · parse the day's verses aloud using nothing but Greek grammar terms · retell one paragraph of Mark and say what you think of it. Then say εὖ καθεύδοις to somebody and go to bed."
     }
   ]
 }
