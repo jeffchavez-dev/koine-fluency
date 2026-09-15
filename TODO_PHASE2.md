@@ -123,6 +123,39 @@ Each grammar concept in the PDF speaks in first person, introducing itself to th
 - [ ] App displays narratives alongside definitions
 - [ ] Visual consistency with original PDF maintained
 
+## Critical UI/UX Gap: ExerciseMode Not Functional
+
+### Issue
+The "Drills" tab (ExerciseMode component) currently shows nothing because:
+- Component expects Sheet 20 to have a `drills` array (old data format)
+- We rebuilt Sheet 20 with `sections` structure (new format)
+- No data matches the component's expectations
+
+### Solution Options
+1. **Refactor ExerciseMode** to render from `sections` structure
+   - Map 5 drilling techniques to interactive drill interface
+   - Allow students to select drill type and practice sheet
+   - Show examples and let students practice substitutions/circling/etc.
+
+2. **Create Interactive Drill Mode**
+   - Circling: Present Mark passages, ask W-questions repeatedly
+   - Substitution: Show sentence structure, let student swap words
+   - Commands: Present commands, have student indicate understanding
+   - Retelling: Show passage, student retells from memory
+   - Parsing: Show verb/noun, student identifies components
+
+3. **Minimum Viable Fix** (Phase 2a)
+   - Display drilling techniques from Sheet 20 sections
+   - Show examples and instructions
+   - Link to flashcard/sheet browser for practice
+
+### Estimated Effort
+- **UI Refactor**: 2-4 hours
+- **Interactive Implementation**: 8-12 hours (requires UI for each technique)
+- **Minimum Fix**: 1-2 hours
+
+---
+
 ## Notes
 - Original PDF is the authoritative source for narratives and examples
 - Prioritize Mark's Gospel for all biblical examples
@@ -134,3 +167,12 @@ Each grammar concept in the PDF speaks in first person, introducing itself to th
 **Started**: After Phase 1 completion (2024)
 **Priority**: High - This is what makes the resource unique and pedagogically effective
 **Owner**: Next phase development
+
+## Phase 2 Implementation Checklist
+- [ ] Extract first-person narratives from original PDF (Sheets 11-19)
+- [ ] Add 2-3 examples per grammar term (Sheets 11-19)
+- [ ] Add pedagogical introductions for each sheet
+- [ ] Refactor ExerciseMode component for new data structure
+- [ ] Consider interactive drill modes (circling, substitution, commands, retelling, parsing)
+- [ ] Test all sheets in app after changes
+- [ ] Commit and push to GitHub
