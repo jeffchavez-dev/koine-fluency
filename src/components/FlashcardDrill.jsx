@@ -28,7 +28,14 @@ export default function FlashcardDrill({ sheets, onMarkStudied }) {
 
   const filtered = useMemo(() => {
     if (selectedSheetIds.size === 0) return []
-    return flashcards.filter(c => selectedSheetIds.has(c.sheetId))
+    const cards = flashcards.filter(c => selectedSheetIds.has(c.sheetId))
+    // Shuffle cards (Fisher-Yates)
+    const shuffled = [...cards]
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+    }
+    return shuffled
   }, [flashcards, selectedSheetIds])
 
   const currentCard = filtered[currentIndex]
