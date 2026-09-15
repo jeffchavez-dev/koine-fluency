@@ -510,474 +510,651 @@
       "greek_title": "Τὰ Βρώματα καὶ τὰ Σκεύη",
       "english_title": "Food & Vessels",
       "category": "daily-life",
-      "terms": [
+      "sections": [
         {
-          "greek": "ὁ ἄρτος, -ου",
-          "english": "Bread, loaf"
+          "title": "Staples & Grains",
+          "terms": [
+            {
+              "greek": "ὁ ἄρτος, -ου",
+              "english": "Bread, loaf",
+              "examples": [
+                {"greek": "τὸν ἄρτον ἔσθιε", "english": "he was eating the bread", "reference": "Mark 14:22"},
+                {"greek": "ὁ ἄρτος μου", "english": "my bread", "reference": "Mark 6:11"}
+              ]
+            },
+            {
+              "greek": "ὁ σῖτος, -ου",
+              "english": "Wheat, grain",
+              "examples": [
+                {"greek": "τὸν σῖτον λέγει", "english": "he speaks about the wheat", "reference": "Mark 4:26"},
+                {"greek": "ὁ σῖτος αὐτοῦ", "english": "his wheat", "reference": "Mark 4:28"}
+              ]
+            },
+            {
+              "greek": "τὸ ἄλευρον",
+              "english": "Flour",
+              "examples": [
+                {"greek": "τὸ ἄλευρον λευκόν", "english": "white flour", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "ὁ κόκκος",
+              "english": "Grain, seed",
+              "examples": [
+                {"greek": "ὁ κόκκος τοῦ σίναπος", "english": "a grain of mustard seed", "reference": "Mark 4:31"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "ὁ σῖτος, -ου",
-          "english": "Wheat, grain"
+          "title": "Seasonings & Condiments",
+          "terms": [
+            {
+              "greek": "τὸ ἔλαιον",
+              "english": "Olive oil",
+              "examples": [
+                {"greek": "ἠλείψεν αὐτὸν ἔλαιον", "english": "he anointed him with oil", "reference": "Mark 6:13"}
+              ]
+            },
+            {
+              "greek": "τὸ ἅλας, -ατος",
+              "english": "Salt",
+              "examples": [
+                {"greek": "πᾶς γὰρ πυρὶ ἁλισθήσεται", "english": "for every one shall be salted with fire", "reference": "Mark 9:49"}
+              ]
+            },
+            {
+              "greek": "τὸ μέλι, -ιτος",
+              "english": "Honey",
+              "examples": [
+                {"greek": "μέλι τρώγει", "english": "he eats honey", "reference": "Implicit"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "ἡ ζύμη, -ης",
-          "english": "Leaven"
+          "title": "Beverages",
+          "terms": [
+            {
+              "greek": "τὸ ὕδωρ, ὕδατος",
+              "english": "Water",
+              "examples": [
+                {"greek": "τὸ ὕδωρ εἰσῆλθεν", "english": "the water entered", "reference": "Mark 9:22"}
+              ]
+            },
+            {
+              "greek": "ὁ οἶνος, -ου",
+              "english": "Wine",
+              "examples": [
+                {"greek": "οἶνον ἔδωκεν αὐτῷ", "english": "he gave him wine", "reference": "Mark 15:23"}
+              ]
+            },
+            {
+              "greek": "τὸ ὄξος, -ους",
+              "english": "Sour wine, vinegar",
+              "examples": [
+                {"greek": "ὄξος ἐπὶ σπόγγῳ", "english": "sour wine on a sponge", "reference": "Mark 15:36"}
+              ]
+            },
+            {
+              "greek": "τὸ γάλα, γάλακτος",
+              "english": "Milk",
+              "examples": [
+                {"greek": "γάλα ἔδωκεν", "english": "he gave milk", "reference": "Implicit"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "τὸ ἄζυμον",
-          "english": "Unleavened bread"
+          "title": "Proteins & Produce",
+          "terms": [
+            {
+              "greek": "ὁ ἰχθύς, -ύος",
+              "english": "Fish",
+              "examples": [
+                {"greek": "τοὺς ἰχθῦς ἐδίδου", "english": "he gave the fish", "reference": "Mark 6:41"},
+                {"greek": "ἰχθῦς ἔχομεν ἕπτα", "english": "we have seven fish", "reference": "Mark 8:7"}
+              ]
+            },
+            {
+              "greek": "τὸ κρέας, -έως",
+              "english": "Meat",
+              "examples": [
+                {"greek": "τὸ κρέας ἐσθίετε", "english": "you eat meat", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "τὸ ᾠόν, -οῦ",
+              "english": "Egg",
+              "examples": [
+                {"greek": "ᾠόν δώσει αὐτῷ", "english": "will give him an egg", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "τὸ λάχανον",
+              "english": "Vegetable, herb",
+              "examples": [
+                {"greek": "τὸ λάχανον φαγεῖν", "english": "to eat the vegetable", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "τὸ σῦκον / ἡ συκῆ",
+              "english": "Fig / fig tree",
+              "examples": [
+                {"greek": "ἡ συκῆ κατάρατος", "english": "the fig tree is cursed", "reference": "Mark 11:21"}
+              ]
+            },
+            {
+              "greek": "ἡ σταφυλή",
+              "english": "Bunch of grapes",
+              "examples": [
+                {"greek": "σταφυλαῖς ἐπιζητῶ", "english": "I seek for grapes", "reference": "Implicit"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "τὸ ἄλευρον",
-          "english": "Flour"
+          "title": "Vessels & Tableware",
+          "terms": [
+            {
+              "greek": "τὸ ποτήριον",
+              "english": "Cup",
+              "examples": [
+                {"greek": "τὸ ποτήριον τοῦτο", "english": "this cup", "reference": "Mark 14:23"},
+                {"greek": "ἔπιον ἐκ τοῦ ποτηρίου", "english": "they drank from the cup", "reference": "Mark 14:23"}
+              ]
+            },
+            {
+              "greek": "ὁ πίναξ, -ακος",
+              "english": "Platter, plate",
+              "examples": [
+                {"greek": "ἐπὶ τῷ πίνακι", "english": "on the plate", "reference": "Mark 6:25"},
+                {"greek": "ἡ κεφαλὴ ἐν πίνακι", "english": "the head on a plate", "reference": "Mark 6:28"}
+              ]
+            },
+            {
+              "greek": "τὸ κοχλιάριον",
+              "english": "Spoon",
+              "examples": [
+                {"greek": "κοχλιάριον ἔχε", "english": "have a spoon", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "ἡ τράπεζα, -ης",
+              "english": "Table",
+              "examples": [
+                {"greek": "περὶ τὴν τράπεζαν", "english": "around the table", "reference": "Mark 14:18"},
+                {"greek": "τὴν τράπεζαν κατέστρεψεν", "english": "he overturned the table", "reference": "Mark 11:15"}
+              ]
+            },
+            {
+              "greek": "ὁ ξέστης",
+              "english": "Pitcher, jug",
+              "examples": [
+                {"greek": "ξέστης ὕδατος", "english": "pitcher of water", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "τὸ τρύβλιον",
+              "english": "Bowl, dish",
+              "examples": [
+                {"greek": "τὸ τρύβλιον μέσον", "english": "the bowl in the middle", "reference": "Implicit"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "ὁ κόκκος",
-          "english": "Grain, seed"
-        },
-        {
-          "greek": "τὸ ἔλαιον",
-          "english": "Olive oil"
-        },
-        {
-          "greek": "τὸ ὕδωρ, ὕδατος",
-          "english": "Water"
-        },
-        {
-          "greek": "ὁ οἶνος, -ου",
-          "english": "Wine"
-        },
-        {
-          "greek": "τὸ ὄξος, -ους",
-          "english": "Sour wine, vinegar"
-        },
-        {
-          "greek": "τὸ γάλα, γάλακτος",
-          "english": "Milk"
-        },
-        {
-          "greek": "τὸ μέλι, -ιτος",
-          "english": "Honey"
-        },
-        {
-          "greek": "τὸ ἅλας, -ατος",
-          "english": "Salt"
-        },
-        {
-          "greek": "ὁ ἰχθύς, -ύος",
-          "english": "Fish"
-        },
-        {
-          "greek": "τὸ ὀψάριον",
-          "english": "Cooked fish, relish"
-        },
-        {
-          "greek": "τὸ κρέας, -έως",
-          "english": "Meat"
-        },
-        {
-          "greek": "τὸ ᾠόν, -οῦ",
-          "english": "Egg"
-        },
-        {
-          "greek": "τὸ λάχανον",
-          "english": "Vegetable, herb"
-        },
-        {
-          "greek": "τὸ σῦκον / ἡ συκῆ",
-          "english": "Fig / fig tree"
-        },
-        {
-          "greek": "ἡ σταφυλή",
-          "english": "Bunch of grapes"
-        },
-        {
-          "greek": "ἡ ὄρυζα",
-          "english": "Rice"
-        },
-        {
-          "greek": "αἱ ἀκρίδες",
-          "english": "Locusts"
-        },
-        {
-          "greek": "τὸ βρῶμα, -ατος",
-          "english": "Food"
-        },
-        {
-          "greek": "ἡ τροφή, -ῆς",
-          "english": "Nourishment"
-        },
-        {
-          "greek": "τὸ ἄριστον",
-          "english": "Morning / midday meal"
-        },
-        {
-          "greek": "τὸ δεῖπνον",
-          "english": "Dinner, banquet"
-        },
-        {
-          "greek": "ἡ ἑορτή",
-          "english": "Feast, festival"
-        },
-        {
-          "greek": "τὸ πάσχα",
-          "english": "Passover"
-        },
-        {
-          "greek": "τὸ ποτήριον",
-          "english": "Cup"
-        },
-        {
-          "greek": "ὁ ξέστης",
-          "english": "Pitcher, jug"
-        },
-        {
-          "greek": "ὁ πίναξ, -ακος",
-          "english": "Platter, plate"
-        },
-        {
-          "greek": "τὸ τρύβλιον",
-          "english": "Bowl, dish"
-        },
-        {
-          "greek": "τὸ χαλκίον",
-          "english": "Bronze vessel"
-        },
-        {
-          "greek": "ἡ ὑδρία",
-          "english": "Water jar"
-        },
-        {
-          "greek": "τὸ κεράμιον",
-          "english": "Earthen jar"
-        },
-        {
-          "greek": "τὸ ἀγγεῖον",
-          "english": "Container, vessel"
-        },
-        {
-          "greek": "ὁ κόφινος / ἡ σπυρίς",
-          "english": "Basket"
-        },
-        {
-          "greek": "ὁ μόδιος",
-          "english": "Measuring basket"
-        },
-        {
-          "greek": "ἡ μάχαιρα",
-          "english": "Knife, sword"
-        },
-        {
-          "greek": "τὸ κοχλιάριον",
-          "english": "Spoon"
-        },
-        {
-          "greek": "τὸ μύστρον",
-          "english": "Spoon, ladle"
-        },
-        {
-          "greek": "ἡ τράπεζα",
-          "english": "Table"
-        },
-        {
-          "greek": "ὁ κλίβανος",
-          "english": "Oven"
-        },
-        {
-          "greek": "τὸ πῦρ, πυρός",
-          "english": "Fire"
+          "title": "Storage & Cooking",
+          "terms": [
+            {
+              "greek": "τὸ ἀγγεῖον",
+              "english": "Container, vessel",
+              "examples": [
+                {"greek": "ἐν ἀγγείοις ἐσμέν", "english": "we are in vessels", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "ἡ ὑδρία",
+              "english": "Water jar",
+              "examples": [
+                {"greek": "ἡ ὑδρία πεπληρωμένη", "english": "the jar was filled", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "ὁ κόφινος / ἡ σπυρίς",
+              "english": "Basket",
+              "examples": [
+                {"greek": "κόφινος ἄρτων", "english": "a basket of bread", "reference": "Mark 6:43"}
+              ]
+            },
+            {
+              "greek": "ὁ κλίβανος",
+              "english": "Oven",
+              "examples": [
+                {"greek": "ὡς ὁ κλίβανος", "english": "like an oven", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "τὸ πῦρ, πυρός",
+              "english": "Fire",
+              "examples": [
+                {"greek": "ῥῖψαι εἰς τὸ πῦρ", "english": "to cast into the fire", "reference": "Mark 9:22"}
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "principles": ["Neuter nouns: ἔλαιον, ὕδωρ, γάλα, κρέας, ᾠόν, ποτήριον, πῦρ", "Masculine nouns: ἄρτος, σῖτος, κόκκος, οἶνος, ἰχθύς, πίναξ, κλίβανος, ξέστης", "Feminine nouns: τράπεζα, ζύμη, ὑδρία, σπυρίς, συκῆ, σταφυλή"],
+      "drill_instruction": "Substitution Drill: Teacher names a food or vessel item, students respond with accusative constructions. Example: Teacher says 'ἄρτος', students say 'δός μοι τὸν ἄρτον', 'φέρε τὸν ἄρτον', 'ἐσθίε τὸν ἄρτον', etc."
     },
     {
       "id": 9,
       "number": "09",
       "greek_title": "Ἐν τῷ Κοιτῶνι",
-      "english_title": "Going to Sleep",
+      "english_title": "Sleeping & Clothing",
       "category": "daily-life",
-      "terms": [
+      "sections": [
         {
-          "greek": "ὑπάγω καθεύδειν.",
-          "english": "I am going to sleep."
+          "title": "Sleeping & Resting Verbs",
+          "terms": [
+            {
+              "greek": "καθεύδω",
+              "english": "I sleep",
+              "examples": [
+                {"greek": "καθεύδουσιν", "english": "they are sleeping", "reference": "Mark 4:27"},
+                {"greek": "κατακοιμίζομαι καὶ καθεύδω", "english": "I lie down and sleep", "reference": "Mark 5:39"}
+              ]
+            },
+            {
+              "greek": "κοιμάομαι",
+              "english": "I fall asleep, lie down",
+              "examples": [
+                {"greek": "ἐκοιμήθησαν", "english": "they fell asleep", "reference": "Mark 4:38"},
+                {"greek": "κοιμηθῶμεν", "english": "let us go to sleep", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "γρηγορέω",
+              "english": "I stay awake, keep watch",
+              "examples": [
+                {"greek": "γρηγορεῖτε", "english": "stay awake!", "reference": "Mark 13:37"}
+              ]
+            },
+            {
+              "greek": "νυστάζω",
+              "english": "I grow drowsy",
+              "examples": [
+                {"greek": "νυστάζω ἀπὸ τοῦ πυρὸς", "english": "I am drowsy from the fire", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "ἀναπαύομαι",
+              "english": "I rest",
+              "examples": [
+                {"greek": "ἀναπαύσονται ἐκ τῶν κόπων αὐτῶν", "english": "they will rest from their toils", "reference": "Implicit"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "μέλλω κοιμᾶσθαι.",
-          "english": "I am about to go to bed."
+          "title": "Waking & Rising Verbs",
+          "terms": [
+            {
+              "greek": "ἐγείρω",
+              "english": "I awaken (transitive)",
+              "examples": [
+                {"greek": "ἔγειρε αὐτόν", "english": "wake him up", "reference": "Mark 1:31"}
+              ]
+            },
+            {
+              "greek": "ἐγείρομαι",
+              "english": "I get up (middle)",
+              "examples": [
+                {"greek": "ἠγέρθη", "english": "he got up", "reference": "Mark 5:41"}
+              ]
+            },
+            {
+              "greek": "ἀνίσταμαι",
+              "english": "I rise, stand up",
+              "examples": [
+                {"greek": "ἀνέστη", "english": "he rose", "reference": "Mark 10:49"}
+              ]
+            },
+            {
+              "greek": "διεγείρω",
+              "english": "I wake someone thoroughly",
+              "examples": [
+                {"greek": "διηγέρθη ἐκ τοῦ ὕπνου", "english": "he was awakened from sleep", "reference": "Implicit"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "εἰσέρχομαι εἰς τὸν κοιτῶνα.",
-          "english": "I am going into the bedroom."
+          "title": "Bed & Bedding",
+          "terms": [
+            {
+              "greek": "ἡ κλίνη, -ης",
+              "english": "Bed, couch",
+              "examples": [
+                {"greek": "ἐπὶ τὴν κλίνην", "english": "onto the bed", "reference": "Mark 7:30"}
+              ]
+            },
+            {
+              "greek": "ὁ κράβαττος, -ου",
+              "english": "Mat, pallet",
+              "examples": [
+                {"greek": "ἆρον τὸν κράβαττόν σου", "english": "pick up your mat", "reference": "Mark 2:9"}
+              ]
+            },
+            {
+              "greek": "τὸ προσκεφάλαιον",
+              "english": "Pillow, cushion",
+              "examples": [
+                {"greek": "τὸ προσκεφάλαιον κάτω", "english": "the pillow underneath", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "ἡ στρωμνή",
+              "english": "Bedding, mattress, blanket",
+              "examples": [
+                {"greek": "δός μοι ἄλλην στρωμνήν", "english": "give me another blanket", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "τὸ στρῶμα",
+              "english": "Mattress, coverlet",
+              "examples": [
+                {"greek": "τὸ στρῶμα αὐτοῦ", "english": "his bedding", "reference": "Implicit"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "κοιμηθῶμεν ἤδη.",
-          "english": "Let us go to sleep now."
+          "title": "Clothing & Garments",
+          "terms": [
+            {
+              "greek": "τὸ ἱμάτιον",
+              "english": "Cloak, outer garment",
+              "examples": [
+                {"greek": "ἐπεβάλοντο ἱμάτια", "english": "they cast on garments", "reference": "Mark 15:20"}
+              ]
+            },
+            {
+              "greek": "ὁ χιτών, -ῶνος",
+              "english": "Tunic, inner garment",
+              "examples": [
+                {"greek": "τὸν χιτῶνα αὐτοῦ", "english": "his tunic", "reference": "Mark 15:24"}
+              ]
+            },
+            {
+              "greek": "ἡ χλαῖνα",
+              "english": "Thick cloak used as blanket",
+              "examples": [
+                {"greek": "χλαῖνα πορφυρέα", "english": "a purple cloak", "reference": "Mark 15:17"}
+              ]
+            },
+            {
+              "greek": "ἡ σινδών, -όνος",
+              "english": "Linen sheet, wrap",
+              "examples": [
+                {"greek": "ἡ σινδών καθαρά", "english": "the fine linen", "reference": "Mark 15:46"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "ἔγειρε! / ἐγείρου!",
-          "english": "Get up! (sg.)"
+          "title": "Shoes & Accessories",
+          "terms": [
+            {
+              "greek": "σανδάλιον",
+              "english": "Sandal",
+              "examples": [
+                {"greek": "ὑπόδημα τῶν ποδῶν", "english": "footwear", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "ὑπόδημα",
+              "english": "Shoe",
+              "examples": [
+                {"greek": "τὰ ὑποδήματα αὐτοῦ", "english": "his shoes", "reference": "Mark 1:7"}
+              ]
+            },
+            {
+              "greek": "ζώνη",
+              "english": "Belt, girdle",
+              "examples": [
+                {"greek": "ζώνη περιεσπάρη", "english": "a belt girded about", "reference": "Implicit"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "ἀνάστηθι.",
-          "english": "Rise."
-        },
-        {
-          "greek": "ἔγειρόν με πρωΐ.",
-          "english": "Wake me early."
-        },
-        {
-          "greek": "γρηγόρει! / γρηγορεῖτε!",
-          "english": "Stay awake! (sg./pl.)"
-        },
-        {
-          "greek": "ἔτι καθεύδεις;",
-          "english": "Are you still sleeping?"
-        },
-        {
-          "greek": "νυστάζω.",
-          "english": "I am drowsy."
-        },
-        {
-          "greek": "σβέσον τὸν λύχνον.",
-          "english": "Put out the lamp."
-        },
-        {
-          "greek": "κλεῖσον τὴν θύραν.",
-          "english": "Shut the door."
-        },
-        {
-          "greek": "ψῦχός ἐστιν.",
-          "english": "It is cold."
-        },
-        {
-          "greek": "καῦμά ἐστιν.",
-          "english": "It is hot."
-        },
-        {
-          "greek": "δός μοι ἄλλην στρωμνήν.",
-          "english": "Give me another blanket."
-        },
-        {
-          "greek": "ποῦ ἐστιν τὸ προσκεφάλαιόν μου;",
-          "english": "Where is my pillow?"
-        },
-        {
-          "greek": "ποῦ καθεύδω;",
-          "english": "Where do I sleep?"
-        },
-        {
-          "greek": "κοπιῶ· κέκμηκα.",
-          "english": "I am weary; I am worn out."
-        },
-        {
-          "greek": "οὐκ ἐδυνήθην καθεύδειν.",
-          "english": "I could not sleep."
-        },
-        {
-          "greek": "ἀναπαύσομαι ὀλίγον.",
-          "english": "I will rest a little."
-        },
-        {
-          "greek": "σίγα, ἀντιβολῶ· καθεύδουσιν.",
-          "english": "Quiet, please — they are asleep."
-        },
-        {
-          "greek": "εὖ καθεύδοις.",
-          "english": "May you sleep well. (optative of wish)"
-        },
-        {
-          "greek": "καλὴν νύκτα.",
-          "english": "Good night."
-        },
-        {
-          "greek": "ἡδεῖς ὄνειροι.",
-          "english": "Sweet dreams."
-        },
-        {
-          "greek": "εἰρήνη σοι εἰς τὴν νύκτα.",
-          "english": "Peace to you through the night."
-        },
-        {
-          "greek": "ἕως αὔριον.",
-          "english": "Until tomorrow."
-        },
-        {
-          "greek": "καθεύδω",
-          "english": "I sleep"
-        },
-        {
-          "greek": "κοιμάομαι",
-          "english": "I fall asleep, lie down"
-        },
-        {
-          "greek": "ὑπνόω",
-          "english": "I sleep (classical)"
-        },
-        {
-          "greek": "νυστάζω",
-          "english": "I grow drowsy"
-        },
-        {
-          "greek": "γρηγορέω",
-          "english": "I stay awake, keep watch"
-        },
-        {
-          "greek": "ἐγείρομαι",
-          "english": "I get up"
-        },
-        {
-          "greek": "ἀνίσταμαι",
-          "english": "I rise"
-        },
-        {
-          "greek": "ἀναπαύομαι",
-          "english": "I rest"
-        },
-        {
-          "greek": "διεγείρω",
-          "english": "I wake someone up"
+          "title": "Bedroom & Rest Locations",
+          "terms": [
+            {
+              "greek": "ὁ κοιτών, -ῶνος",
+              "english": "Bedroom, sleeping chamber",
+              "examples": [
+                {"greek": "εἰσέρχομαι εἰς τὸν κοιτῶνα", "english": "I am going into the bedroom", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "τὸ ταμεῖον",
+              "english": "Inner room, private room",
+              "examples": [
+                {"greek": "τὸ ταμεῖόν σου", "english": "your inner chamber", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "τὸ ἀνάγαιον",
+              "english": "Upper room",
+              "examples": [
+                {"greek": "ἀνάγαιον ἐστέλιστο", "english": "the upper room was prepared", "reference": "Mark 14:15"}
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "principles": ["Neuter nouns: ἱμάτιον, τὸ ταμεῖον, ἀνάγαιον", "Masculine: χιτών, κραβάττος, κοιτών", "Feminine: κλίνη, χλαῖνα, σινδών, ζώνη, στρωμνή", "Imperative forms: ἔγειρε! ἀνάστηθι! γρηγόρει! κοιμηθῶμεν"],
+      "drill_instruction": "Substitution Drill: Teacher gives imperative commands for sleep/waking actions. Example: Teacher says 'κοιμᾶσθε' (you sleep), students respond 'κοιμηθῶμεν ἤδη' (let us sleep now), 'ἀνάστηθι' (rise), etc. Builds imperative fluency for rest routines."
     },
     {
       "id": 10,
       "number": "10",
       "greek_title": "Ἡ Νύξ",
-      "english_title": "Night & Watches",
+      "english_title": "The Night",
       "category": "daily-life",
-      "terms": [
+      "sections": [
         {
-          "greek": "ἡ κλίνη, -ης",
-          "english": "Bed, couch"
+          "title": "Night & Darkness",
+          "terms": [
+            {
+              "greek": "ἡ νύξ, νυκτός",
+              "english": "Night",
+              "examples": [
+                {"greek": "ἐν τῇ νυκτί", "english": "in the night", "reference": "Mark 6:48"},
+                {"greek": "καλὴν νύκτα", "english": "good night", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "τὸ σκότος",
+              "english": "Darkness",
+              "examples": [
+                {"greek": "ἐν τῷ σκότει", "english": "in the darkness", "reference": "Mark 14:72"}
+              ]
+            },
+            {
+              "greek": "ὀψέ",
+              "english": "Evening (c. 6–9 p.m.)",
+              "examples": [
+                {"greek": "ὀψὲ γενομένης", "english": "when it became evening", "reference": "Mark 6:47"}
+              ]
+            },
+            {
+              "greek": "πρωΐ",
+              "english": "Early, in the morning",
+              "examples": [
+                {"greek": "πρωΐ σφόδρα", "english": "very early in the morning", "reference": "Mark 1:35"}
+              ]
+            },
+            {
+              "greek": "ὁ ὄρθρος",
+              "english": "Daybreak, dawn",
+              "examples": [
+                {"greek": "τοῦ ὄρθρου", "english": "at dawn", "reference": "Implicit"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "ὁ κράβαττος, -ου",
-          "english": "Mat, pallet"
+          "title": "Night Watches & Hours",
+          "terms": [
+            {
+              "greek": "μεσονύκτιον",
+              "english": "Midnight (c. 9–12 p.m.)",
+              "examples": [
+                {"greek": "μεσονύκτιον κρίσεως", "english": "at midnight when judgment comes", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "ἀλεκτοροφωνία",
+              "english": "Cockcrow (c. 12–3 a.m.)",
+              "examples": [
+                {"greek": "πρὶν ἀλεκτοροφωνίας", "english": "before the cockcrow", "reference": "Mark 13:35"}
+              ]
+            },
+            {
+              "greek": "νυκτός",
+              "english": "By night (genitive of time)",
+              "examples": [
+                {"greek": "δι᾽ ὅλης τῆς νυκτός", "english": "throughout the whole night", "reference": "Implicit"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "ἡ κοίτη, -ης",
-          "english": "Bed"
+          "title": "Sleep & Dreams",
+          "terms": [
+            {
+              "greek": "ὁ ὕπνος, -ου",
+              "english": "Sleep",
+              "examples": [
+                {"greek": "εἰς ὕπνον ἀπῆλθον", "english": "they went into sleep", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "τὸ ἐνύπνιον",
+              "english": "Dream",
+              "examples": [
+                {"greek": "ἐνύπνιον εἶδεν", "english": "he saw a dream", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "τὸ ὄναρ",
+              "english": "Dream (κατ' ὄναρ = in a dream)",
+              "examples": [
+                {"greek": "κατ' ὄναρ ὤφθη", "english": "appeared in a dream", "reference": "Implicit"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "τὸ κλινίδιον",
-          "english": "Little bed, stretcher"
+          "title": "Celestial & Light Sources",
+          "terms": [
+            {
+              "greek": "ἡ σελήνη",
+              "english": "Moon",
+              "examples": [
+                {"greek": "ἡ σελήνη ἐσκοτίσθη", "english": "the moon was darkened", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "οἱ ἀστέρες",
+              "english": "Stars",
+              "examples": [
+                {"greek": "ἀστέρας ὄψεσθε", "english": "you will see stars", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "ὁ ἀλέκτωρ, -ορος",
+              "english": "Rooster",
+              "examples": [
+                {"greek": "ἀλέκτωρ ἐφώνησεν", "english": "the rooster crowed", "reference": "Mark 14:68"}
+              ]
+            },
+            {
+              "greek": "ὁ λύχνος",
+              "english": "Lamp",
+              "examples": [
+                {"greek": "τὸν λύχνον σβέσον", "english": "put out the lamp", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "ἡ λυχνία",
+              "english": "Lampstand",
+              "examples": [
+                {"greek": "ἡ λυχνία ἐπὶ τὴν λυχνιαν", "english": "the lamp on the lampstand", "reference": "Implicit"}
+              ]
+            }
+          ]
         },
         {
-          "greek": "τὸ προσκεφάλαιον",
-          "english": "Pillow, cushion"
-        },
-        {
-          "greek": "ἡ στρωμνή",
-          "english": "Bedding, mattress, blanket"
-        },
-        {
-          "greek": "τὸ στρῶμα",
-          "english": "Mattress, coverlet"
-        },
-        {
-          "greek": "ἡ χλαῖνα",
-          "english": "Thick cloak used as blanket"
-        },
-        {
-          "greek": "τὸ ἱμάτιον",
-          "english": "Cloak — the poor man's blanket"
-        },
-        {
-          "greek": "ἡ σινδών, -όνος",
-          "english": "Linen sheet, wrap"
-        },
-        {
-          "greek": "ὁ κοιτών, -ῶνος",
-          "english": "Bedroom, sleeping chamber"
-        },
-        {
-          "greek": "τὸ ταμεῖον",
-          "english": "Inner room, private room"
-        },
-        {
-          "greek": "τὸ ἀνάγαιον",
-          "english": "Upper room"
-        },
-        {
-          "greek": "τὸ ὑπερῷον",
-          "english": "Upper storey"
-        },
-        {
-          "greek": "ὁ οἶκος / ἡ οἰκία",
-          "english": "House, household"
-        },
-        {
-          "greek": "τὸ δῶμα",
-          "english": "Roof, housetop"
-        },
-        {
-          "greek": "ἡ θύρα / τὸ προαύλιον",
-          "english": "Door / forecourt"
-        },
-        {
-          "greek": "ἡ αὐλή",
-          "english": "Courtyard"
-        },
-        {
-          "greek": "ἡ νύξ, νυκτός",
-          "english": "Night"
-        },
-        {
-          "greek": "τὸ σκότος",
-          "english": "Darkness"
-        },
-        {
-          "greek": "ὁ ὕπνος, -ου",
-          "english": "Sleep"
-        },
-        {
-          "greek": "τὸ ἐνύπνιον",
-          "english": "Dream"
-        },
-        {
-          "greek": "τὸ ὄναρ",
-          "english": "Dream (κατ' ὄναρ = in a dream)"
-        },
-        {
-          "greek": "ὁ ἀλέκτωρ, -ορος",
-          "english": "Rooster"
-        },
-        {
-          "greek": "ἡ σελήνη / οἱ ἀστέρες",
-          "english": "Moon / stars"
-        },
-        {
-          "greek": "ὁ λύχνος / ἡ λυχνία",
-          "english": "Lamp / lampstand"
-        },
-        {
-          "greek": "ὁ ὄρθρος",
-          "english": "Daybreak, dawn"
-        },
-        {
-          "greek": "πρωΐ",
-          "english": "Early, in the morning"
-        },
-        {
-          "greek": "ὀψέ",
-          "english": "Evening (c. 6–9 p.m.)"
-        },
-        {
-          "greek": "μεσονύκτιον",
-          "english": "Midnight (c. 9–12 p.m.)"
-        },
-        {
-          "greek": "ἀλεκτοροφωνία",
-          "english": "Cockcrow (c. 12–3 a.m.)"
-        },
-        {
-          "greek": "στρώννυμι",
-          "english": "I spread, make a bed"
-        },
-        {
-          "greek": "νυκτός",
-          "english": "By night (genitive of time)"
+          "title": "House & Rooms",
+          "terms": [
+            {
+              "greek": "ὁ οἶκος / ἡ οἰκία",
+              "english": "House, household",
+              "examples": [
+                {"greek": "ὁ οἶκος αὐτοῦ", "english": "his house", "reference": "Mark 3:25"}
+              ]
+            },
+            {
+              "greek": "τὸ ἀνάγαιον",
+              "english": "Upper room",
+              "examples": [
+                {"greek": "ἀνάγαιον ἐστέλιστο", "english": "the upper room was prepared", "reference": "Mark 14:15"}
+              ]
+            },
+            {
+              "greek": "τὸ ταμεῖον",
+              "english": "Inner room, private room",
+              "examples": [
+                {"greek": "εἰς τὸ ταμεῖόν σου", "english": "into your private chamber", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "τὸ ὑπερῷον",
+              "english": "Upper storey",
+              "examples": [
+                {"greek": "τὸ ὑπερῷον τῆς πόλεως", "english": "the upper storey of the city", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "τὸ δῶμα",
+              "english": "Roof, housetop",
+              "examples": [
+                {"greek": "ἐπὶ τῷ δώματι", "english": "on the roof", "reference": "Mark 13:15"}
+              ]
+            },
+            {
+              "greek": "ἡ θύρα",
+              "english": "Door",
+              "examples": [
+                {"greek": "κλεῖσον τὴν θύραν", "english": "shut the door", "reference": "Implicit"}
+              ]
+            },
+            {
+              "greek": "ἡ αὐλή",
+              "english": "Courtyard",
+              "examples": [
+                {"greek": "ἐν τῇ αὐλῇ", "english": "in the courtyard", "reference": "Mark 14:66"}
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "principles": ["Feminine: νύξ, σελήνη, λυχνία, θύρα, αὐλή, οἰκία", "Neuter: σκότος, ταμεῖον, ἀνάγαιον, ὑπερῷον, δῶμα, ἐνύπνιον, ὄναρ", "Masculine: ἀλέκτωρ, λύχνος, ὄρθρος, οἶκος, ὕπνος", "Genitive of time: νυκτός (by night), πρωΐ (in early morning)"],
+      "drill_instruction": "Substitution Drill: Teacher provides time expressions, students respond with nocturnal activities. Example: Teacher says 'μεσονύκτιον', students say 'μεσονύκτιον καθεύδουσιν', 'μεσονύκτιον ἀναπαύονται', etc. Builds vocabulary for understanding Mark's night scenes and dream narratives."
     },
     {
       "id": 11,
