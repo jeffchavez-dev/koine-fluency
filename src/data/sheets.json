@@ -18,35 +18,68 @@
       "terms": [
         {
           "greek": "τίς; τί;",
-          "english": "Who? Which one? (gen. τίνος, dat. τίνι, acc. τίνα) — Mark 4:41, 8:29, 10:51, 5:9"
+          "english": "Who? Which one? (gen. τίνος, dat. τίνι, acc. τίνα)",
+          "examples": [
+            {"greek": "τίς ἄρα οὗτός ἐστιν ὅτι καὶ ὁ ἄνεμος καὶ ἡ θάλασσα ὑπακούει αὐτῷ;", "english": "Who then is this, that even the wind and the sea obey him?", "reference": "Mark 4:41"},
+            {"greek": "ὑμεῖς δὲ τίνα με λέγετε εἶναι;", "english": "But you — who do you say that I am?", "reference": "Mark 8:29"},
+            {"greek": "τί ὄνομά σοι;", "english": "What is your name?", "reference": "Mark 5:9"}
+          ]
         },
         {
           "greek": "πόθεν;",
-          "english": "From where? — Mark 6:2, 8:4"
+          "english": "From where?",
+          "examples": [
+            {"greek": "πόθεν τούτῳ ταῦτα;", "english": "Where did this man get these things?", "reference": "Mark 6:2"},
+            {"greek": "πόθεν τούτους δυνήσεταί τις ὧδε χορτάσαι ἄρτων ἐπ' ἐρημίας;", "english": "From where will anyone be able to feed these people with bread here in the wilderness?", "reference": "Mark 8:4"}
+          ]
         },
         {
           "greek": "τί;",
-          "english": "What? Why? (neuter often means Why?) — Mark 10:51, 5:9, 4:40, 12:35"
+          "english": "What? Why? (neuter often means Why?)",
+          "examples": [
+            {"greek": "τί σοι θέλεις ποιήσω;", "english": "What do you want me to do for you?", "reference": "Mark 10:51"},
+            {"greek": "τί δειλοί ἐστε; οὔπω ἔχετε πίστιν;", "english": "Why are you afraid? Have you still no faith?", "reference": "Mark 4:40"},
+            {"greek": "τί ὄνομά σοι;", "english": "What is your name?", "reference": "Mark 5:9"}
+          ]
         },
         {
           "greek": "πῶς;",
-          "english": "How? — Mark 4:13, 12:35, 4:41"
+          "english": "How?",
+          "examples": [
+            {"greek": "καὶ πῶς πάσας τὰς παραβολὰς γνώσεσθε;", "english": "Then how will you understand all the parables?", "reference": "Mark 4:13"},
+            {"greek": "πῶς λέγουσιν οἱ γραμματεῖς ὅτι ὁ χριστὸς υἱὸς Δαυίδ ἐστιν;", "english": "How do the scribes say that the Christ is the son of David?", "reference": "Mark 12:35"}
+          ]
         },
         {
           "greek": "ποῦ;",
-          "english": "Where? — Mark 14:14, 14:12"
+          "english": "Where?",
+          "examples": [
+            {"greek": "ποῦ ἐστιν τὸ κατάλυμά μου ὅπου τὸ πάσχα μετὰ τῶν μαθητῶν μου φάγω;", "english": "Where is my guest room, where I may eat the Passover with my disciples?", "reference": "Mark 14:14"},
+            {"greek": "ποῦ θέλεις ἀπελθόντες ἑτοιμάσωμεν ἵνα φάγῃς τὸ πάσχα;", "english": "Where do you want us to go and prepare for you to eat the Passover?", "reference": "Mark 14:12"}
+          ]
         },
         {
           "greek": "πότε;",
-          "english": "When? — Mark 13:4, 13:33"
+          "english": "When?",
+          "examples": [
+            {"greek": "εἰπὲ ἡμῖν πότε ταῦτα ἔσται;", "english": "Tell us, when will these things be?", "reference": "Mark 13:4"},
+            {"greek": "οὐκ οἴδατε γὰρ πότε ὁ καιρός ἐστιν.", "english": "For you do not know when the time is.", "reference": "Mark 13:33"}
+          ]
         },
         {
           "greek": "ποῖ;",
-          "english": "To where? Whither?"
+          "english": "To where? Whither?",
+          "examples": [
+            {"greek": "ποῖ πορεύῃ; (or Koine: ποῦ ὑπάγεις;)", "english": "Where are you going (to)?", "reference": "Classical vs Koine"}
+          ]
         },
         {
           "greek": "διὰ τί;",
-          "english": "Why? For what reason? — Mark 2:18, 11:31"
+          "english": "Why? For what reason?",
+          "examples": [
+            {"greek": "διὰ τί οἱ μαθηταὶ Ἰωάννου καὶ οἱ μαθηταὶ τῶν Φαρισαίων νηστεύουσιν, οἱ δὲ σοὶ μαθηταὶ οὐ νηστεύουσιν;", "english": "Why do John's disciples and the Pharisees' disciples fast, but your disciples do not fast?", "reference": "Mark 2:18"},
+            {"greek": "διὰ τί οὐκ ἐπιστεύσατε αὐτῷ;", "english": "Why did you not believe him?", "reference": "Mark 11:31"}
+          ]
         }
       ]
     },
@@ -60,27 +93,51 @@
       "terms": [
         {
           "greek": "ποῖος, -α, -ον;",
-          "english": "Of what kind? Which? — Mark 11:28, 12:28"
+          "english": "Of what kind? Which?",
+          "examples": [
+            {"greek": "ἐν ποίᾳ ἐξουσίᾳ ταῦτα ποιεῖς;", "english": "By what authority are you doing these things?", "reference": "Mark 11:28"},
+            {"greek": "ποία ἐστὶν ἐντολὴ πρώτη πάντων;", "english": "Which commandment is first of all?", "reference": "Mark 12:28"}
+          ]
         },
         {
           "greek": "πόσος, -η, -ον;",
-          "english": "How much? How many? — Mark 6:38, 8:5, 9:21"
+          "english": "How much? How many?",
+          "examples": [
+            {"greek": "πόσους ἄρτους ἔχετε; ὑπάγετε ἴδετε.", "english": "How many loaves do you have? Go and see.", "reference": "Mark 6:38"},
+            {"greek": "πόσους ἔχετε ἄρτους;", "english": "How many loaves do you have?", "reference": "Mark 8:5"},
+            {"greek": "πόσος χρόνος ἐστὶν ὡς τοῦτο γέγονεν αὐτῷ;", "english": "How long has it been since this happened to him?", "reference": "Mark 9:21"}
+          ]
         },
         {
           "greek": "ποσάκις;",
-          "english": "How often? How many times? — Matthew 18:21, 23:37"
+          "english": "How often? How many times?",
+          "examples": [
+            {"greek": "ποσάκις ἁμαρτήσει εἰς ἐμὲ ὁ ἀδελφός μου καὶ ἀφήσω αὐτῷ;", "english": "How often shall my brother sin against me and I forgive him?", "reference": "Matthew 18:21"},
+            {"greek": "ποσάκις ἠθέλησα ἐπισυναγαγεῖν τὰ τέκνα σου.", "english": "How often I longed to gather your children together.", "reference": "Matthew 23:37"}
+          ]
         },
         {
           "greek": "πηλίκος, -η, -ον;",
-          "english": "How big? How great? — Galatians 6:11, Hebrews 7:4"
+          "english": "How big? How great?",
+          "examples": [
+            {"greek": "ἴδετε πηλίκοις ὑμῖν γράμμασιν ἔγραψα τῇ ἐμῇ χειρί.", "english": "See with what large letters I have written to you with my own hand.", "reference": "Galatians 6:11"},
+            {"greek": "θεωρεῖτε δὲ πηλίκος οὗτος.", "english": "See how great this man was.", "reference": "Hebrews 7:4"}
+          ]
         },
         {
           "greek": "ποδαπός, -ή, -όν;",
-          "english": "Of what country or sort? — Mark 13:1, Luke 1:29"
+          "english": "Of what country or sort?",
+          "examples": [
+            {"greek": "διδάσκαλε, ἴδε ποταποὶ λίθοι καὶ ποταπαὶ οἰκοδομαί.", "english": "Teacher, look — what stones and what buildings!", "reference": "Mark 13:1"},
+            {"greek": "διελογίζετο ποταπὸς εἴη ὁ ἀσπασμὸς οὗτος.", "english": "She wondered what sort of greeting this might be.", "reference": "Luke 1:29"}
+          ]
         },
         {
           "greek": "πότερον … ἤ;",
-          "english": "Which of two? Whether ... or? — Mark 2:9"
+          "english": "Which of two? Whether ... or?",
+          "examples": [
+            {"greek": "τί ἐστιν εὐκοπώτερον, εἰπεῖν … ἀφίενταί σου αἱ ἁμαρτίαι, ἢ εἰπεῖν· ἔγειρε;", "english": "Which is easier, to say 'your sins are forgiven', or to say 'Rise'?", "reference": "Mark 2:9"}
+          ]
         }
       ]
     },
