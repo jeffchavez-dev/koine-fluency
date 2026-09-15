@@ -341,177 +341,97 @@
       "greek_title": "Ἐν τῇ Σχολῇ Β΄",
       "english_title": "Commands & Objects",
       "category": "communication",
-      "terms": [
+      "description": "Imperative commands for classroom management paired with vocabulary for people, writing materials, furniture, and spatial relationships in the learning environment.",
+      "sections": [
         {
-          "greek": "ἄκουε! / ἀκούετε!",
-          "english": "Listen! (sg./pl.) — Mark 4:3, 12:29"
+          "title": "Commands for Perception & Communication",
+          "terms": [
+            {"greek": "ἄκουε! / ἀκούετε!", "english": "Listen! (sg./pl.)", "examples": [{"greek": "ἄκουε τῆς φωνῆς τοῦ κυρίου", "english": "Listen to the voice of the Lord", "reference": "Mark 4:3"}]},
+            {"greek": "ἀναγίνωσκε! / ἀναγινώσκετε!", "english": "Read! (sg./pl.)", "examples": [{"greek": "ἀναγινώσκοντες τὴν γραφήν", "english": "reading the scripture", "reference": "Mark 12:10"}]},
+            {"greek": "ἀνάγνωθι τοῦτο", "english": "Read this", "examples": [{"greek": "ἀνάγνωθι τὸ ῥῆμα τοῦτο", "english": "read this word", "reference": "Mark 12:10"}]},
+            {"greek": "λέγε! / λέγετε!", "english": "Speak! (sg./pl.)", "examples": [{"greek": "λέγε ἡ μεγάλῃ φωνῇ", "english": "speak with a loud voice", "reference": "Mark 1:25"}]},
+            {"greek": "γράφε! / γράφετε!", "english": "Write! (sg./pl.)", "examples": []}
+          ]
         },
         {
-          "greek": "ἀναγίνωσκε! / ἀναγινώσκετε!",
-          "english": "Read! (sg./pl.)"
+          "title": "Commands for Sight & Direction",
+          "terms": [
+            {"greek": "βλέπε! / ἴδε!", "english": "Look! See! (sg./pl.)", "examples": [{"greek": "ἴδε ποταποί λίθοι", "english": "See what stones and buildings", "reference": "Mark 13:1"}]},
+            {"greek": "δεῖξόν μοι …", "english": "Show me ...", "examples": []}
+          ]
         },
         {
-          "greek": "ἀνάγνωθι τοῦτο",
-          "english": "Read this — Mark 12:10"
+          "title": "Commands for Movement & Position",
+          "terms": [
+            {"greek": "μένε! / μένετε!", "english": "Stay! Wait! (sg./pl.)", "examples": [{"greek": "μένομεν ἐν τῇ σχολῇ", "english": "we stay in the school", "reference": "Acts 19:9"}]},
+            {"greek": "δεῦρο! / δεῦτε!", "english": "Come here! (sg./pl.)", "examples": [{"greek": "δεῦτε ὀπίσω μου", "english": "Come after me", "reference": "Mark 1:17"}]},
+            {"greek": "ἔγειρε! / ἀνάστηθι!", "english": "Get up! Rise! (sg./pl.)", "examples": [{"greek": "ἔγειρε καὶ περιπάτει", "english": "Rise and walk", "reference": "Mark 2:11"}]},
+            {"greek": "κάθισον! / καθίσατε!", "english": "Sit down! (sg./pl.)", "examples": [{"greek": "κάθησαν παρὰ τὴν ὁδόν", "english": "they sat by the road", "reference": "Mark 10:46"}]}
+          ]
         },
         {
-          "greek": "λέγε! / λέγετε!",
-          "english": "Speak! (sg./pl.)"
+          "title": "Commands for Silence & Action",
+          "terms": [
+            {"greek": "σιώπα! / σιωπᾶτε!", "english": "Be quiet! (sg./pl.)", "examples": [{"greek": "σιώπα, φιμώθητι", "english": "Be quiet, be muzzled", "reference": "Mark 4:39"}]},
+            {"greek": "μὴ λάλει!", "english": "Don't talk!", "examples": []},
+            {"greek": "δός μοι …", "english": "Give me ...", "examples": [{"greek": "δός μοι ἄρτον", "english": "Give me bread", "reference": "Mark 7:28"}]},
+            {"greek": "ἄνοιξον / κλεῖσον τὸ βιβλίον", "english": "Open / close the book", "examples": []}
+          ]
         },
         {
-          "greek": "γράφε! / γράφετε!",
-          "english": "Write! (sg./pl.)"
+          "title": "People in the Classroom",
+          "terms": [
+            {"greek": "ὁ διδάσκαλος", "english": "Teacher", "examples": [{"greek": "ὁ διδάσκαλος ἐν τῇ ναύϊ", "english": "the teacher in the boat", "reference": "Mark 4:38"}]},
+            {"greek": "ὁ μαθητής, -οῦ", "english": "Student, disciple", "examples": [{"greek": "οἱ μαθηταὶ αὐτοῦ", "english": "his disciples", "reference": "Mark 1:20"}]},
+            {"greek": "ἡ μαθήτρια", "english": "Female student", "examples": [{"greek": "ἦν δὲ τις μαθήτρια", "english": "there was a certain female disciple", "reference": "Acts 9:36"}]},
+            {"greek": "ὁ γραμματεύς", "english": "Scribe, scholar", "examples": [{"greek": "οἱ γραμματεῖς καὶ οἱ φαρισαῖοι", "english": "the scribes and the Pharisees", "reference": "Mark 2:16"}]},
+            {"greek": "ὁ ἑταῖρος / ὁ φίλος", "english": "Companion / friend", "examples": []},
+            {"greek": "ὁ ἀδελφός, ἡ ἀδελφή", "english": "Brother, sister", "examples": [{"greek": "τοὺς ἀδελφοὺς αὐτοῦ", "english": "his brothers", "reference": "Mark 3:32"}]},
+            {"greek": "ὁ ῥαββί", "english": "Rabbi, my teacher", "examples": [{"greek": "Ῥαββί, ποῦ κατοικεῖς;", "english": "Rabbi, where do you live?", "reference": "John 1:38"}]}
+          ]
         },
         {
-          "greek": "βλέπε! / ἴδε!",
-          "english": "Look! See! — Mark 13:1"
+          "title": "Writing Materials & Tools",
+          "terms": [
+            {"greek": "τὸ βιβλίον", "english": "Book, scroll", "examples": [{"greek": "ἐν τῇ βιβλίῳ τοῦ νόμου", "english": "in the book of the law", "reference": "Mark 12:26"}]},
+            {"greek": "ἡ βίβλος", "english": "Book", "examples": [{"greek": "ἐπὶ τῆς βίβλου τῆς ζωῆς", "english": "in the book of life", "reference": "Revelation 3:5"}]},
+            {"greek": "ἡ γραφή", "english": "Writing, scripture", "examples": [{"greek": "αἱ γραφαὶ τῶν προφητῶν", "english": "the scriptures of the prophets", "reference": "Matthew 26:56"}]},
+            {"greek": "τὸ γράμμα", "english": "Letter of the alphabet", "examples": []},
+            {"greek": "ὁ λόγος", "english": "Word, saying, discourse", "examples": [{"greek": "ὁ λόγος ὁ ἐμὸς σοι", "english": "my word to you", "reference": "Mark 14:72"}]},
+            {"greek": "ὁ κάλαμος", "english": "Reed pen", "examples": []},
+            {"greek": "τὸ μέλαν", "english": "Ink", "examples": [{"greek": "γράφειν ἐν μέλανι", "english": "to write in ink", "reference": "2 John 1:12"}]},
+            {"greek": "ὁ πίναξ", "english": "Board, tablet, platter", "examples": []}
+          ]
         },
         {
-          "greek": "μένε! / μένετε!",
-          "english": "Stay! Wait! (sg./pl.) — Mark 9:5"
+          "title": "Classroom Furniture & Objects",
+          "terms": [
+            {"greek": "ἡ θύρα", "english": "Door", "examples": [{"greek": "πρὸς τὴν θύραν τῆς σχολῆς", "english": "at the door of the school", "reference": "Mark 1:33"}]},
+            {"greek": "ἡ καθέδρα", "english": "Seat, chair", "examples": [{"greek": "ἐκάθησεν ἐπὶ τῆς καθέδρας", "english": "he sat on the seat", "reference": "Matthew 19:28"}]},
+            {"greek": "ἡ τράπεζα", "english": "Table", "examples": [{"greek": "τὴν τράπεζαν τῶν κολλυβιστῶν", "english": "the table of the money-changers", "reference": "Mark 11:15"}]},
+            {"greek": "ὁ λύχνος, ἡ λυχνία", "english": "Lamp, lampstand", "examples": [{"greek": "ὁ λύχνος ὑπὸ τὸν μόδιον", "english": "the lamp under the bushel", "reference": "Mark 4:21"}]},
+            {"greek": "ἡ σχολή", "english": "School, lecture-hall", "examples": [{"greek": "ἐν τῇ σχολῇ Τυράννου", "english": "in the school of Tyrannus", "reference": "Acts 19:9"}]}
+          ]
         },
         {
-          "greek": "δεῦρο! / δεῦτε!",
-          "english": "Come here! (sg./pl.) — Mark 1:17"
-        },
-        {
-          "greek": "ἔγειρε! / ἀνάστηθι!",
-          "english": "Get up! Rise! — Mark 2:11, Acts 9:34"
-        },
-        {
-          "greek": "κάθισον! / καθίσατε!",
-          "english": "Sit down! (sg./pl.)"
-        },
-        {
-          "greek": "σιώπα! / σιωπᾶτε!",
-          "english": "Be quiet! (sg./pl.) — Mark 4:39"
-        },
-        {
-          "greek": "δός μοι …",
-          "english": "Give me ... — Mark 7:28"
-        },
-        {
-          "greek": "δεῖξόν μοι …",
-          "english": "Show me ..."
-        },
-        {
-          "greek": "ἄνοιξον / κλεῖσον τὸ βιβλίον",
-          "english": "Open / close the book"
-        },
-        {
-          "greek": "μὴ λάλει!",
-          "english": "Don't talk!"
-        },
-        {
-          "greek": "ὁ διδάσκαλος",
-          "english": "Teacher — Mark 4:38"
-        },
-        {
-          "greek": "ὁ μαθητής, -οῦ",
-          "english": "Student, disciple"
-        },
-        {
-          "greek": "ἡ μαθήτρια",
-          "english": "Female student — Acts 9:36"
-        },
-        {
-          "greek": "ὁ γραμματεύς",
-          "english": "Scribe, scholar"
-        },
-        {
-          "greek": "ὁ ἑταῖρος / ὁ φίλος",
-          "english": "Companion / friend"
-        },
-        {
-          "greek": "ὁ ἀδελφός, ἡ ἀδελφή",
-          "english": "Brother, sister"
-        },
-        {
-          "greek": "ὁ ῥαββί",
-          "english": "Rabbi, my teacher — John 13"
-        },
-        {
-          "greek": "τὸ βιβλίον",
-          "english": "Book, scroll — Mark 10:4"
-        },
-        {
-          "greek": "ἡ βίβλος",
-          "english": "Book — Mark 12:26"
-        },
-        {
-          "greek": "ἡ γραφή",
-          "english": "Writing, scripture"
-        },
-        {
-          "greek": "τὸ γράμμα",
-          "english": "Letter of the alphabet"
-        },
-        {
-          "greek": "ὁ λόγος",
-          "english": "Word, saying, discourse"
-        },
-        {
-          "greek": "ὁ κάλαμος",
-          "english": "Reed pen"
-        },
-        {
-          "greek": "τὸ μέλαν",
-          "english": "Ink — 2 Corinthians 3:3"
-        },
-        {
-          "greek": "ὁ πίναξ",
-          "english": "Board, tablet, platter"
-        },
-        {
-          "greek": "ἡ θύρα",
-          "english": "Door — Mark 1:33"
-        },
-        {
-          "greek": "ἡ καθέδρα",
-          "english": "Seat, chair"
-        },
-        {
-          "greek": "ἡ τράπεζα",
-          "english": "Table"
-        },
-        {
-          "greek": "ὁ λύχνος, ἡ λυχνία",
-          "english": "Lamp, lampstand — Mark 4:21"
-        },
-        {
-          "greek": "ἡ σχολή",
-          "english": "School, lecture-hall — Acts 19:9"
-        },
-        {
-          "greek": "ὧδε / ἐκεῖ",
-          "english": "Here / there"
-        },
-        {
-          "greek": "ἔσω / ἔξω",
-          "english": "Inside / outside"
-        },
-        {
-          "greek": "ἄνω / κάτω",
-          "english": "Above / below"
-        },
-        {
-          "greek": "ἐπὶ τῆς τραπέζης",
-          "english": "On the table"
-        },
-        {
-          "greek": "ὑπὸ τὴν κλίνην",
-          "english": "Under the bed — Mark 4:21"
-        },
-        {
-          "greek": "παρὰ τῇ θύρᾳ",
-          "english": "Beside the door"
-        },
-        {
-          "greek": "ἐν μέσῳ ἡμῶν",
-          "english": "In our midst"
+          "title": "Spatial Relationships & Locations",
+          "terms": [
+            {"greek": "ὧδε / ἐκεῖ", "english": "Here / there", "examples": []},
+            {"greek": "ἔσω / ἔξω", "english": "Inside / outside", "examples": [{"greek": "ἔσω δὲ πλήρης", "english": "within full of", "reference": "Matthew 23:28"}]},
+            {"greek": "ἄνω / κάτω", "english": "Above / below", "examples": []},
+            {"greek": "ἐπὶ τῆς τραπέζης", "english": "On the table", "examples": []},
+            {"greek": "ὑπὸ τὴν κλίνην", "english": "Under the bed", "examples": [{"greek": "ὑπὸ τὸν μόδιον", "english": "under the bushel", "reference": "Mark 4:21"}]},
+            {"greek": "παρὰ τῇ θύρᾳ", "english": "Beside the door", "examples": []},
+            {"greek": "ἐν μέσῳ ἡμῶν", "english": "In our midst", "examples": [{"greek": "ἐν μέσῳ ὑμῶν ἕστηκεν", "english": "stands in your midst", "reference": "John 1:26"}]}
+          ]
         }
       ],
-      "note": "Total-Physical-Response drill: the teacher commands, the class obeys in silence — ἔγειρε· ἐλθὲ πρὸς τὴν θύραν· ἄνοιξον τὴν θύραν· κάθισον. No translation, no explanation. Comprehension shows up in the body first."
+      "principles": [
+        "Imperative mood distinguishes by number and voice: ἄκουε (sg.) vs ἀκούετε (pl.); ἔγειρε (active) vs ἀνάστηθι (middle/deponent)",
+        "Total Physical Response (TPR) drills use commands without translation: the body demonstrates understanding before the mind explains it",
+        "Spatial prepositions with the genitive (ἐπὶ τῆς τραπέζης), dative (παρὰ τῇ θύρᾳ), and accusative (ὑπὸ τὴν κλίνην) encode different meanings"
+      ],
+      "drill_instruction": "Total-Physical-Response (TPR) Drill: The teacher commands; the class obeys in silence. Example sequence: ἔγειρε· ἐλθὲ πρὸς τὴν θύραν· ἄνοιξον τὴν θύραν· κάθισον. No translation, no explanation. Comprehension shows up in the body first, then language follows."
     },
     {
       "id": 7,
