@@ -79,9 +79,9 @@ export default function FlashcardDrill({ sheets, onMarkStudied }) {
     <div className="flex-1 flex flex-col bg-slate-900 overflow-auto">
       {/* Header */}
       <div className="bg-slate-800 border-b border-slate-700 px-3 py-2 sticky top-0 z-10 mt-12 md:mt-0">
-        <div className="flex justify-between items-center gap-2">
-          <h2 className="text-sm md:text-base font-bold text-slate-100">Flashcard</h2>
-          <div className="flex items-center gap-2">
+        <div className="flex justify-between items-center gap-1 md:gap-2">
+          <h2 className="text-sm md:text-base font-bold text-slate-100 flex-1 truncate">Flashcard</h2>
+          <div className="flex items-center gap-1 md:gap-2 flex-shrink-0">
             {stats.total > 0 && (
               <div className="text-xs text-slate-400 hidden md:block">
                 {stats.correct}/{stats.total}
@@ -89,7 +89,7 @@ export default function FlashcardDrill({ sheets, onMarkStudied }) {
             )}
             <button
               onClick={() => setShowLessonPanel(!showLessonPanel)}
-              className="px-2 py-1 bg-yellow-600 text-white text-xs rounded hover:bg-yellow-700 transition whitespace-nowrap"
+              className="px-2 py-1 bg-yellow-600 text-white text-xs rounded hover:bg-yellow-700 transition flex-shrink-0"
               title={showLessonPanel ? "Hide lessons" : "Show lessons"}
             >
               {showLessonPanel ? '✕' : '◄'}
