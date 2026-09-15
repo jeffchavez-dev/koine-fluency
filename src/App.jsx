@@ -10,6 +10,7 @@ export default function App() {
   const [selectedSheetId, setSelectedSheetId] = useState(2)
   const [selectedFlashcardSheets, setSelectedFlashcardSheets] = useState(new Set())
   const [progress, setProgress] = useState({})
+  const [notSureCount, setNotSureCount] = useState(0)
 
   // Load progress from localStorage
   useEffect(() => {
@@ -17,6 +18,9 @@ export default function App() {
     if (saved) {
       setProgress(JSON.parse(saved))
     }
+    // Load not sure count
+    const notSure = JSON.parse(localStorage.getItem('koine-notSure') || '[]')
+    setNotSureCount(notSure.length)
   }, [])
 
   // Save progress to localStorage
@@ -41,6 +45,11 @@ export default function App() {
     setSelectedFlashcardSheets(newSelected)
   }
 
+  const updateNotSureCount = () => {
+    const notSure = JSON.parse(localStorage.getItem('koine-notSure') || '[]')
+    setNotSureCount(notSure.length)
+  }
+
   return (
     <div className="flex h-screen bg-slate-900 w-full overflow-hidden">
       <Sidebar
@@ -51,6 +60,7 @@ export default function App() {
         progress={progress}
         selectedFlashcardSheets={selectedFlashcardSheets}
         onToggleFlashcardSheet={toggleFlashcardSheet}
+        notSureCount={notSureCount}
       />
 
       <main className="flex-1 overflow-hidden flex flex-col w-full">
@@ -67,6 +77,7 @@ export default function App() {
             onMarkStudied={markSheetStudied}
             selectedSheetIds={selectedFlashcardSheets}
             onToggleLessonSelection={toggleFlashcardSheet}
+            onNotSureAdded={updateNotSureCount}
           />
         )}
       </main>

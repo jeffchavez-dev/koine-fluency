@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function Sidebar({ sheets, onSelectSheet, onChangeView, currentView, progress, selectedFlashcardSheets, onToggleFlashcardSheet }) {
+export default function Sidebar({ sheets, onSelectSheet, onChangeView, currentView, progress, selectedFlashcardSheets, onToggleFlashcardSheet, notSureCount = 0 }) {
   const [isOpen, setIsOpen] = useState(true)
 
   const categories = {
@@ -82,6 +82,32 @@ export default function Sidebar({ sheets, onSelectSheet, onChangeView, currentVi
       <div className="flex-1 overflow-y-auto p-4 space-y-6">
         {currentView === 'flashcards' ? (
           <>
+            {notSureCount > 0 && (
+              <div>
+                <h3 className="text-xs font-semibold text-yellow-500 uppercase tracking-wider mb-2">
+                  📚 μανθανειν (Learn)
+                </h3>
+                <div>
+                  <label className="flex items-start gap-2 p-1.5 rounded hover:bg-slate-700 cursor-pointer transition bg-yellow-900/30">
+                    <input
+                      type="checkbox"
+                      checked={selectedFlashcardSheets.has(-1)}
+                      onChange={() => onToggleFlashcardSheet(-1)}
+                      className="mt-0.5 w-4 h-4 rounded accent-yellow-600"
+                    />
+                    <div className="flex-1 min-w-0">
+                      <div className="text-xs text-yellow-400 font-bold truncate">
+                        Words to Review
+                      </div>
+                      <div className="text-xs text-yellow-600 leading-tight">
+                        {notSureCount} words marked "not sure"
+                      </div>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            )}
+
             <div>
               <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
                 Lessons:

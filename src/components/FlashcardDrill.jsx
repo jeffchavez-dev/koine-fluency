@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 
-export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds: propSelectedSheetIds, onToggleLessonSelection: propOnToggleLessonSelection }) {
+export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds: propSelectedSheetIds, onToggleLessonSelection: propOnToggleLessonSelection, onNotSureAdded }) {
   // Use props if provided (from App), otherwise manage local state
   const [localSelectedSheetIds, setLocalSelectedSheetIds] = useState(new Set())
   const selectedSheetIds = propSelectedSheetIds !== undefined ? propSelectedSheetIds : localSelectedSheetIds
@@ -59,6 +59,21 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
 
   const filtered = useMemo(() => {
     if (selectedSheetIds.size === 0) return []
+
+    // Special case: μανθανειν learning deck (magic ID: -1)
+    if (selectedSheetIds.has(-1)) {
+      const notSureTerms = JSON.parse(localStorage.getItem('koine-notSure') || '[]')
+      return notSureTerms.map(term => ({
+        ...term,
+        sheetId: term.sheetId,
+        sheetTitle: term.sheetTitle,
+        greek: term.greek,
+        english: term.english,
+        examples: term.examples || [],
+        category: 'learning'
+      }))
+    }
+
     const cards = flashcards.filter(c => selectedSheetIds.has(c.sheetId))
     // Shuffle cards (Fisher-Yates)
     const shuffled = [...cards]
@@ -82,18 +97,29 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
 
   const handleIncorrect = () => {
     setStats(s => ({ ...s, total: s.total + 1 }))
+    // Track this term as "not sure" for μανθανειν learning deck
+    if (currentCard) {
+      const saved = JSON.parse(localStorage.getItem('koine-notSure') || '[]')
+      const termKey = `${currentCard.sheetId}-${currentCard.greek}`
+      if (!saved.find(t => t.key === termKey)) {
+        saved.push({
+          key: termKey,
+          sheetId: currentCard.sheetId,
+          sheetTitle: currentCard.sheetTitle,
+          greek: currentCard.greek,
+          english: currentCard.english,
+          examples: currentCard.examples
+        })
+        localStorage.setItem('koine-notSure', JSON.stringify(saved))
+        onNotSureAdded?.()
+      }
+    }
     nextCard()
   }
 
   const nextCard = () => {
-    if (currentIndex < filtered.length - 1) {
-      setCurrentIndex(currentIndex + 1)
-      setIsFlipped(false)
-    } else {
-      // Restart
-      setCurrentIndex(0)
-      setIsFlipped(false)
-    }
+    setCurrentIndex(currentIndex + 1)
+    setIsFlipped(false)
   }
 
   const prevCard = () => {
@@ -102,6 +128,9 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
       setIsFlipped(false)
     }
   }
+
+  // Check if deck is completed
+  const isCompleted = filtered.length > 0 && currentIndex >= filtered.length
 
   return (
     <div className="flex-1 flex flex-col bg-slate-900 overflow-auto">
@@ -125,6 +154,44 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
             <div className="text-center">
               <p className="text-slate-400 mb-2">Select lessons to begin</p>
               <p className="text-xs text-slate-500">Choose one or more lessons on the left</p>
+            </div>
+          </div>
+        ) : isCompleted ? (
+          <div className="flex-1 flex flex-col items-center justify-center">
+            <div className="text-center max-w-md">
+              <div className="text-5xl mb-4">✓</div>
+              <h2 className="text-2xl font-bold text-yellow-400 mb-4">Δῆμον! (Finished!)</h2>
+              <div className="space-y-4 text-slate-300">
+                <div>
+                  <p className="text-sm text-slate-400">Total Cards</p>
+                  <p className="text-3xl font-bold text-yellow-400">{stats.total}</p>
+                </div>
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <p className="text-sm text-slate-400">Mastered</p>
+                    <p className="text-2xl font-bold text-green-400">{stats.correct}</p>
+                  </div>
+                  <div>
+                    <p className="text-sm text-slate-400">To Review</p>
+                    <p className="text-2xl font-bold text-orange-400">{stats.total - stats.correct}</p>
+                  </div>
+                </div>
+                <div className="pt-4">
+                  <p className="text-xs text-slate-500 mb-4">
+                    {stats.total - stats.correct} words marked for μανθανειν
+                  </p>
+                  <button
+                    onClick={() => {
+                      setCurrentIndex(0)
+                      setIsFlipped(false)
+                      setStats({ correct: 0, total: 0 })
+                    }}
+                    className="px-6 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition font-semibold"
+                  >
+                    ↻ Review Again
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         ) : (
