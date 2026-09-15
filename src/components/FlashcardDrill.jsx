@@ -7,17 +7,34 @@ export default function FlashcardDrill({ sheets, onMarkStudied }) {
   const [stats, setStats] = useState({ correct: 0, total: 0 })
   const [showLessonPanel, setShowLessonPanel] = useState(true)
 
-  // Build flashcard deck from all terms
+  // Build flashcard deck from all terms (handles both flat terms and sections)
   const flashcards = useMemo(() => {
     const cards = []
     sheets.forEach(sheet => {
-      if (sheet.terms) {
+      // Handle sections structure (new format)
+      if (sheet.sections) {
+        sheet.sections.forEach(section => {
+          section.terms.forEach(term => {
+            cards.push({
+              sheetId: sheet.id,
+              sheetTitle: sheet.english_title,
+              greek: term.greek,
+              english: term.english,
+              examples: term.examples || [],
+              category: sheet.category
+            })
+          })
+        })
+      }
+      // Handle flat terms structure (old format)
+      else if (sheet.terms) {
         sheet.terms.forEach(term => {
           cards.push({
             sheetId: sheet.id,
             sheetTitle: sheet.english_title,
             greek: term.greek,
             english: term.english,
+            examples: term.examples || [],
             category: sheet.category
           })
         })
@@ -39,7 +56,10 @@ export default function FlashcardDrill({ sheets, onMarkStudied }) {
   }, [flashcards, selectedSheetIds])
 
   const currentCard = filtered[currentIndex]
-  const practiceSheets = sheets.filter(s => s.terms && s.terms.length > 0)
+  const practiceSheets = sheets.filter(s => {
+    if (s.sections) return s.sections.some(sec => sec.terms && sec.terms.length > 0)
+    return s.terms && s.terms.length > 0
+  })
 
   const toggleLessonSelection = (sheetId) => {
     const newSelected = new Set(selectedSheetIds)
@@ -157,11 +177,23 @@ export default function FlashcardDrill({ sheets, onMarkStudied }) {
                       <p className="text-slate-500 text-xs md:text-sm mt-6">Click to reveal</p>
                     </div>
                   ) : (
-                    <div>
+                    <div className="text-center max-h-64 overflow-y-auto">
                       <p className="text-slate-400 text-xs md:text-sm mb-3">English</p>
-                      <p className="text-base md:text-xl text-slate-100 font-semibold break-words">
+                      <p className="text-base md:text-xl text-slate-100 font-semibold break-words mb-4">
                         {currentCard?.english}
                       </p>
+                      {currentCard?.examples && currentCard.examples.length > 0 && (
+                        <div className="mt-4 pt-4 border-t border-slate-600 text-left space-y-3">
+                          <p className="text-xs text-slate-400 uppercase">Examples:</p>
+                          {currentCard.examples.map((ex, idx) => (
+                            <div key={idx} className="text-sm bg-slate-700 rounded p-3">
+                              <div className="greek-text text-yellow-300 text-sm mb-1">{ex.greek}</div>
+                              <div className="text-slate-300 italic text-xs">{ex.english}</div>
+                              <div className="text-slate-500 text-xs mt-1">{ex.reference}</div>
+                            </div>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   )}
                 </div>

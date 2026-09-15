@@ -35,8 +35,38 @@ export default function SheetBrowser({ sheets, selectedSheetId, onMarkStudied })
       {/* Content */}
       <div className="flex-1 p-3 overflow-auto">
         <div className="max-w-4xl">
-          {/* Terms List */}
-          {sheet.terms && (
+          {/* Terms List - Handle both flat terms and sections */}
+          {sheet.sections ? (
+            <div className="space-y-6">
+              {sheet.sections.map((section, sIdx) => (
+                <div key={sIdx}>
+                  <h3 className="text-sm font-semibold text-yellow-400 mb-3 uppercase tracking-wide">{section.title}</h3>
+                  <div className="space-y-3">
+                    {section.terms.map((term, tIdx) => (
+                      <div key={tIdx} className="bg-slate-800 rounded-lg p-4 border border-slate-700 hover:border-slate-600 transition">
+                        <div className="greek-text text-yellow-400 text-xl font-semibold mb-2">
+                          {term.greek}
+                        </div>
+                        <div className="text-slate-200 mb-4">{term.english}</div>
+
+                        {term.examples && term.examples.length > 0 && (
+                          <div className="mt-4 space-y-3 pl-4 border-l-2 border-slate-600">
+                            {term.examples.map((ex, exIdx) => (
+                              <div key={exIdx} className="text-sm">
+                                <div className="greek-text text-slate-100 mb-1">{ex.greek}</div>
+                                <div className="text-slate-400 italic">{ex.english}</div>
+                                <div className="text-xs text-slate-500 mt-1">{ex.reference}</div>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : sheet.terms ? (
             <div className="space-y-3">
               {sheet.terms.map((term, idx) => (
                 <div key={idx} className="bg-slate-800 rounded-lg p-4 border border-slate-700 hover:border-slate-600 transition">
@@ -59,7 +89,7 @@ export default function SheetBrowser({ sheets, selectedSheetId, onMarkStudied })
                 </div>
               ))}
             </div>
-          )}
+          ) : null}
 
           {/* Drills (for drilling sheet) */}
           {sheet.drills && (
