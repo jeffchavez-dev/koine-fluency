@@ -119,3 +119,4 @@ Sheet data is stored in `src/data/sheets.json` with this structure:
 Built with [Claude Code](https://claude.com/claude-code)
 
 Based on *Ἡ Ἑλληνικὴ Φωνή* (The Greek Voice) — a resource by [name/publisher] for building active fluency in Koine Greek.
+# koine-fluency
