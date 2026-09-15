@@ -41,13 +41,13 @@ export default function Sidebar({ sheets, onSelectSheet, onChangeView, currentVi
         isOpen ? 'translate-x-0' : '-translate-x-full'
       } md:translate-x-0`}>
       {/* Header */}
-      <div className="p-3 border-b border-slate-700">
-        <h1 className="greek-title text-xl mb-1">Ἡ Φωνή</h1>
-        <p className="text-xs text-slate-400">Koine Fluency</p>
+      <div className="p-2 border-b border-slate-700">
+        <h1 className="greek-title text-lg mb-0">Ἡ Φωνή</h1>
+        <p className="text-xs text-slate-500">Fluency</p>
       </div>
 
       {/* Navigation */}
-      <nav className="p-4 space-y-2 border-b border-slate-700">
+      <nav className="p-2 space-y-1 border-b border-slate-700">
         {[
           { id: 'browser', label: 'Browse Sheets', icon: '📖' },
           { id: 'flashcards', label: 'Flashcards', icon: '🗂️' },
@@ -56,7 +56,7 @@ export default function Sidebar({ sheets, onSelectSheet, onChangeView, currentVi
           <button
             key={item.id}
             onClick={() => onChangeView(item.id)}
-            className={`w-full text-left px-4 py-2 rounded transition ${
+            className={`w-full text-left px-3 py-1 text-sm rounded transition ${
               currentView === item.id
                 ? 'bg-yellow-600 text-white'
                 : 'text-slate-300 hover:bg-slate-700'
