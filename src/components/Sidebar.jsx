@@ -18,8 +18,11 @@ export default function Sidebar({ sheets, onSelectSheet, onChangeView, currentVi
     return acc
   }, {})
 
-  // Filter sheets that have content for flashcard practice
+  // Filter sheets that have content for flashcard practice (exclude drilling methodology sheets)
   const practiceSheets = sheets.filter(s => {
+    // Skip drilling/methodology sheets
+    if (s.category === 'drilling') return false
+    // Include sheets with vocabulary content
     if (s.sections) return s.sections.some(sec => sec.terms && sec.terms.length > 0)
     return s.terms && s.terms.length > 0
   })
