@@ -147,173 +147,100 @@
       "greek_title": "Χαιρετισμοί",
       "english_title": "Greetings & Courtesy",
       "category": "communication",
-      "terms": [
+      "description": "The first layer of fluency is social, not grammatical. Say these before you understand them — they are the phrases that let you stay in a Greek-only room without switching back.",
+
+      "sections": [
         {
-          "greek": "χαῖρε / χαίρετε",
-          "english": "Hello, greetings (sg./pl.) — imperative: literally 'rejoice!'"
+          "title": "Meeting",
+          "terms": [
+            {"greek": "χαῖρε / χαίρετε", "english": "Hello, greetings (sg./pl.)", "examples": []},
+            {"greek": "εἰρήνη σοι / ὑμῖν", "english": "Peace to you (sg./pl.)", "examples": [{"greek": "εἰρήνη σοι", "english": "peace to you", "reference": "Luke 24:36"}]},
+            {"greek": "ἀσπάζομαί σε", "english": "I greet you", "examples": []},
+            {"greek": "καλῶς ἥκεις", "english": "Welcome (lit. you have come well)", "examples": []}
+          ]
         },
         {
-          "greek": "εἰρήνη σοι / ὑμῖν",
-          "english": "Peace to you (sg./pl.) — Luke 24:36"
+          "title": "Courtesy",
+          "terms": [
+            {"greek": "ἀντιβολῶ / παρακαλῶ", "english": "Please, I beg you", "examples": []},
+            {"greek": "εὐχαριστῶ σοι", "english": "Thank you (lit. I give thanks to you)", "examples": []},
+            {"greek": "χάριν ἔχω σοι", "english": "I am grateful to you", "examples": [{"greek": "χάριν ἔχω", "english": "I am grateful", "reference": "1 Timothy 1:12"}]},
+            {"greek": "σύγγνωθί μοι", "english": "Excuse me, forgive me", "examples": []},
+            {"greek": "συγγνώμην αἰτοῦμαι", "english": "I ask your pardon", "examples": []},
+            {"greek": "ὁ κύριος μετὰ σοῦ", "english": "The Lord be with you", "examples": []},
+            {"greek": "οὐδὲν πρᾶγμα", "english": "It's nothing, no trouble", "examples": []}
+          ]
         },
         {
-          "greek": "ἀντιβολῶ / παρακαλῶ",
-          "english": "Please, I beg you"
+          "title": "Parting",
+          "terms": [
+            {"greek": "ἔρρωσο / ἔρρωσθε", "english": "Farewell (sg./pl.)", "examples": []},
+            {"greek": "ὑγίαινε", "english": "Be well, goodbye", "examples": []},
+            {"greek": "ὕπαγε εἰς εἰρήνην", "english": "Go in peace", "examples": [{"greek": "ὕπαγε εἰς εἰρήνην", "english": "go in peace", "reference": "Mark 5:34"}]},
+            {"greek": "εἰς αὖθις", "english": "Until next time", "examples": []}
+          ]
         },
         {
-          "greek": "εὐχαριστῶ σοι",
-          "english": "Thank you (lit. I give thanks to you)"
+          "title": "How are you?",
+          "terms": [
+            {"greek": "πῶς ἔχεις;", "english": "How are you?", "examples": []},
+            {"greek": "καλῶς ἔχω", "english": "I am well", "examples": []},
+            {"greek": "κακῶς ἔχω", "english": "I am unwell", "examples": [{"greek": "κακῶς ἔχοντας", "english": "those who were ill", "reference": "Mark 1:34"}]},
+            {"greek": "μετρίως", "english": "So-so, moderately", "examples": []},
+            {"greek": "καὶ σύ;", "english": "And you?", "examples": []},
+            {"greek": "χαίρω ὅτι ὑγιαίνεις", "english": "I am glad you are well", "examples": []}
+          ]
         },
         {
-          "greek": "χάριν ἔχω σοι",
-          "english": "I am grateful to you"
+          "title": "Yes & No",
+          "terms": [
+            {"greek": "ναί", "english": "Yes", "examples": []},
+            {"greek": "οὔ / οὐχί", "english": "No", "examples": []},
+            {"greek": "οὐδαμῶς", "english": "By no means, not at all", "examples": []},
+            {"greek": "μάλιστα", "english": "Certainly, most of all", "examples": []},
+            {"greek": "ἴσως", "english": "Perhaps", "examples": []},
+            {"greek": "ἀληθῶς / ἀμήν", "english": "Truly, indeed", "examples": []}
+          ]
         },
         {
-          "greek": "ὑγίαινε",
-          "english": "Be well, goodbye"
+          "title": "Names & Origins",
+          "terms": [
+            {"greek": "τί ὄνομά σοι;", "english": "What is your name?", "examples": [{"greek": "τί ὄνομά σοι;", "english": "What is your name?", "reference": "Mark 5:9"}]},
+            {"greek": "ὄνομά μοι …", "english": "My name is ...", "examples": []},
+            {"greek": "πόθεν εἶ;", "english": "Where are you from?", "examples": []},
+            {"greek": "εἰμὶ ἀπὸ …", "english": "I am from ...", "examples": [{"greek": "εἰμὶ ἀπὸ", "english": "I am from", "reference": "Mark 7:35"}]}
+          ]
         },
         {
-          "greek": "ἔρρωσο / ἔρρωσθε",
-          "english": "Farewell (sg./pl.)"
+          "title": "Languages",
+          "terms": [
+            {"greek": "Ἑλληνιστί", "english": "In Greek", "examples": []},
+            {"greek": "Ἀγγλιστί", "english": "In English", "examples": []},
+            {"greek": "Ἑβραϊστί", "english": "In Hebrew", "examples": []},
+            {"greek": "Ῥωμαϊστί", "english": "In Latin", "examples": [{"greek": "Ῥωμαϊστί", "english": "in Latin", "reference": "John 19:20"}]},
+            {"greek": "πῶς λέγεται _______ Ἑλληνιστί;", "english": "How is _____ said in Greek?", "examples": []},
+            {"greek": "λέγε μοι Ἑλληνιστί", "english": "Say it to me in Greek", "examples": []},
+            {"greek": "μὴ λέγε Ἀγγλιστί", "english": "Don't speak English", "examples": []}
+          ]
         },
         {
-          "greek": "σύγγνωθί μοι",
-          "english": "Excuse me, forgive me"
-        },
-        {
-          "greek": "συγγνώμην αἰτοῦμαι",
-          "english": "I ask your pardon"
-        },
-        {
-          "greek": "ἀσπάζομαί σε",
-          "english": "I greet you"
-        },
-        {
-          "greek": "καλῶς ἥκεις",
-          "english": "Welcome (lit. you have come well)"
-        },
-        {
-          "greek": "ὁ κύριος μετὰ σοῦ",
-          "english": "The Lord be with you"
-        },
-        {
-          "greek": "οὐδὲν πρᾶγμα",
-          "english": "It's nothing, no trouble"
-        },
-        {
-          "greek": "τί ὄνομά σοι;",
-          "english": "What is your name?"
-        },
-        {
-          "greek": "ὄνομά μοι …",
-          "english": "My name is ..."
-        },
-        {
-          "greek": "πῶς λέγεται _______ Ἑλληνιστί;",
-          "english": "How is _____ said in Greek?"
-        },
-        {
-          "greek": "πόθεν εἶ;",
-          "english": "Where are you from?"
-        },
-        {
-          "greek": "εἰμὶ ἀπὸ …",
-          "english": "I am from ..."
-        },
-        {
-          "greek": "πῶς ἔχεις;",
-          "english": "How are you?"
-        },
-        {
-          "greek": "καλῶς ἔχω",
-          "english": "I am well"
-        },
-        {
-          "greek": "κακῶς ἔχω",
-          "english": "I am unwell — Mark 1:34 (κακῶς ἔχοντας)"
-        },
-        {
-          "greek": "μετρίως",
-          "english": "So-so, moderately"
-        },
-        {
-          "greek": "ναί",
-          "english": "Yes"
-        },
-        {
-          "greek": "οὔ / οὐχί",
-          "english": "No"
-        },
-        {
-          "greek": "οὐδαμῶς",
-          "english": "By no means, not at all"
-        },
-        {
-          "greek": "μάλιστα",
-          "english": "Certainly, most of all"
-        },
-        {
-          "greek": "ἴσως",
-          "english": "Perhaps"
-        },
-        {
-          "greek": "ἀληθῶς / ἀμήν",
-          "english": "Truly, indeed"
-        },
-        {
-          "greek": "καὶ σύ;",
-          "english": "And you?"
-        },
-        {
-          "greek": "εὖγε",
-          "english": "Well done! Bravo!"
-        },
-        {
-          "greek": "καλῶς",
-          "english": "Good, fine, all right"
-        },
-        {
-          "greek": "ὀρθῶς",
-          "english": "Correctly, rightly"
-        },
-        {
-          "greek": "Ἑλληνιστί",
-          "english": "In Greek"
-        },
-        {
-          "greek": "Ἀγγλιστί",
-          "english": "In English"
-        },
-        {
-          "greek": "Ἑβραϊστί",
-          "english": "In Hebrew"
-        },
-        {
-          "greek": "Ῥωμαϊστί",
-          "english": "In Latin — John 19:20"
-        },
-        {
-          "greek": "λέγε μοι Ἑλληνιστί",
-          "english": "Say it to me in Greek"
-        },
-        {
-          "greek": "μὴ λέγε Ἀγγλιστί",
-          "english": "Don't speak English"
-        },
-        {
-          "greek": "χαίρω ὅτι ὑγιαίνεις",
-          "english": "I am glad you are well"
-        },
-        {
-          "greek": "ὕπαγε εἰς εἰρήνην",
-          "english": "Go in peace — Mark 5:34"
-        },
-        {
-          "greek": "εἰς αὖθις",
-          "english": "Until next time"
+          "title": "Approval & Encouragement",
+          "terms": [
+            {"greek": "καλῶς", "english": "Good, fine, all right", "examples": []},
+            {"greek": "ὀρθῶς", "english": "Correctly, rightly", "examples": []},
+            {"greek": "εὖγε", "english": "Well done! Bravo!", "examples": []}
+          ]
         }
       ],
-      "note": "Principle: χαῖρε is an imperative — 'rejoice!' Greek greeting is a command to be glad. The reply is simply χαῖρε καὶ σύ."
+
+      "principles": [
+        {
+          "title": "χαῖρε as imperative",
+          "explanation": "χαῖρε is an imperative — literally 'rejoice!' Greek greeting is a command to be glad. The reply is simply χαῖρε καὶ σύ."
+        }
+      ],
+
+      "drill_instruction": "Practice greetings in context: meeting someone, parting, asking how they are, responding to questions about origins and names. All interaction must stay in Greek — use language phrases to ask for clarification rather than switching to English."
     },
     {
       "id": 5,
