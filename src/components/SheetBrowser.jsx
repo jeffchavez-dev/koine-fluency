@@ -9,15 +9,11 @@ export default function SheetBrowser({ sheets, selectedSheetId, onMarkStudied })
   return (
     <div className="flex-1 overflow-auto flex flex-col bg-slate-900">
       {/* Header */}
-      <div className="bg-gradient-to-r from-slate-800 to-slate-700 border-b border-slate-600 p-8 sticky top-0 z-10">
-        <div className="flex justify-between items-start">
-          <div>
-            <p className="text-sm text-slate-400 mb-2">Sheet {sheet.number}</p>
-            <h1 className="greek-title text-4xl mb-2">{sheet.greek_title}</h1>
-            <h2 className="text-2xl text-slate-200">{sheet.english_title}</h2>
-            {sheet.description && (
-              <p className="text-slate-400 mt-2 text-sm">{sheet.description}</p>
-            )}
+      <div className="bg-slate-800 border-b border-slate-700 px-3 py-2 sticky top-0 z-10">
+        <div className="flex justify-between items-center gap-2">
+          <div className="min-w-0">
+            <p className="text-xs text-slate-500 mb-0">Sheet {sheet.number}</p>
+            <h1 className="greek-title text-sm md:text-base mb-0">{sheet.greek_title}</h1>
           </div>
           <button
             onClick={() => {
@@ -25,25 +21,25 @@ export default function SheetBrowser({ sheets, selectedSheetId, onMarkStudied })
               setShowMarked(true)
               setTimeout(() => setShowMarked(false), 2000)
             }}
-            className={`px-4 py-2 rounded transition ${
+            className={`px-2 py-1 text-xs rounded transition whitespace-nowrap ${
               showMarked
                 ? 'bg-yellow-600 text-white'
                 : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
             }`}
           >
-            {showMarked ? '✓ Marked' : 'Mark Studied'}
+            {showMarked ? '✓' : 'Mark'}
           </button>
         </div>
       </div>
 
       {/* Content */}
-      <div className="flex-1 p-8 overflow-auto">
+      <div className="flex-1 p-3 overflow-auto">
         <div className="max-w-4xl">
           {/* Terms List */}
           {sheet.terms && (
-            <div className="space-y-8">
+            <div className="space-y-3">
               {sheet.terms.map((term, idx) => (
-                <div key={idx} className="bg-slate-800 rounded-lg p-6 border border-slate-700 hover:border-slate-600 transition">
+                <div key={idx} className="bg-slate-800 rounded-lg p-4 border border-slate-700 hover:border-slate-600 transition">
                   <div className="greek-text text-yellow-400 text-xl font-semibold mb-2">
                     {term.greek}
                   </div>

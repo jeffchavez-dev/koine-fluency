@@ -7,37 +7,37 @@ export default function ExerciseMode({ sheets }) {
   const drillingSheet = sheets.find(s => s.id === 20)
 
   return (
-    <div className="flex-1 overflow-auto bg-slate-900 p-8">
+    <div className="flex-1 overflow-auto bg-slate-900 p-3">
       <div className="max-w-4xl">
-        <h2 className="text-3xl font-bold text-slate-100 mb-2">Drilling Techniques</h2>
-        <p className="text-slate-400 mb-8">Practice active fluency with these five time-tested drilling methods</p>
+        <h2 className="text-base font-bold text-slate-100 mb-1">Drilling Techniques</h2>
+        <p className="text-xs text-slate-400 mb-3">Practice active fluency with these five time-tested drilling methods</p>
 
         {/* Drills Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
           {drillingSheet?.drills?.map((drill, idx) => (
             <button
               key={idx}
               onClick={() => setSelectedDrill(idx)}
-              className="bg-slate-800 border border-slate-700 rounded-lg p-6 hover:border-yellow-500 transition text-left"
+              className="bg-slate-800 border border-slate-700 rounded-lg p-3 hover:border-yellow-500 transition text-left"
             >
-              <p className="greek-text text-yellow-400 text-sm font-semibold mb-2">
+              <p className="greek-text text-yellow-400 text-xs font-semibold mb-1">
                 {drill.greek}
               </p>
-              <h3 className="text-xl font-bold text-slate-100 mb-2">{drill.name}</h3>
-              <p className="text-slate-400 text-sm">{drill.description}</p>
+              <h3 className="text-sm font-bold text-slate-100 mb-1">{drill.name}</h3>
+              <p className="text-slate-400 text-xs">{drill.description}</p>
             </button>
           ))}
         </div>
 
         {/* Selected Drill Details */}
         {selectedDrill !== null && drillingSheet?.drills[selectedDrill] && (
-          <div className="bg-slate-800 border border-slate-700 rounded-lg p-8 mb-8">
-            <div className="flex justify-between items-start mb-6">
+          <div className="bg-slate-800 border border-slate-700 rounded-lg p-3 mb-3">
+            <div className="flex justify-between items-start mb-3">
               <div>
-                <p className="greek-text text-yellow-400 text-sm font-semibold mb-2">
+                <p className="greek-text text-yellow-400 text-xs font-semibold mb-1">
                   {drillingSheet.drills[selectedDrill].greek}
                 </p>
-                <h3 className="text-2xl font-bold text-slate-100">
+                <h3 className="text-sm font-bold text-slate-100">
                   {drillingSheet.drills[selectedDrill].name}
                 </h3>
               </div>
@@ -49,14 +49,14 @@ export default function ExerciseMode({ sheets }) {
               </button>
             </div>
 
-            <div className="mb-6 p-4 bg-slate-900 rounded border border-slate-700">
-              <p className="text-slate-100 mb-4">{drillingSheet.drills[selectedDrill].description}</p>
+            <div className="mb-3 p-3 bg-slate-900 rounded border border-slate-700">
+              <p className="text-xs text-slate-100">{drillingSheet.drills[selectedDrill].description}</p>
             </div>
 
             {/* Drill Instructions */}
             {drillingSheet.drills[selectedDrill].example && (
-              <div className="mb-6">
-                <h4 className="font-semibold text-slate-100 mb-3">Example:</h4>
+              <div className="mb-3">
+                <h4 className="text-xs font-semibold text-slate-100 mb-2">Example:</h4>
                 <div className="bg-slate-900 rounded p-4 greek-text text-slate-200">
                   {drillingSheet.drills[selectedDrill].example}
                 </div>
