@@ -1374,7 +1374,25 @@
         }
       ],
       "principles": ["Cases show the relationship of nouns to verbs and other words", "Nominative = subject; Accusative = direct object; Genitive/Dative show other relationships", "Each case has its own article form in all genders and numbers"],
-      "drill_instruction": "Case Identification Drill: Read Mark sentences and identify the case of each noun. Example: 'τὸν θεὸν ἀγαπῶ' — θεόν is accusative (object). 'ἡ ἀγάπη τοῦ θεοῦ' — θεοῦ is genitive (possession)."
+      "drill_instruction": "Case Identification Drill: Read Mark sentences and identify the case of each noun. Example: 'τὸν θεὸν ἀγαπῶ' — θεόν is accusative (object). 'ἡ ἀγάπη τοῦ θεοῦ' — θεοῦ is genitive (possession).",
+      "paradigms": [
+        {
+          "title": "Noun Case Paradigm: θεός (God) - Masculine",
+          "example": "NOM: ὁ θεός (the God - subject) | GEN: τοῦ θεοῦ (of God - possession) | DAT: τῷ θεῷ (to God - indirect obj.) | ACC: τὸν θεόν (God - direct obj.) | VOC: ὦ θεέ (O God! - address)"
+        },
+        {
+          "title": "Noun Case Paradigm: ψυχή (soul) - Feminine",
+          "example": "NOM: ἡ ψυχή (the soul - subject) | GEN: τῆς ψυχῆς (of soul) | DAT: τῇ ψυχῇ (to soul) | ACC: τὴν ψυχήν (soul - object) | VOC: ὦ ψυχή (O soul!)"
+        },
+        {
+          "title": "Noun Case Paradigm: ἔργον (work) - Neuter",
+          "example": "NOM: τὸ ἔργον (the work - subject) | GEN: τοῦ ἔργου (of work) | DAT: τῷ ἔργῳ (to work) | ACC: τὸ ἔργον (work - object) | VOC: (neuter no vocative)"
+        },
+        {
+          "title": "Plural Case Paradigm: θεοί (gods)",
+          "example": "NOM: οἱ θεοί (the gods) | GEN: τῶν θεῶν (of gods) | DAT: τοῖς θεοῖς (to gods) | ACC: τοὺς θεούς (gods - object)"
+        }
+      ]
     },
     {
       "id": 15,
@@ -1430,7 +1448,29 @@
         }
       ],
       "principles": ["Gender is grammatical (not always semantic) — learn gender with each noun", "Adjectives, articles, and pronouns must agree with nouns in gender and number", "Plural forms are used for 2 or more; dual (ὁ δυϊκός) is rare in Koine Greek"],
-      "drill_instruction": "Agreement Drill: Give a noun; student responds with agreeing article, adjective, and pronoun. Example: Teacher says 'ψυχή' → Student says 'ἡ ἁγία ψυχή, αὕτη' (feminine singular article, adjective, pronoun)."
+      "drill_instruction": "Agreement Drill: Give a noun; student responds with agreeing article, adjective, and pronoun. Example: Teacher says 'ψυχή' → Student says 'ἡ ἁγία ψυχή, αὕτη' (feminine singular article, adjective, pronoun).",
+      "paradigms": [
+        {
+          "title": "Article Paradigm (Singular)",
+          "example": "MASCULINE: ὁ (the) | FEMININE: ἡ (the) | NEUTER: τό (the)"
+        },
+        {
+          "title": "Article Paradigm (Plural)",
+          "example": "MASCULINE: οἱ (the) | FEMININE: αἱ (the) | NEUTER: τά (the)"
+        },
+        {
+          "title": "Adjective Agreement: ἀγάπη (love)",
+          "example": "SINGULAR: ἡ μεγάλη ἀγάπη (the great love - fem. sg.) | PLURAL: αἱ μεγάλαι ἀγάπαι (the great loves - fem. pl.)"
+        },
+        {
+          "title": "Adjective Agreement: θεός (God)",
+          "example": "SINGULAR: ὁ μέγας θεός (the great God - masc. sg.) | PLURAL: οἱ μεγάλοι θεοί (the great gods - masc. pl.)"
+        },
+        {
+          "title": "Adjective Agreement: ἔργον (work)",
+          "example": "SINGULAR: τὸ μέγα ἔργον (the great work - neut. sg.) | PLURAL: τὰ μέγα ἔργα (the great works - neut. pl.)"
+        }
+      ]
     },
     {
       "id": 16,
@@ -1481,7 +1521,21 @@
         }
       ],
       "principles": ["Greek tense emphasizes aspect (how action occurs) more than time (when)", "Aorist = undefined aspect (punctiliar); Present = ongoing; Perfect = completed with result", "All tenses can express past, present, or future depending on context"],
-      "drill_instruction": "Aspect Recognition Drill: Read Mark sentences and identify whether the tense is punctiliar (aorist), ongoing (present), or resultative (perfect). Note how aspect changes meaning."
+      "drill_instruction": "Aspect Recognition Drill: Read Mark sentences and identify whether the tense is punctiliar (aorist), ongoing (present), or resultative (perfect). Note how aspect changes meaning.",
+      "paradigms": [
+        {
+          "title": "Present Indicative Paradigm (λύω - I loose/release)",
+          "example": "λύω (I loose), λύεις (you loose), λύει (he/she/it looses), λύομεν (we loose), λύετε (you all loose), λύουσι(ν) (they loose)"
+        },
+        {
+          "title": "Aorist Indicative Paradigm (ἔλυσα - I loosed)",
+          "example": "ἔλυσα (I loosed), ἔλυσας (you loosed), ἔλυσε(ν) (he loosed), ἐλύσαμεν (we loosed), ἐλύσατε (you loosed), ἔλυσαν (they loosed)"
+        },
+        {
+          "title": "Perfect Indicative Paradigm (λέλυκα - I have loosed)",
+          "example": "λέλυκα (I have loosed), λέλυκας (you have loosed), λέλυκε(ν) (he has loosed), λελύκαμεν (we have loosed), λελύκατε (you have loosed), λελύκασι(ν) (they have loosed)"
+        }
+      ]
     },
     {
       "id": 17,
@@ -1518,7 +1572,25 @@
         }
       ],
       "principles": ["Active = subject does the action; Passive = subject receives the action; Middle = subject acts on/for itself", "Middle voice is more common in Greek than in English and needs to be recognized carefully", "Passive voice often appears without an expressed agent (agent understood)"],
-      "drill_instruction": "Voice Conversion Drill: Convert active sentences to passive and vice versa. Example: 'Ἰησοῦς ἐδίδασκεν' (active) → 'ἐδίδασκεν ὑπὸ Ἰησοῦ' (passive equivalent)."
+      "drill_instruction": "Voice Conversion Drill: Convert active sentences to passive and vice versa. Example: 'Ἰησοῦς ἐδίδασκεν' (active) → 'ἐδίδασκεν ὑπὸ Ἰησοῦ' (passive equivalent).",
+      "paradigms": [
+        {
+          "title": "Active Voice (λύω - I loose)",
+          "example": "λύω (I loose), λύεις (you loose), λύει (he looses), λύομεν (we loose), λύετε (you loose), λύουσι(ν) (they loose)"
+        },
+        {
+          "title": "Middle Voice (λύομαι - I loose for myself)",
+          "example": "λύομαι (I loose for myself), λύῃ (you loose for yourself), λύεται (he looses for himself), λυόμεθα (we loose for ourselves), λύεσθε (you loose for yourselves), λύονται (they loose for themselves)"
+        },
+        {
+          "title": "Passive Voice (λύομαι - I am loosed)",
+          "example": "λύομαι (I am loosed), λύῃ (you are loosed), λύεται (he is loosed), λυόμεθα (we are loosed), λύεσθε (you are loosed), λύονται (they are loosed)"
+        },
+        {
+          "title": "Aorist Passive (ἐλύθην - I was loosed)",
+          "example": "ἐλύθην (I was loosed), ἐλύθης (you were loosed), ἐλύθη (he was loosed), ἐλύθημεν (we were loosed), ἐλύθητε (you were loosed), ἐλύθησαν (they were loosed)"
+        }
+      ]
     },
     {
       "id": 18,
@@ -1562,7 +1634,21 @@
         }
       ],
       "principles": ["Indicative states reality (past, present, future possible)", "Subjunctive appears in dependent clauses and expresses contingency/potential", "Imperative commands direct action (sing., plur., sometimes prohibitive)", "Optative (rare in Koine) expresses wishes or remote conditions"],
-      "drill_instruction": "Mood Recognition Drill: Read Mark sentences and identify the mood. Note which moods appear with which particles (ἵνα with subjunctive, μή with prohibitions, etc.)."
+      "drill_instruction": "Mood Recognition Drill: Read Mark sentences and identify the mood. Note which moods appear with which particles (ἵνα with subjunctive, μή with prohibitions, etc.).",
+      "paradigms": [
+        {
+          "title": "Imperative Paradigm (loose! sg./pl.)",
+          "example": "λῦε (you loose!), λύετε (you all loose!) | μὴ λῦε (don't you loose!), μὴ λύετε (don't you all loose!)"
+        },
+        {
+          "title": "Subjunctive Paradigm (that I might loose)",
+          "example": "λύω (that I might loose), λύῃς (that you might loose), λύῃ (that he might loose), λύωμεν (that we might loose), λύητε (that you might loose), λύωσι(ν) (that they might loose)"
+        },
+        {
+          "title": "Optative Paradigm (if only I would loose - rare)",
+          "example": "λύοιμι (if only I would loose), λύοις (if only you would loose), λύοι (if only he would loose)"
+        }
+      ]
     },
     {
       "id": 19,
@@ -1607,7 +1693,116 @@
       "greek_title": "Πῶς Δεῖ Μελετᾶν",
       "english_title": "How to Drill",
       "category": "drilling",
-      "description": "Five techniques for building active fluency"
+      "sections": [
+        {
+          "title": "Five Drilling Techniques",
+          "terms": [
+            {
+              "greek": "ἡ Κύκλησις (Circling)",
+              "english": "Ask and re-ask the same question to establish meaning",
+              "examples": [
+                {"greek": "τίς ἐποίησεν; → τί ἐποίησεν; → ποῦ ἐποίησεν; → πότε ἐποίησεν;", "english": "Who did it? What did he do? Where did he do it? When did he do it?", "reference": "Sheet 2-3 Method"}
+              ]
+            },
+            {
+              "greek": "ἡ Ἀντικατάστασις (Substitution)",
+              "english": "Replace words while keeping sentence structure to build morphology",
+              "examples": [
+                {"greek": "δός μοι τὸν ἄρτον → δός μοι τὸ ποτήριον → δός μοι τὸ κρέας", "english": "Give me the bread → Give me the cup → Give me the meat", "reference": "Sheet 7 Method"}
+              ]
+            },
+            {
+              "greek": "ἡ Προσταγή (Command/TPR)",
+              "english": "Give commands and have students respond physically to demonstrate comprehension",
+              "examples": [
+                {"greek": "ἔγειρε! ἀνάστηθι! γρηγόρει! κοιμηθῶμεν!", "english": "Get up! Rise! Stay awake! Let's sleep!", "reference": "Sheet 6 Method (Total Physical Response)"}
+              ]
+            },
+            {
+              "greek": "ἡ Ἀναδιήγησις (Retelling)",
+              "english": "Have students retell passages from memory using their own words",
+              "examples": [
+                {"greek": "Retell Mark 1:40-45 (the leper healing) using vocabulary you know", "english": "Retell the story using personal narrative (ἐγώ, σύ, αὐτός)", "reference": "Fluency Building"}
+              ]
+            },
+            {
+              "greek": "ἡ Ἀνάλυσις (Parsing/Analysis)",
+              "english": "Break down verbs and nouns into their component parts to understand form",
+              "examples": [
+                {"greek": "λέγουσιν = λέγ- (stem) + -ου (present) + -σι(ν) (3pl)", "english": "parsing shows person, number, tense, voice, mood", "reference": "Sheets 11-19 Method"}
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How to Use These Techniques",
+          "terms": [
+            {
+              "greek": "Ἀρχὴ τῆς Μαθήσεως",
+              "english": "Begin with Circling to establish basic vocabulary comprehension",
+              "examples": [
+                {"greek": "Start with simple sentences, ask W-questions repeatedly", "english": "Repeat circling until students respond without thinking", "reference": "Foundation"}
+              ]
+            },
+            {
+              "greek": "Ἐπέκτασις",
+              "english": "Extend with Substitution to build morphological awareness",
+              "examples": [
+                {"greek": "Once students understand 'δός μοι τὸν ἄρτον', substitute objects", "english": "Replace nouns, then adjectives, then verbs to expand patterns", "reference": "Expansion"}
+              ]
+            },
+            {
+              "greek": "Σωματική Ἀντίδρασις",
+              "english": "Use Commands/TPR to move from comprehension to action",
+              "examples": [
+                {"greek": "Commands force students to demonstrate they understand meaning", "english": "Physical response proves comprehension; prevents translation", "reference": "Kinesthetic"}
+              ]
+            },
+            {
+              "greek": "Ἀπαγγελία",
+              "english": "Use Retelling to shift from passive recognition to active production",
+              "examples": [
+                {"greek": "Students produce their own sentences using vocabulary from passages", "english": "Move from repetition → comprehension → production", "reference": "Output"}
+              ]
+            },
+            {
+              "greek": "Σύνεσις",
+              "english": "Use Parsing/Analysis to build conscious understanding of grammar",
+              "examples": [
+                {"greek": "After fluency drills, analyze forms to understand structure", "english": "Grammar explains WHY the language works the way it does", "reference": "Reflection"}
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Golden Rules of Drilling",
+          "terms": [
+            {
+              "greek": "Ἡ Ἀλήθεια",
+              "english": "The information is NOT the point — the REPETITION is",
+              "examples": [
+                {"greek": "When you circle 'τίς ἐποίησεν;', the students already know who did it", "english": "The goal is to automatize the question and response, not learn facts", "reference": "Krashen Input Hypothesis"}
+              ]
+            },
+            {
+              "greek": "Ἡ Ὀκνηρία",
+              "english": "Repetition feels boring — embrace it for fluency",
+              "examples": [
+                {"greek": "100 repetitions of one pattern > 10 repetitions of 10 patterns", "english": "Boring = efficient; variety = scattered learning", "reference": "Spaced Repetition"}
+              ]
+            },
+            {
+              "greek": "Ἡ Δύναμις",
+              "english": "Language power comes from knowing 500 words deeply, not 5000 words shallowly",
+              "examples": [
+                {"greek": "Master the vocabulary of Mark before expanding to other texts", "english": "Deep acquisition > broad exposure in early stages", "reference": "Comprehensible Input"}
+              ]
+            }
+          ]
+        }
+      ],
+      "principles": ["All five techniques work together in sequence: Circling → Substitution → Commands → Retelling → Parsing", "Drilling builds automaticity (fluency) before studying grammar (accuracy)", "The goal is to make Greek language production as automatic as English production", "Repetition is the engine of language acquisition; variation in context prevents fossilization"],
+      "drill_instruction": "Master Drilling: Use these 5 techniques in order on any passage. Start with circling basic vocabulary (Sheets 2-3), then substitute structures (Sheets 4-10), give commands to verify comprehension (Sheets 6, 9), retell the passage in your own words, and finally parse complex forms (Sheets 11-19) to understand grammar."
     }
   ]
 }
