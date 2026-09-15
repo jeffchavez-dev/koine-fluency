@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import SheetBrowser from './components/SheetBrowser'
 import FlashcardDrill from './components/FlashcardDrill'
-import ExerciseMode from './components/ExerciseMode'
 import Sidebar from './components/Sidebar'
 import sheetsData from './data/sheets.json'
 import './App.css'
@@ -69,9 +68,6 @@ export default function App() {
             selectedSheetIds={selectedFlashcardSheets}
             onToggleLessonSelection={toggleFlashcardSheet}
           />
-        )}
-        {currentView === 'exercises' && (
-          <ExerciseMode sheets={sheetsData.sheets} />
         )}
       </main>
     </div>

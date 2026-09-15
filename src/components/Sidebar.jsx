@@ -61,8 +61,7 @@ export default function Sidebar({ sheets, onSelectSheet, onChangeView, currentVi
       <nav className="p-2 space-y-1 border-b border-slate-700">
         {[
           { id: 'browser', label: 'Browse Sheets', icon: '📖' },
-          { id: 'flashcards', label: 'Flashcards', icon: '🗂️' },
-          { id: 'exercises', label: 'Drills', icon: '⚡' }
+          { id: 'flashcards', label: 'Flashcards', icon: '🗂️' }
         ].map(item => (
           <button
             key={item.id}
