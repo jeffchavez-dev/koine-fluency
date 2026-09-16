@@ -20,6 +20,9 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isFlipped, setIsFlipped] = useState(false)
   const [stats, setStats] = useState({ correct: 0, total: 0 })
+  const [roundNumber, setRoundNumber] = useState(1)
+  const [reviewMode, setReviewMode] = useState('smart') // 'smart', 'weak', 'fresh', 'mixed'
+  const [roundStats, setRoundStats] = useState({ correct: 0, total: 0 })
 
   // Build flashcard deck from all terms (handles both flat terms and sections)
   const flashcards = useMemo(() => {
@@ -57,6 +60,64 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
     return cards
   }, [sheets])
 
+  // Get review history from localStorage
+  const getReviewHistory = () => {
+    const saved = localStorage.getItem('koine-reviewHistory') || '{}'
+    return JSON.parse(saved)
+  }
+
+  // Save review history
+  const saveReviewHistory = (history) => {
+    localStorage.setItem('koine-reviewHistory', JSON.stringify(history))
+  }
+
+  // Weight cards for spaced repetition
+  const weightCardsByReviewMode = (cards, mode) => {
+    const history = getReviewHistory()
+
+    if (mode === 'weak') {
+      // Only cards marked "not sure"
+      return cards.filter(c => {
+        const key = `${c.sheetId}-${c.greek}`
+        return history[key]?.notSureCount > 0
+      })
+    }
+
+    if (mode === 'fresh') {
+      // Only unreviewed cards
+      return cards.filter(c => {
+        const key = `${c.sheetId}-${c.greek}`
+        return !history[key] || history[key].reviewCount === 0
+      })
+    }
+
+    if (mode === 'mixed') {
+      // Random mix of all cards
+      const shuffled = [...cards]
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+      }
+      return shuffled
+    }
+
+    // 'smart' mode: 70% weak cards + 30% new cards
+    const weak = cards.filter(c => {
+      const key = `${c.sheetId}-${c.greek}`
+      return history[key]?.notSureCount > 0
+    })
+    const fresh = cards.filter(c => {
+      const key = `${c.sheetId}-${c.greek}`
+      return !history[key] || history[key].reviewCount === 0
+    })
+
+    const weakRatio = Math.ceil(10 * 0.7)
+    const freshRatio = 10 - weakRatio
+
+    const selected = weak.slice(0, weakRatio).concat(fresh.slice(0, freshRatio))
+    return selected
+  }
+
   const filtered = useMemo(() => {
     if (selectedSheetIds.size === 0) return []
 
@@ -75,14 +136,21 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
     }
 
     const cards = flashcards.filter(c => selectedSheetIds.has(c.sheetId))
-    // Shuffle cards (Fisher-Yates)
-    const shuffled = [...cards]
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+
+    // Apply spaced repetition weighting
+    const weighted = weightCardsByReviewMode(cards, reviewMode)
+
+    // Limit to 10 cards per round, shuffle if not already sorted by review mode
+    const rounded = weighted.slice(0, 10)
+    if (reviewMode === 'smart' || reviewMode === 'mixed') {
+      // Shuffle for variety
+      for (let i = rounded.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [rounded[i], rounded[j]] = [rounded[j], rounded[i]]
+      }
     }
-    return shuffled
-  }, [flashcards, selectedSheetIds])
+    return rounded
+  }, [flashcards, selectedSheetIds, reviewMode])
 
   const currentCard = filtered[currentIndex]
   const practiceSheets = sheets.filter(s => {
@@ -92,11 +160,27 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
 
   const handleCorrect = () => {
     setStats(s => ({ ...s, correct: s.correct + 1, total: s.total + 1 }))
+    setRoundStats(s => ({ ...s, correct: s.correct + 1, total: s.total + 1 }))
+
+    // Update review history
+    if (currentCard) {
+      const history = getReviewHistory()
+      const key = `${currentCard.sheetId}-${currentCard.greek}`
+      history[key] = {
+        reviewCount: (history[key]?.reviewCount || 0) + 1,
+        notSureCount: history[key]?.notSureCount || 0,
+        lastReviewDate: new Date().toISOString()
+      }
+      saveReviewHistory(history)
+    }
+
     nextCard()
   }
 
   const handleIncorrect = () => {
     setStats(s => ({ ...s, total: s.total + 1 }))
+    setRoundStats(s => ({ ...s, total: s.total + 1 }))
+
     // Track this term as "not sure" for μανθανειν learning deck
     if (currentCard) {
       const saved = JSON.parse(localStorage.getItem('koine-notSure') || '[]')
@@ -113,6 +197,16 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
         localStorage.setItem('koine-notSure', JSON.stringify(saved))
         onNotSureAdded?.()
       }
+
+      // Update review history
+      const history = getReviewHistory()
+      const key = `${currentCard.sheetId}-${currentCard.greek}`
+      history[key] = {
+        reviewCount: (history[key]?.reviewCount || 0) + 1,
+        notSureCount: (history[key]?.notSureCount || 0) + 1,
+        lastReviewDate: new Date().toISOString()
+      }
+      saveReviewHistory(history)
     }
     nextCard()
   }
@@ -129,8 +223,8 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
     }
   }
 
-  // Check if deck is completed
-  const isCompleted = filtered.length > 0 && currentIndex >= filtered.length
+  // Check if current round is completed (10 cards or fewer)
+  const isRoundCompleted = filtered.length > 0 && currentIndex >= filtered.length
 
   return (
     <div className="flex-1 flex flex-col bg-slate-900 overflow-auto">
@@ -156,42 +250,96 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
               <p className="text-xs text-slate-500">Choose one or more lessons on the left</p>
             </div>
           </div>
-        ) : isCompleted ? (
+        ) : isRoundCompleted ? (
           <div className="flex-1 flex flex-col items-center justify-center">
-            <div className="text-center max-w-md">
-              <div className="text-5xl mb-4">✓</div>
-              <h2 className="text-2xl font-bold text-yellow-400 mb-4">Δῆμον! (Finished!)</h2>
-              <div className="space-y-4 text-slate-300">
-                <div>
-                  <p className="text-sm text-slate-400">Total Cards</p>
-                  <p className="text-3xl font-bold text-yellow-400">{stats.total}</p>
-                </div>
+            <div className="text-center max-w-md space-y-6">
+              <div>
+                <div className="text-5xl mb-2">✓</div>
+                <h2 className="text-2xl font-bold text-yellow-400">Round {roundNumber} Complete!</h2>
+              </div>
+
+              <div className="space-y-3 text-slate-300 bg-slate-800 rounded-lg p-4">
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <p className="text-sm text-slate-400">Mastered</p>
-                    <p className="text-2xl font-bold text-green-400">{stats.correct}</p>
+                    <p className="text-sm text-slate-400">Cards</p>
+                    <p className="text-2xl font-bold text-yellow-400">{roundStats.total}</p>
                   </div>
                   <div>
-                    <p className="text-sm text-slate-400">To Review</p>
-                    <p className="text-2xl font-bold text-orange-400">{stats.total - stats.correct}</p>
+                    <p className="text-sm text-slate-400">Mastered</p>
+                    <p className="text-2xl font-bold text-green-400">{roundStats.correct}</p>
                   </div>
                 </div>
-                <div className="pt-4">
-                  <p className="text-xs text-slate-500 mb-4">
-                    {stats.total - stats.correct} words marked for μανθανειν
-                  </p>
-                  <button
-                    onClick={() => {
-                      setCurrentIndex(0)
-                      setIsFlipped(false)
-                      setStats({ correct: 0, total: 0 })
-                    }}
-                    className="px-6 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition font-semibold"
-                  >
-                    ↻ Review Again
-                  </button>
+                <div className="text-xs text-slate-400 pt-2 border-t border-slate-600">
+                  {roundNumber === 1 && "💡 Spacing effect: review these cards tomorrow for 2x retention"}
+                  {roundNumber === 2 && "🧠 You're building long-term memory—great work!"}
+                  {roundNumber >= 3 && "⚠️ Consider ending here—diminishing returns after 3 rounds"}
                 </div>
               </div>
+
+              <div className="space-y-2">
+                <button
+                  onClick={() => {
+                    setCurrentIndex(0)
+                    setIsFlipped(false)
+                    setRoundStats({ correct: 0, total: 0 })
+                    setRoundNumber(roundNumber + 1)
+                    setReviewMode('smart')
+                  }}
+                  className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+                >
+                  📚 Continue Smart Review
+                </button>
+                <button
+                  onClick={() => {
+                    setCurrentIndex(0)
+                    setIsFlipped(false)
+                    setRoundStats({ correct: 0, total: 0 })
+                    setRoundNumber(roundNumber + 1)
+                    setReviewMode('weak')
+                  }}
+                  className="w-full px-6 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition font-semibold"
+                >
+                  💪 Focus on Weak Words
+                </button>
+                <button
+                  onClick={() => {
+                    setCurrentIndex(0)
+                    setIsFlipped(false)
+                    setRoundStats({ correct: 0, total: 0 })
+                    setRoundNumber(roundNumber + 1)
+                    setReviewMode('fresh')
+                  }}
+                  className="w-full px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition font-semibold"
+                >
+                  ✨ Fresh Cards
+                </button>
+                <button
+                  onClick={() => {
+                    setCurrentIndex(0)
+                    setIsFlipped(false)
+                    setRoundStats({ correct: 0, total: 0 })
+                    setRoundNumber(roundNumber + 1)
+                    setReviewMode('mixed')
+                  }}
+                  className="w-full px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition font-semibold"
+                >
+                  🔄 Mixed Review
+                </button>
+              </div>
+
+              <button
+                onClick={() => {
+                  setCurrentIndex(0)
+                  setIsFlipped(false)
+                  setStats({ correct: 0, total: 0 })
+                  setRoundStats({ correct: 0, total: 0 })
+                  setRoundNumber(1)
+                  setReviewMode('smart')
+                }}
+                className="text-sm text-slate-400 hover:text-slate-300 transition"
+              >
+                End Session
+              </button>
             </div>
           </div>
         ) : (
@@ -273,8 +421,9 @@ export default function FlashcardDrill({ sheets, onMarkStudied, selectedSheetIds
             </div>
 
             {/* Progress */}
-            <div className="mt-4 text-center text-slate-400 text-xs md:text-sm">
-              Card {currentIndex + 1} of {filtered.length}
+            <div className="mt-4 text-center text-slate-400 text-xs md:text-sm space-y-1">
+              <div>Card {currentIndex + 1} of {filtered.length}</div>
+              <div className="text-xs text-slate-500">Round {roundNumber}</div>
             </div>
           </div>
         )}
