@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import SheetBrowser from './components/SheetBrowser'
 import FlashcardDrill from './components/FlashcardDrill'
 import Sidebar from './components/Sidebar'
+import SearchBar from './components/SearchBar'
 import sheetsData from './data/sheets.json'
 import './App.css'
 
@@ -64,6 +65,17 @@ export default function App() {
       />
 
       <main className="flex-1 overflow-hidden flex flex-col w-full">
+        {/* Search Bar Header */}
+        <div className="bg-slate-800 border-b border-slate-700 px-4 py-3">
+          <SearchBar
+            sheets={sheetsData.sheets}
+            onSelectResult={(result) => {
+              setCurrentView('browser')
+              setSelectedSheetId(result.sheetId)
+            }}
+          />
+        </div>
+
         {currentView === 'browser' && (
           <SheetBrowser
             sheets={sheetsData.sheets}
