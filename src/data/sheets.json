@@ -22,9 +22,21 @@
               "greek": "τίς; τί;",
               "english": "Who? Which one? (gen. τίνος, dat. τίνι, acc. τίνα)",
               "examples": [
-                {"greek": "τίς ἄρα οὗτός ἐστιν ὅτι καὶ ὁ ἄνεμος καὶ ἡ θάλασσα ὑπακούει αὐτῷ;", "english": "Who then is this, that even the wind and the sea obey him?", "reference": "Mark 4:41"},
-                {"greek": "ὑμεῖς δὲ τίνα με λέγετε εἶναι;", "english": "But you — who do you say that I am?", "reference": "Mark 8:29"},
-                {"greek": "τί ὄνομά σοι;", "english": "What is your name?", "reference": "Mark 5:9"}
+                {
+                  "greek": "τίς ἄρα οὗτός ἐστιν ὅτι καὶ ὁ ἄνεμος καὶ ἡ θάλασσα ὑπακούει αὐτῷ;",
+                  "english": "Who then is this, that even the wind and the sea obey him?",
+                  "reference": "Mark 4:41"
+                },
+                {
+                  "greek": "ὑμεῖς δὲ τίνα με λέγετε εἶναι;",
+                  "english": "But you — who do you say that I am?",
+                  "reference": "Mark 8:29"
+                },
+                {
+                  "greek": "τί ὄνομά σοι;",
+                  "english": "What is your name?",
+                  "reference": "Mark 5:9"
+                }
               ]
             }
           ]
@@ -36,8 +48,16 @@
               "greek": "τί;",
               "english": "What? Why? (neuter often means Why?)",
               "examples": [
-                {"greek": "τί σοι θέλεις ποιήσω;", "english": "What do you want me to do for you?", "reference": "Mark 10:51"},
-                {"greek": "τί δειλοί ἐστε; οὔπω ἔχετε πίστιν;", "english": "Why are you afraid? Have you still no faith?", "reference": "Mark 4:40"}
+                {
+                  "greek": "τί σοι θέλεις ποιήσω;",
+                  "english": "What do you want me to do for you?",
+                  "reference": "Mark 10:51"
+                },
+                {
+                  "greek": "τί δειλοί ἐστε; οὔπω ἔχετε πίστιν;",
+                  "english": "Why are you afraid? Have you still no faith?",
+                  "reference": "Mark 4:40"
+                }
               ]
             }
           ]
@@ -49,23 +69,43 @@
               "greek": "πόθεν;",
               "english": "From where?",
               "examples": [
-                {"greek": "πόθεν τούτῳ ταῦτα;", "english": "Where did this man get these things?", "reference": "Mark 6:2"},
-                {"greek": "πόθεν τούτους δυνήσεταί τις ὧδε χορτάσαι ἄρτων ἐπ' ἐρημίας;", "english": "From where will anyone be able to feed these people with bread here in the wilderness?", "reference": "Mark 8:4"}
+                {
+                  "greek": "πόθεν τούτῳ ταῦτα;",
+                  "english": "Where did this man get these things?",
+                  "reference": "Mark 6:2"
+                },
+                {
+                  "greek": "πόθεν τούτους δυνήσεταί τις ὧδε χορτάσαι ἄρτων ἐπ' ἐρημίας;",
+                  "english": "From where will anyone be able to feed these people with bread here in the wilderness?",
+                  "reference": "Mark 8:4"
+                }
               ]
             },
             {
               "greek": "ποῦ;",
               "english": "Where?",
               "examples": [
-                {"greek": "ποῦ ἐστιν τὸ κατάλυμά μου ὅπου τὸ πάσχα μετὰ τῶν μαθητῶν μου φάγω;", "english": "Where is my guest room, where I may eat the Passover with my disciples?", "reference": "Mark 14:14"},
-                {"greek": "ποῦ θέλεις ἀπελθόντες ἑτοιμάσωμεν ἵνα φάγῃς τὸ πάσχα;", "english": "Where do you want us to go and prepare for you to eat the Passover?", "reference": "Mark 14:12"}
+                {
+                  "greek": "ποῦ ἐστιν τὸ κατάλυμά μου ὅπου τὸ πάσχα μετὰ τῶν μαθητῶν μου φάγω;",
+                  "english": "Where is my guest room, where I may eat the Passover with my disciples?",
+                  "reference": "Mark 14:14"
+                },
+                {
+                  "greek": "ποῦ θέλεις ἀπελθόντες ἑτοιμάσωμεν ἵνα φάγῃς τὸ πάσχα;",
+                  "english": "Where do you want us to go and prepare for you to eat the Passover?",
+                  "reference": "Mark 14:12"
+                }
               ]
             },
             {
               "greek": "ποῖ;",
               "english": "To where? Whither?",
               "examples": [
-                {"greek": "ποῖ ὑπάγεις;", "english": "Where are you going?", "reference": "John 13:36"}
+                {
+                  "greek": "ποῖ ὑπάγεις;",
+                  "english": "Where are you going?",
+                  "reference": "John 13:36"
+                }
               ]
             }
           ]
@@ -77,16 +117,32 @@
               "greek": "πότε;",
               "english": "When?",
               "examples": [
-                {"greek": "εἰπὲ ἡμῖν πότε ταῦτα ἔσται;", "english": "Tell us, when will these things be?", "reference": "Mark 13:4"},
-                {"greek": "οὐκ οἴδατε γὰρ πότε ὁ καιρός ἐστιν.", "english": "For you do not know when the time is.", "reference": "Mark 13:33"}
+                {
+                  "greek": "εἰπὲ ἡμῖν πότε ταῦτα ἔσται;",
+                  "english": "Tell us, when will these things be?",
+                  "reference": "Mark 13:4"
+                },
+                {
+                  "greek": "οὐκ οἴδατε γὰρ πότε ὁ καιρός ἐστιν.",
+                  "english": "For you do not know when the time is.",
+                  "reference": "Mark 13:33"
+                }
               ]
             },
             {
               "greek": "πῶς;",
               "english": "How?",
               "examples": [
-                {"greek": "καὶ πῶς πάσας τὰς παραβολὰς γνώσεσθε;", "english": "Then how will you understand all the parables?", "reference": "Mark 4:13"},
-                {"greek": "πῶς λέγουσιν οἱ γραμματεῖς ὅτι ὁ χριστὸς υἱὸς Δαυίδ ἐστιν;", "english": "How do the scribes say that the Christ is the son of David?", "reference": "Mark 12:35"}
+                {
+                  "greek": "καὶ πῶς πάσας τὰς παραβολὰς γνώσεσθε;",
+                  "english": "Then how will you understand all the parables?",
+                  "reference": "Mark 4:13"
+                },
+                {
+                  "greek": "πῶς λέγουσιν οἱ γραμματεῖς ὅτι ὁ χριστὸς υἱὸς Δαυίδ ἐστιν;",
+                  "english": "How do the scribes say that the Christ is the son of David?",
+                  "reference": "Mark 12:35"
+                }
               ]
             }
           ]
@@ -98,14 +154,26 @@
               "greek": "διὰ τί;",
               "english": "Why? For what reason?",
               "examples": [
-                {"greek": "διὰ τί οἱ μαθηταὶ Ἰωάννου καὶ οἱ μαθηταὶ τῶν Φαρισαίων νηστεύουσιν, οἱ δὲ σοὶ μαθηταὶ οὐ νηστεύουσιν;", "english": "Why do John's disciples and the Pharisees' disciples fast, but your disciples do not fast?", "reference": "Mark 2:18"},
-                {"greek": "διὰ τί οὐκ ἐπιστεύσατε αὐτῷ;", "english": "Why did you not believe him?", "reference": "Mark 11:31"}
+                {
+                  "greek": "διὰ τί οἱ μαθηταὶ Ἰωάννου καὶ οἱ μαθηταὶ τῶν Φαρισαίων νηστεύουσιν, οἱ δὲ σοὶ μαθηταὶ οὐ νηστεύουσιν;",
+                  "english": "Why do John's disciples and the Pharisees' disciples fast, but your disciples do not fast?",
+                  "reference": "Mark 2:18"
+                },
+                {
+                  "greek": "διὰ τί οὐκ ἐπιστεύσατε αὐτῷ;",
+                  "english": "Why did you not believe him?",
+                  "reference": "Mark 11:31"
+                }
               ]
             }
           ]
         }
       ],
-      "principles": ["τίς (who) is used for persons; τί (what) is used for things and can mean 'why'", "πόθεν (from where) indicates source; ποῦ (where) indicates location; ποῖ (to where) indicates direction", "πότε (when) asks about time; πῶς (how) asks about manner; διὰ τί (why) asks about reason"],
+      "principles": [
+        "τίς (who) is used for persons; τί (what) is used for things and can mean 'why'",
+        "πόθεν (from where) indicates source; ποῦ (where) indicates location; ποῖ (to where) indicates direction",
+        "πότε (when) asks about time; πῶς (how) asks about manner; διὰ τί (why) asks about reason"
+      ],
       "drill_instruction": "Circling Drill: Take any verse from Mark and ask all the interrogative questions about it — τίς ἐποίησεν; τί ἐποίησεν; ποῦ; πότε; πῶς; διὰ τί; The information is not the point; the repetition builds fluency."
     },
     {
@@ -122,15 +190,27 @@
               "greek": "ποῖος, -α, -ον;",
               "english": "Of what kind? Which?",
               "examples": [
-                {"greek": "ἐν ποίᾳ ἐξουσίᾳ ταῦτα ποιεῖς;", "english": "By what authority are you doing these things?", "reference": "Mark 11:28"},
-                {"greek": "ποία ἐστὶν ἐντολὴ πρώτη πάντων;", "english": "Which commandment is first of all?", "reference": "Mark 12:28"}
+                {
+                  "greek": "ἐν ποίᾳ ἐξουσίᾳ ταῦτα ποιεῖς;",
+                  "english": "By what authority are you doing these things?",
+                  "reference": "Mark 11:28"
+                },
+                {
+                  "greek": "ποία ἐστὶν ἐντολὴ πρώτη πάντων;",
+                  "english": "Which commandment is first of all?",
+                  "reference": "Mark 12:28"
+                }
               ]
             },
             {
               "greek": "ποδαπός, -ή, -όν;",
               "english": "Of what country or sort?",
               "examples": [
-                {"greek": "ποδαποί εἰσι λίθοι καὶ οἰκοδομαί;", "english": "What sort of stones and buildings are these?", "reference": "Mark 13:1"}
+                {
+                  "greek": "ποδαποί εἰσι λίθοι καὶ οἰκοδομαί;",
+                  "english": "What sort of stones and buildings are these?",
+                  "reference": "Mark 13:1"
+                }
               ]
             }
           ]
@@ -142,22 +222,38 @@
               "greek": "πόσος, -η, -ον;",
               "english": "How much? How many?",
               "examples": [
-                {"greek": "πόσους ἄρτους ἔχετε;", "english": "How many loaves do you have?", "reference": "Mark 6:38"},
-                {"greek": "πόσος χρόνος ἐστὶν ὡς τοῦτο γέγονεν αὐτῷ;", "english": "How long has it been since this happened to him?", "reference": "Mark 9:21"}
+                {
+                  "greek": "πόσους ἄρτους ἔχετε;",
+                  "english": "How many loaves do you have?",
+                  "reference": "Mark 6:38"
+                },
+                {
+                  "greek": "πόσος χρόνος ἐστὶν ὡς τοῦτο γέγονεν αὐτῷ;",
+                  "english": "How long has it been since this happened to him?",
+                  "reference": "Mark 9:21"
+                }
               ]
             },
             {
               "greek": "ποσάκις;",
               "english": "How often? How many times?",
               "examples": [
-                {"greek": "ποσάκις ἁμαρτήσει ὁ ἀδελφός μου;", "english": "How often shall my brother sin against me?", "reference": "Matthew 18:21"}
+                {
+                  "greek": "ποσάκις ἁμαρτήσει ὁ ἀδελφός μου;",
+                  "english": "How often shall my brother sin against me?",
+                  "reference": "Matthew 18:21"
+                }
               ]
             },
             {
               "greek": "πηλίκος, -η, -ον;",
               "english": "How big? How great?",
               "examples": [
-                {"greek": "πηλίκοις γράμμασιν ἔγραψα;", "english": "What large letters I have written!", "reference": "Galatians 6:11"}
+                {
+                  "greek": "πηλίκοις γράμμασιν ἔγραψα;",
+                  "english": "What large letters I have written!",
+                  "reference": "Galatians 6:11"
+                }
               ]
             }
           ]
@@ -169,13 +265,23 @@
               "greek": "πότερον … ἤ;",
               "english": "Which of two? Whether ... or?",
               "examples": [
-                {"greek": "τί ἐστιν εὐκοπώτερον; ἀφίενταί σου αἱ ἁμαρτίαι, ἢ ἔγειρε;", "english": "Which is easier: to say 'your sins are forgiven' or to say 'Rise'?", "reference": "Mark 2:9"}
+                {
+                  "greek": "τί ἐστιν εὐκοπώτερον; ἀφίενταί σου αἱ ἁμαρτίαι, ἢ ἔγειρε;",
+                  "english": "Which is easier: to say 'your sins are forgiven' or to say 'Rise'?",
+                  "reference": "Mark 2:9"
+                }
               ]
             }
           ]
         }
       ],
-      "principles": ["ποῖος agrees like adjectives and asks about quality/type", "πόσος asks about quantity or duration", "ποσάκις (adverb) asks about frequency or repetition", "πηλίκος asks about size or importance", "ποδαπός asks about origin or classification"],
+      "principles": [
+        "ποῖος agrees like adjectives and asks about quality/type",
+        "πόσος asks about quantity or duration",
+        "ποσάκις (adverb) asks about frequency or repetition",
+        "πηλίκος asks about size or importance",
+        "ποδαπός asks about origin or classification"
+      ],
       "drill_instruction": "Circling Drill: Extend drill from Sheet 2 to include these adjective-based questions: ποῖος; πόσος; πηλίκος; ποδαπός. Use with different subjects and direct objects to build broader interrogative fluency."
     },
     {
@@ -185,98 +291,301 @@
       "english_title": "Greetings & Courtesy",
       "category": "communication",
       "description": "The first layer of fluency is social, not grammatical. Say these before you understand them — they are the phrases that let you stay in a Greek-only room without switching back.",
-
       "sections": [
         {
           "title": "Meeting",
           "terms": [
-            {"greek": "χαῖρε / χαίρετε", "english": "Hello, greetings (sg./pl.)", "examples": []},
-            {"greek": "εἰρήνη σοι / ὑμῖν", "english": "Peace to you (sg./pl.)", "examples": [{"greek": "εἰρήνη σοι", "english": "peace to you", "reference": "Luke 24:36"}]},
-            {"greek": "ἀσπάζομαί σε", "english": "I greet you", "examples": []},
-            {"greek": "καλῶς ἥκεις", "english": "Welcome (lit. you have come well)", "examples": []}
+            {
+              "greek": "χαῖρε / χαίρετε",
+              "english": "Hello, greetings (sg./pl.)",
+              "examples": []
+            },
+            {
+              "greek": "εἰρήνη σοι / ὑμῖν",
+              "english": "Peace to you (sg./pl.)",
+              "examples": [
+                {
+                  "greek": "εἰρήνη σοι",
+                  "english": "peace to you",
+                  "reference": "Luke 24:36"
+                }
+              ]
+            },
+            {
+              "greek": "ἀσπάζομαί σε",
+              "english": "I greet you",
+              "examples": []
+            },
+            {
+              "greek": "καλῶς ἥκεις",
+              "english": "Welcome (lit. you have come well)",
+              "examples": []
+            }
           ]
         },
         {
           "title": "Courtesy",
           "terms": [
-            {"greek": "ἀντιβολῶ / παρακαλῶ", "english": "Please, I beg you", "examples": []},
-            {"greek": "εὐχαριστῶ σοι", "english": "Thank you (lit. I give thanks to you)", "examples": []},
-            {"greek": "χάριν ἔχω σοι", "english": "I am grateful to you", "examples": [{"greek": "χάριν ἔχω", "english": "I am grateful", "reference": "1 Timothy 1:12"}]},
-            {"greek": "σύγγνωθί μοι", "english": "Excuse me, forgive me", "examples": []},
-            {"greek": "συγγνώμην αἰτοῦμαι", "english": "I ask your pardon", "examples": []},
-            {"greek": "ὁ κύριος μετὰ σοῦ", "english": "The Lord be with you", "examples": []},
-            {"greek": "οὐδὲν πρᾶγμα", "english": "It's nothing, no trouble", "examples": []}
+            {
+              "greek": "ἀντιβολῶ / παρακαλῶ",
+              "english": "Please, I beg you",
+              "examples": []
+            },
+            {
+              "greek": "εὐχαριστῶ σοι",
+              "english": "Thank you (lit. I give thanks to you)",
+              "examples": []
+            },
+            {
+              "greek": "χάριν ἔχω σοι",
+              "english": "I am grateful to you",
+              "examples": [
+                {
+                  "greek": "χάριν ἔχω",
+                  "english": "I am grateful",
+                  "reference": "1 Timothy 1:12"
+                }
+              ]
+            },
+            {
+              "greek": "σύγγνωθί μοι",
+              "english": "Excuse me, forgive me",
+              "examples": []
+            },
+            {
+              "greek": "συγγνώμην αἰτοῦμαι",
+              "english": "I ask your pardon",
+              "examples": []
+            },
+            {
+              "greek": "ὁ κύριος μετὰ σοῦ",
+              "english": "The Lord be with you",
+              "examples": []
+            },
+            {
+              "greek": "οὐδὲν πρᾶγμα",
+              "english": "It's nothing, no trouble",
+              "examples": []
+            }
           ]
         },
         {
           "title": "Parting",
           "terms": [
-            {"greek": "ἔρρωσο / ἔρρωσθε", "english": "Farewell (sg./pl.)", "examples": []},
-            {"greek": "ὑγίαινε", "english": "Be well, goodbye", "examples": []},
-            {"greek": "ὕπαγε εἰς εἰρήνην", "english": "Go in peace", "examples": [{"greek": "ὕπαγε εἰς εἰρήνην", "english": "go in peace", "reference": "Mark 5:34"}]},
-            {"greek": "εἰς αὖθις", "english": "Until next time", "examples": []}
+            {
+              "greek": "ἔρρωσο / ἔρρωσθε",
+              "english": "Farewell (sg./pl.)",
+              "examples": []
+            },
+            {
+              "greek": "ὑγίαινε",
+              "english": "Be well, goodbye",
+              "examples": []
+            },
+            {
+              "greek": "ὕπαγε εἰς εἰρήνην",
+              "english": "Go in peace",
+              "examples": [
+                {
+                  "greek": "ὕπαγε εἰς εἰρήνην",
+                  "english": "go in peace",
+                  "reference": "Mark 5:34"
+                }
+              ]
+            },
+            {
+              "greek": "εἰς αὖθις",
+              "english": "Until next time",
+              "examples": []
+            }
           ]
         },
         {
           "title": "How are you?",
           "terms": [
-            {"greek": "πῶς ἔχεις;", "english": "How are you?", "examples": []},
-            {"greek": "καλῶς ἔχω", "english": "I am well", "examples": []},
-            {"greek": "κακῶς ἔχω", "english": "I am unwell", "examples": [{"greek": "κακῶς ἔχοντας", "english": "those who were ill", "reference": "Mark 1:34"}]},
-            {"greek": "μετρίως", "english": "So-so, moderately", "examples": []},
-            {"greek": "καὶ σύ;", "english": "And you?", "examples": []},
-            {"greek": "χαίρω ὅτι ὑγιαίνεις", "english": "I am glad you are well", "examples": []}
+            {
+              "greek": "πῶς ἔχεις;",
+              "english": "How are you?",
+              "examples": []
+            },
+            {
+              "greek": "καλῶς ἔχω",
+              "english": "I am well",
+              "examples": []
+            },
+            {
+              "greek": "κακῶς ἔχω",
+              "english": "I am unwell",
+              "examples": [
+                {
+                  "greek": "κακῶς ἔχοντας",
+                  "english": "those who were ill",
+                  "reference": "Mark 1:34"
+                }
+              ]
+            },
+            {
+              "greek": "μετρίως",
+              "english": "So-so, moderately",
+              "examples": []
+            },
+            {
+              "greek": "καὶ σύ;",
+              "english": "And you?",
+              "examples": []
+            },
+            {
+              "greek": "χαίρω ὅτι ὑγιαίνεις",
+              "english": "I am glad you are well",
+              "examples": []
+            }
           ]
         },
         {
           "title": "Yes & No",
           "terms": [
-            {"greek": "ναί", "english": "Yes", "examples": []},
-            {"greek": "οὔ / οὐχί", "english": "No", "examples": []},
-            {"greek": "οὐδαμῶς", "english": "By no means, not at all", "examples": []},
-            {"greek": "μάλιστα", "english": "Certainly, most of all", "examples": []},
-            {"greek": "ἴσως", "english": "Perhaps", "examples": []},
-            {"greek": "ἀληθῶς / ἀμήν", "english": "Truly, indeed", "examples": []}
+            {
+              "greek": "ναί",
+              "english": "Yes",
+              "examples": []
+            },
+            {
+              "greek": "οὔ / οὐχί",
+              "english": "No",
+              "examples": []
+            },
+            {
+              "greek": "οὐδαμῶς",
+              "english": "By no means, not at all",
+              "examples": []
+            },
+            {
+              "greek": "μάλιστα",
+              "english": "Certainly, most of all",
+              "examples": []
+            },
+            {
+              "greek": "ἴσως",
+              "english": "Perhaps",
+              "examples": []
+            },
+            {
+              "greek": "ἀληθῶς / ἀμήν",
+              "english": "Truly, indeed",
+              "examples": []
+            }
           ]
         },
         {
           "title": "Names & Origins",
           "terms": [
-            {"greek": "τί ὄνομά σοι;", "english": "What is your name?", "examples": [{"greek": "τί ὄνομά σοι;", "english": "What is your name?", "reference": "Mark 5:9"}]},
-            {"greek": "ὄνομά μοι …", "english": "My name is ...", "examples": []},
-            {"greek": "πόθεν εἶ;", "english": "Where are you from?", "examples": []},
-            {"greek": "εἰμὶ ἀπὸ …", "english": "I am from ...", "examples": [{"greek": "εἰμὶ ἀπὸ", "english": "I am from", "reference": "Mark 7:35"}]}
+            {
+              "greek": "τί ὄνομά σοι;",
+              "english": "What is your name?",
+              "examples": [
+                {
+                  "greek": "τί ὄνομά σοι;",
+                  "english": "What is your name?",
+                  "reference": "Mark 5:9"
+                }
+              ]
+            },
+            {
+              "greek": "ὄνομά μοι …",
+              "english": "My name is ...",
+              "examples": []
+            },
+            {
+              "greek": "πόθεν εἶ;",
+              "english": "Where are you from?",
+              "examples": []
+            },
+            {
+              "greek": "εἰμὶ ἀπὸ …",
+              "english": "I am from ...",
+              "examples": [
+                {
+                  "greek": "εἰμὶ ἀπὸ",
+                  "english": "I am from",
+                  "reference": "Mark 7:35"
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Languages",
           "terms": [
-            {"greek": "Ἑλληνιστί", "english": "In Greek", "examples": []},
-            {"greek": "Ἀγγλιστί", "english": "In English", "examples": []},
-            {"greek": "Ἑβραϊστί", "english": "In Hebrew", "examples": []},
-            {"greek": "Ῥωμαϊστί", "english": "In Latin", "examples": [{"greek": "Ῥωμαϊστί", "english": "in Latin", "reference": "John 19:20"}]},
-            {"greek": "πῶς λέγεται _______ Ἑλληνιστί;", "english": "How is _____ said in Greek?", "examples": []},
-            {"greek": "λέγε μοι Ἑλληνιστί", "english": "Say it to me in Greek", "examples": []},
-            {"greek": "μὴ λέγε Ἀγγλιστί", "english": "Don't speak English", "examples": []}
+            {
+              "greek": "Ἑλληνιστί",
+              "english": "In Greek",
+              "examples": []
+            },
+            {
+              "greek": "Ἀγγλιστί",
+              "english": "In English",
+              "examples": []
+            },
+            {
+              "greek": "Ἑβραϊστί",
+              "english": "In Hebrew",
+              "examples": []
+            },
+            {
+              "greek": "Ῥωμαϊστί",
+              "english": "In Latin",
+              "examples": [
+                {
+                  "greek": "Ῥωμαϊστί",
+                  "english": "in Latin",
+                  "reference": "John 19:20"
+                }
+              ]
+            },
+            {
+              "greek": "πῶς λέγεται _______ Ἑλληνιστί;",
+              "english": "How is _____ said in Greek?",
+              "examples": []
+            },
+            {
+              "greek": "λέγε μοι Ἑλληνιστί",
+              "english": "Say it to me in Greek",
+              "examples": []
+            },
+            {
+              "greek": "μὴ λέγε Ἀγγλιστί",
+              "english": "Don't speak English",
+              "examples": []
+            }
           ]
         },
         {
           "title": "Approval & Encouragement",
           "terms": [
-            {"greek": "καλῶς", "english": "Good, fine, all right", "examples": []},
-            {"greek": "ὀρθῶς", "english": "Correctly, rightly", "examples": []},
-            {"greek": "εὖγε", "english": "Well done! Bravo!", "examples": []}
+            {
+              "greek": "καλῶς",
+              "english": "Good, fine, all right",
+              "examples": []
+            },
+            {
+              "greek": "ὀρθῶς",
+              "english": "Correctly, rightly",
+              "examples": []
+            },
+            {
+              "greek": "εὖγε",
+              "english": "Well done! Bravo!",
+              "examples": []
+            }
           ]
         }
       ],
-
       "principles": [
         {
           "title": "χαῖρε as imperative",
           "explanation": "χαῖρε is an imperative — literally 'rejoice!' Greek greeting is a command to be glad. The reply is simply χαῖρε καὶ σύ."
         }
       ],
-
       "drill_instruction": "Practice greetings in context: meeting someone, parting, asking how they are, responding to questions about origins and names. All interaction must stay in Greek — use language phrases to ask for clarification rather than switching to English."
     },
     {
@@ -290,78 +599,328 @@
         {
           "title": "Asking Permission & Posing Questions",
           "terms": [
-            {"greek": "ἐρώτησιν ἔχω.", "english": "I have a question.", "examples": []},
-            {"greek": "ἔξεστίν μοι ἐρωτῆσαι;", "english": "May I ask a question?", "examples": [{"greek": "ἔξεστιν ἢ οὐκ ἔξεστιν;", "english": "Is it permitted or not permitted?", "reference": "Mark 3:4"}]},
-            {"greek": "ἐρωτῆσαί σέ τι βούλομαι.", "english": "I want to ask you something.", "examples": []}
+            {
+              "greek": "ἐρώτησιν ἔχω.",
+              "english": "I have a question.",
+              "examples": []
+            },
+            {
+              "greek": "ἔξεστίν μοι ἐρωτῆσαι;",
+              "english": "May I ask a question?",
+              "examples": [
+                {
+                  "greek": "ἔξεστιν ἢ οὐκ ἔξεστιν;",
+                  "english": "Is it permitted or not permitted?",
+                  "reference": "Mark 3:4"
+                }
+              ]
+            },
+            {
+              "greek": "ἐρωτῆσαί σέ τι βούλομαι.",
+              "english": "I want to ask you something.",
+              "examples": []
+            }
           ]
         },
         {
           "title": "Request for Repetition & Slower Speech",
           "terms": [
-            {"greek": "αὖθις εἰπέ, ἀντιβολῶ.", "english": "Say it again, please.", "examples": [{"greek": "πάλιν", "english": "again", "reference": "Mark 14:69"}]},
-            {"greek": "πάλιν εἰπέ.", "english": "Repeat it.", "examples": [{"greek": "ἔλεγον αὐτῷ τὸ αὐτό.", "english": "they said the same thing to him", "reference": "Mark 14:69"}]},
-            {"greek": "βραδέως λέγε.", "english": "Speak slowly.", "examples": []},
-            {"greek": "βραδύτερον, ἀντιβολῶ.", "english": "More slowly, please.", "examples": []},
-            {"greek": "λέγε φωνῇ μεγάλῃ.", "english": "Speak in a loud voice.", "examples": [{"greek": "ἐκραύγασεν φωνῇ μεγάλῃ", "english": "he cried out with a loud voice", "reference": "Mark 1:26"}]}
+            {
+              "greek": "αὖθις εἰπέ, ἀντιβολῶ.",
+              "english": "Say it again, please.",
+              "examples": [
+                {
+                  "greek": "πάλιν",
+                  "english": "again",
+                  "reference": "Mark 14:69"
+                }
+              ]
+            },
+            {
+              "greek": "πάλιν εἰπέ.",
+              "english": "Repeat it.",
+              "examples": [
+                {
+                  "greek": "ἔλεγον αὐτῷ τὸ αὐτό.",
+                  "english": "they said the same thing to him",
+                  "reference": "Mark 14:69"
+                }
+              ]
+            },
+            {
+              "greek": "βραδέως λέγε.",
+              "english": "Speak slowly.",
+              "examples": []
+            },
+            {
+              "greek": "βραδύτερον, ἀντιβολῶ.",
+              "english": "More slowly, please.",
+              "examples": []
+            },
+            {
+              "greek": "λέγε φωνῇ μεγάλῃ.",
+              "english": "Speak in a loud voice.",
+              "examples": [
+                {
+                  "greek": "ἐκραύγασεν φωνῇ μεγάλῃ",
+                  "english": "he cried out with a loud voice",
+                  "reference": "Mark 1:26"
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Checking Understanding",
           "terms": [
-            {"greek": "δῆλόν ἐστιν;", "english": "Is it clear?", "examples": []},
-            {"greek": "δῆλόν ἐστιν.", "english": "It's clear.", "examples": []},
-            {"greek": "οὐ δῆλόν μοι.", "english": "It's not clear to me.", "examples": []},
-            {"greek": "συνίετε;", "english": "Do you (all) understand?", "examples": [{"greek": "συνίετε ταῦτα;", "english": "Do you understand all these things?", "reference": "Mark 8:17"}]},
-            {"greek": "ὀρθῶς εἶπας.", "english": "You said it correctly.", "examples": [{"greek": "ὀρθῶς ἀπεκρίθη", "english": "you have answered correctly", "reference": "Mark 12:34"}]}
+            {
+              "greek": "δῆλόν ἐστιν;",
+              "english": "Is it clear?",
+              "examples": []
+            },
+            {
+              "greek": "δῆλόν ἐστιν.",
+              "english": "It's clear.",
+              "examples": []
+            },
+            {
+              "greek": "οὐ δῆλόν μοι.",
+              "english": "It's not clear to me.",
+              "examples": []
+            },
+            {
+              "greek": "συνίετε;",
+              "english": "Do you (all) understand?",
+              "examples": [
+                {
+                  "greek": "συνίετε ταῦτα;",
+                  "english": "Do you understand all these things?",
+                  "reference": "Mark 8:17"
+                }
+              ]
+            },
+            {
+              "greek": "ὀρθῶς εἶπας.",
+              "english": "You said it correctly.",
+              "examples": [
+                {
+                  "greek": "ὀρθῶς ἀπεκρίθη",
+                  "english": "you have answered correctly",
+                  "reference": "Mark 12:34"
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Expressing Comprehension Problems",
           "terms": [
-            {"greek": "οὐ καταλαμβάνω.", "english": "I do not understand.", "examples": []},
-            {"greek": "οὐ συνίημι.", "english": "I don't comprehend.", "examples": [{"greek": "πῶς δύνασθε νοῆσαι;", "english": "How can you understand?", "reference": "Mark 8:17"}]},
-            {"greek": "οὐ νοῶ.", "english": "I don't grasp it.", "examples": [{"greek": "ἐπὶ τὸ νοῦν φέρειν", "english": "to bring to mind", "reference": "Luke 1:66"}]},
-            {"greek": "οὔπω συνῆκα.", "english": "I haven't understood yet.", "examples": []},
-            {"greek": "ἡμάρτηκα· διόρθωσόν με.", "english": "I've made a mistake—correct me.", "examples": []}
+            {
+              "greek": "οὐ καταλαμβάνω.",
+              "english": "I do not understand.",
+              "examples": []
+            },
+            {
+              "greek": "οὐ συνίημι.",
+              "english": "I don't comprehend.",
+              "examples": [
+                {
+                  "greek": "πῶς δύνασθε νοῆσαι;",
+                  "english": "How can you understand?",
+                  "reference": "Mark 8:17"
+                }
+              ]
+            },
+            {
+              "greek": "οὐ νοῶ.",
+              "english": "I don't grasp it.",
+              "examples": [
+                {
+                  "greek": "ἐπὶ τὸ νοῦν φέρειν",
+                  "english": "to bring to mind",
+                  "reference": "Luke 1:66"
+                }
+              ]
+            },
+            {
+              "greek": "οὔπω συνῆκα.",
+              "english": "I haven't understood yet.",
+              "examples": []
+            },
+            {
+              "greek": "ἡμάρτηκα· διόρθωσόν με.",
+              "english": "I've made a mistake—correct me.",
+              "examples": []
+            }
           ]
         },
         {
           "title": "Asking About Meaning & Grammar",
           "terms": [
-            {"greek": "τί σημαίνει τοῦτο;", "english": "What does this mean?", "examples": [{"greek": "τί ἐστιν τὸ ῥῆμα;", "english": "What is the word?", "reference": "John 16:18"}]},
-            {"greek": "τί ἐστι τὸ ῥῆμα τοῦτο;", "english": "What is this word?", "examples": []},
-            {"greek": "πῶς γράφεται;", "english": "How is it written / spelled?", "examples": []},
-            {"greek": "τί μέρος λόγου ἐστίν;", "english": "What part of speech is it?", "examples": []},
-            {"greek": "ἐν ποίᾳ πτώσει ἐστίν;", "english": "In what case is it?", "examples": []},
-            {"greek": "ἐν ποίῳ χρόνῳ;", "english": "In what tense?", "examples": []},
-            {"greek": "ποία ἔγκλισις;", "english": "What mood?", "examples": []},
-            {"greek": "ποία διάθεσις;", "english": "What voice?", "examples": []},
-            {"greek": "ποῖον πρόσωπον καὶ ποῖος ἀριθμός;", "english": "What person and number?", "examples": []}
+            {
+              "greek": "τί σημαίνει τοῦτο;",
+              "english": "What does this mean?",
+              "examples": [
+                {
+                  "greek": "τί ἐστιν τὸ ῥῆμα;",
+                  "english": "What is the word?",
+                  "reference": "John 16:18"
+                }
+              ]
+            },
+            {
+              "greek": "τί ἐστι τὸ ῥῆμα τοῦτο;",
+              "english": "What is this word?",
+              "examples": []
+            },
+            {
+              "greek": "πῶς γράφεται;",
+              "english": "How is it written / spelled?",
+              "examples": []
+            },
+            {
+              "greek": "τί μέρος λόγου ἐστίν;",
+              "english": "What part of speech is it?",
+              "examples": []
+            },
+            {
+              "greek": "ἐν ποίᾳ πτώσει ἐστίν;",
+              "english": "In what case is it?",
+              "examples": []
+            },
+            {
+              "greek": "ἐν ποίῳ χρόνῳ;",
+              "english": "In what tense?",
+              "examples": []
+            },
+            {
+              "greek": "ποία ἔγκλισις;",
+              "english": "What mood?",
+              "examples": []
+            },
+            {
+              "greek": "ποία διάθεσις;",
+              "english": "What voice?",
+              "examples": []
+            },
+            {
+              "greek": "ποῖον πρόσωπον καὶ ποῖος ἀριθμός;",
+              "english": "What person and number?",
+              "examples": []
+            }
           ]
         },
         {
           "title": "Expressing Ignorance & Forgetting",
           "terms": [
-            {"greek": "οὐκ οἶδα.", "english": "I don't know.", "examples": [{"greek": "εἶπεν· οὐκ οἶδα.", "english": "he said, I do not know", "reference": "Mark 14:71"}]},
-            {"greek": "οὐ γινώσκω.", "english": "I do not know.", "examples": [{"greek": "οὐ γινώσκουσιν", "english": "they did not know", "reference": "Mark 1:27"}]},
-            {"greek": "ἐπελαθόμην.", "english": "I have forgotten.", "examples": [{"greek": "ἐπελάθετο τῶν ἀρτῶν", "english": "they had forgotten to bring bread", "reference": "Mark 8:14"}]}
+            {
+              "greek": "οὐκ οἶδα.",
+              "english": "I don't know.",
+              "examples": [
+                {
+                  "greek": "εἶπεν· οὐκ οἶδα.",
+                  "english": "he said, I do not know",
+                  "reference": "Mark 14:71"
+                }
+              ]
+            },
+            {
+              "greek": "οὐ γινώσκω.",
+              "english": "I do not know.",
+              "examples": [
+                {
+                  "greek": "οὐ γινώσκουσιν",
+                  "english": "they did not know",
+                  "reference": "Mark 1:27"
+                }
+              ]
+            },
+            {
+              "greek": "ἐπελαθόμην.",
+              "english": "I have forgotten.",
+              "examples": [
+                {
+                  "greek": "ἐπελάθετο τῶν ἀρτῶν",
+                  "english": "they had forgotten to bring bread",
+                  "reference": "Mark 8:14"
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Encouragement & Managing Fear",
           "terms": [
-            {"greek": "μὴ φοβοῦ, λέγε μόνον.", "english": "Don't be afraid—just speak.", "examples": [{"greek": "μὴ φοβοῦ", "english": "do not fear", "reference": "Mark 5:36"}]}
+            {
+              "greek": "μὴ φοβοῦ, λέγε μόνον.",
+              "english": "Don't be afraid—just speak.",
+              "examples": [
+                {
+                  "greek": "μὴ φοβοῦ",
+                  "english": "do not fear",
+                  "reference": "Mark 5:36"
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Classroom Management & Conclusion",
           "terms": [
-            {"greek": "ἀρξώμεθα.", "english": "Let us begin.", "examples": []},
-            {"greek": "ἄγωμεν.", "english": "Let's go / let's continue.", "examples": [{"greek": "ἄγωμεν ἀλλαχόσε", "english": "Let us go to the next towns", "reference": "Mark 1:38"}]},
-            {"greek": "ἀναπαυσώμεθα ὀλίγον.", "english": "Let us rest a little.", "examples": [{"greek": "ἀναπαύεσθε ὀλίγον", "english": "rest a little while", "reference": "Mark 6:31"}]},
-            {"greek": "τέλος ἔχει.", "english": "It is finished / that's the end.", "examples": [{"greek": "τέλος ἔχουσιν", "english": "they have come to an end", "reference": "1 Peter 4:7"}]},
-            {"greek": "αὔριον πάλιν.", "english": "Again tomorrow.", "examples": []},
-            {"greek": "ἀπόκριναί μοι, ἀντιβολῶ.", "english": "Answer me, please.", "examples": [{"greek": "ἀποκρίθη ὁ Ἰησοῦς", "english": "Jesus answered", "reference": "Mark 11:30"}]}
+            {
+              "greek": "ἀρξώμεθα.",
+              "english": "Let us begin.",
+              "examples": []
+            },
+            {
+              "greek": "ἄγωμεν.",
+              "english": "Let's go / let's continue.",
+              "examples": [
+                {
+                  "greek": "ἄγωμεν ἀλλαχόσε",
+                  "english": "Let us go to the next towns",
+                  "reference": "Mark 1:38"
+                }
+              ]
+            },
+            {
+              "greek": "ἀναπαυσώμεθα ὀλίγον.",
+              "english": "Let us rest a little.",
+              "examples": [
+                {
+                  "greek": "ἀναπαύεσθε ὀλίγον",
+                  "english": "rest a little while",
+                  "reference": "Mark 6:31"
+                }
+              ]
+            },
+            {
+              "greek": "τέλος ἔχει.",
+              "english": "It is finished / that's the end.",
+              "examples": [
+                {
+                  "greek": "τέλος ἔχουσιν",
+                  "english": "they have come to an end",
+                  "reference": "1 Peter 4:7"
+                }
+              ]
+            },
+            {
+              "greek": "αὔριον πάλιν.",
+              "english": "Again tomorrow.",
+              "examples": []
+            },
+            {
+              "greek": "ἀπόκριναί μοι, ἀντιβολῶ.",
+              "english": "Answer me, please.",
+              "examples": [
+                {
+                  "greek": "ἀποκρίθη ὁ Ἰησοῦς",
+                  "english": "Jesus answered",
+                  "reference": "Mark 11:30"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -383,83 +942,431 @@
         {
           "title": "Commands for Perception & Communication",
           "terms": [
-            {"greek": "ἄκουε! / ἀκούετε!", "english": "Listen! (sg./pl.)", "examples": [{"greek": "ἄκουε τῆς φωνῆς τοῦ κυρίου", "english": "Listen to the voice of the Lord", "reference": "Mark 4:3"}]},
-            {"greek": "ἀναγίνωσκε! / ἀναγινώσκετε!", "english": "Read! (sg./pl.)", "examples": [{"greek": "ἀναγινώσκοντες τὴν γραφήν", "english": "reading the scripture", "reference": "Mark 12:10"}]},
-            {"greek": "ἀνάγνωθι τοῦτο", "english": "Read this", "examples": [{"greek": "ἀνάγνωθι τὸ ῥῆμα τοῦτο", "english": "read this word", "reference": "Mark 12:10"}]},
-            {"greek": "λέγε! / λέγετε!", "english": "Speak! (sg./pl.)", "examples": [{"greek": "λέγε ἡ μεγάλῃ φωνῇ", "english": "speak with a loud voice", "reference": "Mark 1:25"}]},
-            {"greek": "γράφε! / γράφετε!", "english": "Write! (sg./pl.)", "examples": []}
+            {
+              "greek": "ἄκουε! / ἀκούετε!",
+              "english": "Listen! (sg./pl.)",
+              "examples": [
+                {
+                  "greek": "ἄκουε τῆς φωνῆς τοῦ κυρίου",
+                  "english": "Listen to the voice of the Lord",
+                  "reference": "Mark 4:3"
+                }
+              ]
+            },
+            {
+              "greek": "ἀναγίνωσκε! / ἀναγινώσκετε!",
+              "english": "Read! (sg./pl.)",
+              "examples": [
+                {
+                  "greek": "ἀναγινώσκοντες τὴν γραφήν",
+                  "english": "reading the scripture",
+                  "reference": "Mark 12:10"
+                }
+              ]
+            },
+            {
+              "greek": "ἀνάγνωθι τοῦτο",
+              "english": "Read this",
+              "examples": [
+                {
+                  "greek": "ἀνάγνωθι τὸ ῥῆμα τοῦτο",
+                  "english": "read this word",
+                  "reference": "Mark 12:10"
+                }
+              ]
+            },
+            {
+              "greek": "λέγε! / λέγετε!",
+              "english": "Speak! (sg./pl.)",
+              "examples": [
+                {
+                  "greek": "λέγε ἡ μεγάλῃ φωνῇ",
+                  "english": "speak with a loud voice",
+                  "reference": "Mark 1:25"
+                }
+              ]
+            },
+            {
+              "greek": "γράφε! / γράφετε!",
+              "english": "Write! (sg./pl.)",
+              "examples": []
+            }
           ]
         },
         {
           "title": "Commands for Sight & Direction",
           "terms": [
-            {"greek": "βλέπε! / ἴδε!", "english": "Look! See! (sg./pl.)", "examples": [{"greek": "ἴδε ποταποί λίθοι", "english": "See what stones and buildings", "reference": "Mark 13:1"}]},
-            {"greek": "δεῖξόν μοι …", "english": "Show me ...", "examples": []}
+            {
+              "greek": "βλέπε! / ἴδε!",
+              "english": "Look! See! (sg./pl.)",
+              "examples": [
+                {
+                  "greek": "ἴδε ποταποί λίθοι",
+                  "english": "See what stones and buildings",
+                  "reference": "Mark 13:1"
+                }
+              ]
+            },
+            {
+              "greek": "δεῖξόν μοι …",
+              "english": "Show me ...",
+              "examples": []
+            }
           ]
         },
         {
           "title": "Commands for Movement & Position",
           "terms": [
-            {"greek": "μένε! / μένετε!", "english": "Stay! Wait! (sg./pl.)", "examples": [{"greek": "μένομεν ἐν τῇ σχολῇ", "english": "we stay in the school", "reference": "Acts 19:9"}]},
-            {"greek": "δεῦρο! / δεῦτε!", "english": "Come here! (sg./pl.)", "examples": [{"greek": "δεῦτε ὀπίσω μου", "english": "Come after me", "reference": "Mark 1:17"}]},
-            {"greek": "ἔγειρε! / ἀνάστηθι!", "english": "Get up! Rise! (sg./pl.)", "examples": [{"greek": "ἔγειρε καὶ περιπάτει", "english": "Rise and walk", "reference": "Mark 2:11"}]},
-            {"greek": "κάθισον! / καθίσατε!", "english": "Sit down! (sg./pl.)", "examples": [{"greek": "κάθησαν παρὰ τὴν ὁδόν", "english": "they sat by the road", "reference": "Mark 10:46"}]}
+            {
+              "greek": "μένε! / μένετε!",
+              "english": "Stay! Wait! (sg./pl.)",
+              "examples": [
+                {
+                  "greek": "μένομεν ἐν τῇ σχολῇ",
+                  "english": "we stay in the school",
+                  "reference": "Acts 19:9"
+                }
+              ]
+            },
+            {
+              "greek": "δεῦρο! / δεῦτε!",
+              "english": "Come here! (sg./pl.)",
+              "examples": [
+                {
+                  "greek": "δεῦτε ὀπίσω μου",
+                  "english": "Come after me",
+                  "reference": "Mark 1:17"
+                }
+              ]
+            },
+            {
+              "greek": "ἔγειρε! / ἀνάστηθι!",
+              "english": "Get up! Rise! (sg./pl.)",
+              "examples": [
+                {
+                  "greek": "ἔγειρε καὶ περιπάτει",
+                  "english": "Rise and walk",
+                  "reference": "Mark 2:11"
+                }
+              ]
+            },
+            {
+              "greek": "κάθισον! / καθίσατε!",
+              "english": "Sit down! (sg./pl.)",
+              "examples": [
+                {
+                  "greek": "κάθησαν παρὰ τὴν ὁδόν",
+                  "english": "they sat by the road",
+                  "reference": "Mark 10:46"
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Commands for Silence & Action",
           "terms": [
-            {"greek": "σιώπα! / σιωπᾶτε!", "english": "Be quiet! (sg./pl.)", "examples": [{"greek": "σιώπα, φιμώθητι", "english": "Be quiet, be muzzled", "reference": "Mark 4:39"}]},
-            {"greek": "μὴ λάλει!", "english": "Don't talk!", "examples": []},
-            {"greek": "δός μοι …", "english": "Give me ...", "examples": [{"greek": "δός μοι ἄρτον", "english": "Give me bread", "reference": "Mark 7:28"}]},
-            {"greek": "ἄνοιξον / κλεῖσον τὸ βιβλίον", "english": "Open / close the book", "examples": []}
+            {
+              "greek": "σιώπα! / σιωπᾶτε!",
+              "english": "Be quiet! (sg./pl.)",
+              "examples": [
+                {
+                  "greek": "σιώπα, φιμώθητι",
+                  "english": "Be quiet, be muzzled",
+                  "reference": "Mark 4:39"
+                }
+              ]
+            },
+            {
+              "greek": "μὴ λάλει!",
+              "english": "Don't talk!",
+              "examples": []
+            },
+            {
+              "greek": "δός μοι …",
+              "english": "Give me ...",
+              "examples": [
+                {
+                  "greek": "δός μοι ἄρτον",
+                  "english": "Give me bread",
+                  "reference": "Mark 7:28"
+                }
+              ]
+            },
+            {
+              "greek": "ἄνοιξον / κλεῖσον τὸ βιβλίον",
+              "english": "Open / close the book",
+              "examples": []
+            }
           ]
         },
         {
           "title": "People in the Classroom",
           "terms": [
-            {"greek": "ὁ διδάσκαλος", "english": "Teacher", "examples": [{"greek": "ὁ διδάσκαλος ἐν τῇ ναύϊ", "english": "the teacher in the boat", "reference": "Mark 4:38"}]},
-            {"greek": "ὁ μαθητής, -οῦ", "english": "Student, disciple", "examples": [{"greek": "οἱ μαθηταὶ αὐτοῦ", "english": "his disciples", "reference": "Mark 1:20"}]},
-            {"greek": "ἡ μαθήτρια", "english": "Female student", "examples": [{"greek": "ἦν δὲ τις μαθήτρια", "english": "there was a certain female disciple", "reference": "Acts 9:36"}]},
-            {"greek": "ὁ γραμματεύς", "english": "Scribe, scholar", "examples": [{"greek": "οἱ γραμματεῖς καὶ οἱ φαρισαῖοι", "english": "the scribes and the Pharisees", "reference": "Mark 2:16"}]},
-            {"greek": "ὁ ἑταῖρος / ὁ φίλος", "english": "Companion / friend", "examples": []},
-            {"greek": "ὁ ἀδελφός, ἡ ἀδελφή", "english": "Brother, sister", "examples": [{"greek": "τοὺς ἀδελφοὺς αὐτοῦ", "english": "his brothers", "reference": "Mark 3:32"}]},
-            {"greek": "ὁ ῥαββί", "english": "Rabbi, my teacher", "examples": [{"greek": "Ῥαββί, ποῦ κατοικεῖς;", "english": "Rabbi, where do you live?", "reference": "John 1:38"}]}
+            {
+              "greek": "ὁ διδάσκαλος",
+              "english": "Teacher",
+              "examples": [
+                {
+                  "greek": "ὁ διδάσκαλος ἐν τῇ ναύϊ",
+                  "english": "the teacher in the boat",
+                  "reference": "Mark 4:38"
+                }
+              ]
+            },
+            {
+              "greek": "ὁ μαθητής, -οῦ",
+              "english": "Student, disciple",
+              "examples": [
+                {
+                  "greek": "οἱ μαθηταὶ αὐτοῦ",
+                  "english": "his disciples",
+                  "reference": "Mark 1:20"
+                }
+              ]
+            },
+            {
+              "greek": "ἡ μαθήτρια",
+              "english": "Female student",
+              "examples": [
+                {
+                  "greek": "ἦν δὲ τις μαθήτρια",
+                  "english": "there was a certain female disciple",
+                  "reference": "Acts 9:36"
+                }
+              ]
+            },
+            {
+              "greek": "ὁ γραμματεύς",
+              "english": "Scribe, scholar",
+              "examples": [
+                {
+                  "greek": "οἱ γραμματεῖς καὶ οἱ φαρισαῖοι",
+                  "english": "the scribes and the Pharisees",
+                  "reference": "Mark 2:16"
+                }
+              ]
+            },
+            {
+              "greek": "ὁ ἑταῖρος / ὁ φίλος",
+              "english": "Companion / friend",
+              "examples": []
+            },
+            {
+              "greek": "ὁ ἀδελφός, ἡ ἀδελφή",
+              "english": "Brother, sister",
+              "examples": [
+                {
+                  "greek": "τοὺς ἀδελφοὺς αὐτοῦ",
+                  "english": "his brothers",
+                  "reference": "Mark 3:32"
+                }
+              ]
+            },
+            {
+              "greek": "ὁ ῥαββί",
+              "english": "Rabbi, my teacher",
+              "examples": [
+                {
+                  "greek": "Ῥαββί, ποῦ κατοικεῖς;",
+                  "english": "Rabbi, where do you live?",
+                  "reference": "John 1:38"
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Writing Materials & Tools",
           "terms": [
-            {"greek": "τὸ βιβλίον", "english": "Book, scroll", "examples": [{"greek": "ἐν τῇ βιβλίῳ τοῦ νόμου", "english": "in the book of the law", "reference": "Mark 12:26"}]},
-            {"greek": "ἡ βίβλος", "english": "Book", "examples": [{"greek": "ἐπὶ τῆς βίβλου τῆς ζωῆς", "english": "in the book of life", "reference": "Revelation 3:5"}]},
-            {"greek": "ἡ γραφή", "english": "Writing, scripture", "examples": [{"greek": "αἱ γραφαὶ τῶν προφητῶν", "english": "the scriptures of the prophets", "reference": "Matthew 26:56"}]},
-            {"greek": "τὸ γράμμα", "english": "Letter of the alphabet", "examples": []},
-            {"greek": "ὁ λόγος", "english": "Word, saying, discourse", "examples": [{"greek": "ὁ λόγος ὁ ἐμὸς σοι", "english": "my word to you", "reference": "Mark 14:72"}]},
-            {"greek": "ὁ κάλαμος", "english": "Reed pen", "examples": []},
-            {"greek": "τὸ μέλαν", "english": "Ink", "examples": [{"greek": "γράφειν ἐν μέλανι", "english": "to write in ink", "reference": "2 John 1:12"}]},
-            {"greek": "ὁ πίναξ", "english": "Board, tablet, platter", "examples": []}
+            {
+              "greek": "τὸ βιβλίον",
+              "english": "Book, scroll",
+              "examples": [
+                {
+                  "greek": "ἐν τῇ βιβλίῳ τοῦ νόμου",
+                  "english": "in the book of the law",
+                  "reference": "Mark 12:26"
+                }
+              ]
+            },
+            {
+              "greek": "ἡ βίβλος",
+              "english": "Book",
+              "examples": [
+                {
+                  "greek": "ἐπὶ τῆς βίβλου τῆς ζωῆς",
+                  "english": "in the book of life",
+                  "reference": "Revelation 3:5"
+                }
+              ]
+            },
+            {
+              "greek": "ἡ γραφή",
+              "english": "Writing, scripture",
+              "examples": [
+                {
+                  "greek": "αἱ γραφαὶ τῶν προφητῶν",
+                  "english": "the scriptures of the prophets",
+                  "reference": "Matthew 26:56"
+                }
+              ]
+            },
+            {
+              "greek": "τὸ γράμμα",
+              "english": "Letter of the alphabet",
+              "examples": []
+            },
+            {
+              "greek": "ὁ λόγος",
+              "english": "Word, saying, discourse",
+              "examples": [
+                {
+                  "greek": "ὁ λόγος ὁ ἐμὸς σοι",
+                  "english": "my word to you",
+                  "reference": "Mark 14:72"
+                }
+              ]
+            },
+            {
+              "greek": "ὁ κάλαμος",
+              "english": "Reed pen",
+              "examples": []
+            },
+            {
+              "greek": "τὸ μέλαν",
+              "english": "Ink",
+              "examples": [
+                {
+                  "greek": "γράφειν ἐν μέλανι",
+                  "english": "to write in ink",
+                  "reference": "2 John 1:12"
+                }
+              ]
+            },
+            {
+              "greek": "ὁ πίναξ",
+              "english": "Board, tablet, platter",
+              "examples": []
+            }
           ]
         },
         {
           "title": "Classroom Furniture & Objects",
           "terms": [
-            {"greek": "ἡ θύρα", "english": "Door", "examples": [{"greek": "πρὸς τὴν θύραν τῆς σχολῆς", "english": "at the door of the school", "reference": "Mark 1:33"}]},
-            {"greek": "ἡ καθέδρα", "english": "Seat, chair", "examples": [{"greek": "ἐκάθησεν ἐπὶ τῆς καθέδρας", "english": "he sat on the seat", "reference": "Matthew 19:28"}]},
-            {"greek": "ἡ τράπεζα", "english": "Table", "examples": [{"greek": "τὴν τράπεζαν τῶν κολλυβιστῶν", "english": "the table of the money-changers", "reference": "Mark 11:15"}]},
-            {"greek": "ὁ λύχνος, ἡ λυχνία", "english": "Lamp, lampstand", "examples": [{"greek": "ὁ λύχνος ὑπὸ τὸν μόδιον", "english": "the lamp under the bushel", "reference": "Mark 4:21"}]},
-            {"greek": "ἡ σχολή", "english": "School, lecture-hall", "examples": [{"greek": "ἐν τῇ σχολῇ Τυράννου", "english": "in the school of Tyrannus", "reference": "Acts 19:9"}]}
+            {
+              "greek": "ἡ θύρα",
+              "english": "Door",
+              "examples": [
+                {
+                  "greek": "πρὸς τὴν θύραν τῆς σχολῆς",
+                  "english": "at the door of the school",
+                  "reference": "Mark 1:33"
+                }
+              ]
+            },
+            {
+              "greek": "ἡ καθέδρα",
+              "english": "Seat, chair",
+              "examples": [
+                {
+                  "greek": "ἐκάθησεν ἐπὶ τῆς καθέδρας",
+                  "english": "he sat on the seat",
+                  "reference": "Matthew 19:28"
+                }
+              ]
+            },
+            {
+              "greek": "ἡ τράπεζα",
+              "english": "Table",
+              "examples": [
+                {
+                  "greek": "τὴν τράπεζαν τῶν κολλυβιστῶν",
+                  "english": "the table of the money-changers",
+                  "reference": "Mark 11:15"
+                }
+              ]
+            },
+            {
+              "greek": "ὁ λύχνος, ἡ λυχνία",
+              "english": "Lamp, lampstand",
+              "examples": [
+                {
+                  "greek": "ὁ λύχνος ὑπὸ τὸν μόδιον",
+                  "english": "the lamp under the bushel",
+                  "reference": "Mark 4:21"
+                }
+              ]
+            },
+            {
+              "greek": "ἡ σχολή",
+              "english": "School, lecture-hall",
+              "examples": [
+                {
+                  "greek": "ἐν τῇ σχολῇ Τυράννου",
+                  "english": "in the school of Tyrannus",
+                  "reference": "Acts 19:9"
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Spatial Relationships & Locations",
           "terms": [
-            {"greek": "ὧδε / ἐκεῖ", "english": "Here / there", "examples": []},
-            {"greek": "ἔσω / ἔξω", "english": "Inside / outside", "examples": [{"greek": "ἔσω δὲ πλήρης", "english": "within full of", "reference": "Matthew 23:28"}]},
-            {"greek": "ἄνω / κάτω", "english": "Above / below", "examples": []},
-            {"greek": "ἐπὶ τῆς τραπέζης", "english": "On the table", "examples": []},
-            {"greek": "ὑπὸ τὴν κλίνην", "english": "Under the bed", "examples": [{"greek": "ὑπὸ τὸν μόδιον", "english": "under the bushel", "reference": "Mark 4:21"}]},
-            {"greek": "παρὰ τῇ θύρᾳ", "english": "Beside the door", "examples": []},
-            {"greek": "ἐν μέσῳ ἡμῶν", "english": "In our midst", "examples": [{"greek": "ἐν μέσῳ ὑμῶν ἕστηκεν", "english": "stands in your midst", "reference": "John 1:26"}]}
+            {
+              "greek": "ὧδε / ἐκεῖ",
+              "english": "Here / there",
+              "examples": []
+            },
+            {
+              "greek": "ἔσω / ἔξω",
+              "english": "Inside / outside",
+              "examples": [
+                {
+                  "greek": "ἔσω δὲ πλήρης",
+                  "english": "within full of",
+                  "reference": "Matthew 23:28"
+                }
+              ]
+            },
+            {
+              "greek": "ἄνω / κάτω",
+              "english": "Above / below",
+              "examples": []
+            },
+            {
+              "greek": "ἐπὶ τῆς τραπέζης",
+              "english": "On the table",
+              "examples": []
+            },
+            {
+              "greek": "ὑπὸ τὴν κλίνην",
+              "english": "Under the bed",
+              "examples": [
+                {
+                  "greek": "ὑπὸ τὸν μόδιον",
+                  "english": "under the bushel",
+                  "reference": "Mark 4:21"
+                }
+              ]
+            },
+            {
+              "greek": "παρὰ τῇ θύρᾳ",
+              "english": "Beside the door",
+              "examples": []
+            },
+            {
+              "greek": "ἐν μέσῳ ἡμῶν",
+              "english": "In our midst",
+              "examples": [
+                {
+                  "greek": "ἐν μέσῳ ὑμῶν ἕστηκεν",
+                  "english": "stands in your midst",
+                  "reference": "John 1:26"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -481,56 +1388,234 @@
         {
           "title": "Hunger & Thirst",
           "terms": [
-            {"greek": "πεινῶ.", "english": "I am hungry.", "examples": [{"greek": "πεινῶ μέγα", "english": "I am very hungry", "reference": "Matthew 4:2"}]},
-            {"greek": "διψῶ.", "english": "I am thirsty.", "examples": [{"greek": "διψῶ καὶ οὐκ ἔχω πιεῖν", "english": "I am thirsty and have nothing to drink", "reference": "John 19:28"}]},
-            {"greek": "οὐ πεινῶ ἔτι.", "english": "I am not hungry any more.", "examples": []},
-            {"greek": "κεχόρτασμαι.", "english": "I am full, satisfied.", "examples": [{"greek": "ἐχορτάσθησαν", "english": "they were satisfied", "reference": "Mark 8:8"}]}
+            {
+              "greek": "πεινῶ.",
+              "english": "I am hungry.",
+              "examples": [
+                {
+                  "greek": "πεινῶ μέγα",
+                  "english": "I am very hungry",
+                  "reference": "Matthew 4:2"
+                }
+              ]
+            },
+            {
+              "greek": "διψῶ.",
+              "english": "I am thirsty.",
+              "examples": [
+                {
+                  "greek": "διψῶ καὶ οὐκ ἔχω πιεῖν",
+                  "english": "I am thirsty and have nothing to drink",
+                  "reference": "John 19:28"
+                }
+              ]
+            },
+            {
+              "greek": "οὐ πεινῶ ἔτι.",
+              "english": "I am not hungry any more.",
+              "examples": []
+            },
+            {
+              "greek": "κεχόρτασμαι.",
+              "english": "I am full, satisfied.",
+              "examples": [
+                {
+                  "greek": "ἐχορτάσθησαν",
+                  "english": "they were satisfied",
+                  "reference": "Mark 8:8"
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Requests for Food & Drink",
           "terms": [
-            {"greek": "δός μοι τὸν ἄρτον, ἀντιβολῶ.", "english": "Give me the bread, please.", "examples": []},
-            {"greek": "δός μοι ὕδωρ.", "english": "Give me water.", "examples": [{"greek": "δός μοι ὕδωρ πιεῖν", "english": "Give me water to drink", "reference": "John 4:7"}]},
-            {"greek": "δός μοι πεῖν", "english": "Give me (something) to drink", "examples": []},
-            {"greek": "δός μοι τὸ ποτήριον.", "english": "Give me the cup.", "examples": [{"greek": "τὸ ποτήριον τὸ ἐμόν", "english": "my cup", "reference": "Mark 10:39"}]}
+            {
+              "greek": "δός μοι τὸν ἄρτον, ἀντιβολῶ.",
+              "english": "Give me the bread, please.",
+              "examples": []
+            },
+            {
+              "greek": "δός μοι ὕδωρ.",
+              "english": "Give me water.",
+              "examples": [
+                {
+                  "greek": "δός μοι ὕδωρ πιεῖν",
+                  "english": "Give me water to drink",
+                  "reference": "John 4:7"
+                }
+              ]
+            },
+            {
+              "greek": "δός μοι πεῖν",
+              "english": "Give me (something) to drink",
+              "examples": []
+            },
+            {
+              "greek": "δός μοι τὸ ποτήριον.",
+              "english": "Give me the cup.",
+              "examples": [
+                {
+                  "greek": "τὸ ποτήριον τὸ ἐμόν",
+                  "english": "my cup",
+                  "reference": "Mark 10:39"
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Dining & Preferences",
           "terms": [
-            {"greek": "θέλω φαγεῖν.", "english": "I want to eat.", "examples": []},
-            {"greek": "θέλω πιεῖν.", "english": "I want to drink.", "examples": []},
-            {"greek": "οὐ θέλω φαγεῖν.", "english": "I do not want to eat.", "examples": []},
-            {"greek": "καλόν ἐστιν· ἡδύ ἐστιν.", "english": "It is good; it is delicious.", "examples": []},
-            {"greek": "ἱκανῶς ἔχω.", "english": "I have had enough.", "examples": []}
+            {
+              "greek": "θέλω φαγεῖν.",
+              "english": "I want to eat.",
+              "examples": []
+            },
+            {
+              "greek": "θέλω πιεῖν.",
+              "english": "I want to drink.",
+              "examples": []
+            },
+            {
+              "greek": "οὐ θέλω φαγεῖν.",
+              "english": "I do not want to eat.",
+              "examples": []
+            },
+            {
+              "greek": "καλόν ἐστιν· ἡδύ ἐστιν.",
+              "english": "It is good; it is delicious.",
+              "examples": []
+            },
+            {
+              "greek": "ἱκανῶς ἔχω.",
+              "english": "I have had enough.",
+              "examples": []
+            }
           ]
         },
         {
           "title": "Actions & Preparation",
           "terms": [
-            {"greek": "λάβε καὶ φάγε.", "english": "Take and eat.", "examples": [{"greek": "λάβετε, φάγετε", "english": "Take, eat", "reference": "Mark 14:22"}]},
-            {"greek": "κλάσον τὸν ἄρτον.", "english": "Break the bread.", "examples": [{"greek": "κλάσας τὸν ἄρτον", "english": "breaking the bread", "reference": "Mark 14:22"}]},
-            {"greek": "ἀνακλίθητε.", "english": "Recline at table.", "examples": [{"greek": "κατακλίθητε", "english": "recline", "reference": "Mark 14:3"}]},
-            {"greek": "νίψαι τὰς χεῖρας.", "english": "Wash your hands.", "examples": [{"greek": "νίψαντας τὰς χεῖρας", "english": "having washed their hands", "reference": "Mark 7:2"}]}
+            {
+              "greek": "λάβε καὶ φάγε.",
+              "english": "Take and eat.",
+              "examples": [
+                {
+                  "greek": "λάβετε, φάγετε",
+                  "english": "Take, eat",
+                  "reference": "Mark 14:22"
+                }
+              ]
+            },
+            {
+              "greek": "κλάσον τὸν ἄρτον.",
+              "english": "Break the bread.",
+              "examples": [
+                {
+                  "greek": "κλάσας τὸν ἄρτον",
+                  "english": "breaking the bread",
+                  "reference": "Mark 14:22"
+                }
+              ]
+            },
+            {
+              "greek": "ἀνακλίθητε.",
+              "english": "Recline at table.",
+              "examples": [
+                {
+                  "greek": "κατακλίθητε",
+                  "english": "recline",
+                  "reference": "Mark 14:3"
+                }
+              ]
+            },
+            {
+              "greek": "νίψαι τὰς χεῖρας.",
+              "english": "Wash your hands.",
+              "examples": [
+                {
+                  "greek": "νίψαντας τὰς χεῖρας",
+                  "english": "having washed their hands",
+                  "reference": "Mark 7:2"
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Aspect & Intention",
           "terms": [
-            {"greek": "μέλλω ἐσθίειν.", "english": "I am about to eat.", "examples": []},
-            {"greek": "ὑπάγω φαγεῖν.", "english": "I am going off to eat.", "examples": []},
-            {"greek": "δεῦτε, φάγωμεν.", "english": "Come, let us eat.", "examples": []}
+            {
+              "greek": "μέλλω ἐσθίειν.",
+              "english": "I am about to eat.",
+              "examples": []
+            },
+            {
+              "greek": "ὑπάγω φαγεῖν.",
+              "english": "I am going off to eat.",
+              "examples": []
+            },
+            {
+              "greek": "δεῦτε, φάγωμεν.",
+              "english": "Come, let us eat.",
+              "examples": []
+            }
           ]
         },
         {
           "title": "Dining Verbs",
           "terms": [
-            {"greek": "ἐσθίω, φάγομαι, ἔφαγον", "english": "I eat", "examples": [{"greek": "ἔφαγον πάντες", "english": "they all ate", "reference": "Mark 6:42"}]},
-            {"greek": "πίνω, πίομαι, ἔπιον", "english": "I drink", "examples": [{"greek": "ἔπιον ἐξ αὐτοῦ", "english": "they drank from it", "reference": "Mark 14:23"}]},
-            {"greek": "γεύομαι", "english": "I taste", "examples": [{"greek": "γεύσηται τὸν θάνατον", "english": "taste death", "reference": "Mark 9:1"}]},
-            {"greek": "δειπνέω", "english": "I dine, take supper", "examples": []},
-            {"greek": "χορτάζομαι", "english": "I am filled", "examples": [{"greek": "χορτάσθησαν", "english": "they were filled", "reference": "Mark 6:42"}]}
+            {
+              "greek": "ἐσθίω, φάγομαι, ἔφαγον",
+              "english": "I eat",
+              "examples": [
+                {
+                  "greek": "ἔφαγον πάντες",
+                  "english": "they all ate",
+                  "reference": "Mark 6:42"
+                }
+              ]
+            },
+            {
+              "greek": "πίνω, πίομαι, ἔπιον",
+              "english": "I drink",
+              "examples": [
+                {
+                  "greek": "ἔπιον ἐξ αὐτοῦ",
+                  "english": "they drank from it",
+                  "reference": "Mark 14:23"
+                }
+              ]
+            },
+            {
+              "greek": "γεύομαι",
+              "english": "I taste",
+              "examples": [
+                {
+                  "greek": "γεύσηται τὸν θάνατον",
+                  "english": "taste death",
+                  "reference": "Mark 9:1"
+                }
+              ]
+            },
+            {
+              "greek": "δειπνέω",
+              "english": "I dine, take supper",
+              "examples": []
+            },
+            {
+              "greek": "χορτάζομαι",
+              "english": "I am filled",
+              "examples": [
+                {
+                  "greek": "χορτάσθησαν",
+                  "english": "they were filled",
+                  "reference": "Mark 6:42"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -555,30 +1640,54 @@
               "greek": "ὁ ἄρτος, -ου",
               "english": "Bread, loaf",
               "examples": [
-                {"greek": "τὸν ἄρτον ἔσθιε", "english": "he was eating the bread", "reference": "Mark 14:22"},
-                {"greek": "ὁ ἄρτος μου", "english": "my bread", "reference": "Mark 6:11"}
+                {
+                  "greek": "τὸν ἄρτον ἔσθιε",
+                  "english": "he was eating the bread",
+                  "reference": "Mark 14:22"
+                },
+                {
+                  "greek": "ὁ ἄρτος μου",
+                  "english": "my bread",
+                  "reference": "Mark 6:11"
+                }
               ]
             },
             {
               "greek": "ὁ σῖτος, -ου",
               "english": "Wheat, grain",
               "examples": [
-                {"greek": "τὸν σῖτον λέγει", "english": "he speaks about the wheat", "reference": "Mark 4:26"},
-                {"greek": "ὁ σῖτος αὐτοῦ", "english": "his wheat", "reference": "Mark 4:28"}
+                {
+                  "greek": "τὸν σῖτον λέγει",
+                  "english": "he speaks about the wheat",
+                  "reference": "Mark 4:26"
+                },
+                {
+                  "greek": "ὁ σῖτος αὐτοῦ",
+                  "english": "his wheat",
+                  "reference": "Mark 4:28"
+                }
               ]
             },
             {
               "greek": "τὸ ἄλευρον",
               "english": "Flour",
               "examples": [
-                {"greek": "τὸ ἄλευρον λευκόν", "english": "white flour", "reference": "Implicit"}
+                {
+                  "greek": "τὸ ἄλευρον λευκόν",
+                  "english": "white flour",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "ὁ κόκκος",
               "english": "Grain, seed",
               "examples": [
-                {"greek": "ὁ κόκκος τοῦ σίναπος", "english": "a grain of mustard seed", "reference": "Mark 4:31"}
+                {
+                  "greek": "ὁ κόκκος τοῦ σίναπος",
+                  "english": "a grain of mustard seed",
+                  "reference": "Mark 4:31"
+                }
               ]
             }
           ]
@@ -590,21 +1699,33 @@
               "greek": "τὸ ἔλαιον",
               "english": "Olive oil",
               "examples": [
-                {"greek": "ἠλείψεν αὐτὸν ἔλαιον", "english": "he anointed him with oil", "reference": "Mark 6:13"}
+                {
+                  "greek": "ἠλείψεν αὐτὸν ἔλαιον",
+                  "english": "he anointed him with oil",
+                  "reference": "Mark 6:13"
+                }
               ]
             },
             {
               "greek": "τὸ ἅλας, -ατος",
               "english": "Salt",
               "examples": [
-                {"greek": "πᾶς γὰρ πυρὶ ἁλισθήσεται", "english": "for every one shall be salted with fire", "reference": "Mark 9:49"}
+                {
+                  "greek": "πᾶς γὰρ πυρὶ ἁλισθήσεται",
+                  "english": "for every one shall be salted with fire",
+                  "reference": "Mark 9:49"
+                }
               ]
             },
             {
               "greek": "τὸ μέλι, -ιτος",
               "english": "Honey",
               "examples": [
-                {"greek": "μέλι τρώγει", "english": "he eats honey", "reference": "Implicit"}
+                {
+                  "greek": "μέλι τρώγει",
+                  "english": "he eats honey",
+                  "reference": "Implicit"
+                }
               ]
             }
           ]
@@ -616,28 +1737,44 @@
               "greek": "τὸ ὕδωρ, ὕδατος",
               "english": "Water",
               "examples": [
-                {"greek": "τὸ ὕδωρ εἰσῆλθεν", "english": "the water entered", "reference": "Mark 9:22"}
+                {
+                  "greek": "τὸ ὕδωρ εἰσῆλθεν",
+                  "english": "the water entered",
+                  "reference": "Mark 9:22"
+                }
               ]
             },
             {
               "greek": "ὁ οἶνος, -ου",
               "english": "Wine",
               "examples": [
-                {"greek": "οἶνον ἔδωκεν αὐτῷ", "english": "he gave him wine", "reference": "Mark 15:23"}
+                {
+                  "greek": "οἶνον ἔδωκεν αὐτῷ",
+                  "english": "he gave him wine",
+                  "reference": "Mark 15:23"
+                }
               ]
             },
             {
               "greek": "τὸ ὄξος, -ους",
               "english": "Sour wine, vinegar",
               "examples": [
-                {"greek": "ὄξος ἐπὶ σπόγγῳ", "english": "sour wine on a sponge", "reference": "Mark 15:36"}
+                {
+                  "greek": "ὄξος ἐπὶ σπόγγῳ",
+                  "english": "sour wine on a sponge",
+                  "reference": "Mark 15:36"
+                }
               ]
             },
             {
               "greek": "τὸ γάλα, γάλακτος",
               "english": "Milk",
               "examples": [
-                {"greek": "γάλα ἔδωκεν", "english": "he gave milk", "reference": "Implicit"}
+                {
+                  "greek": "γάλα ἔδωκεν",
+                  "english": "he gave milk",
+                  "reference": "Implicit"
+                }
               ]
             }
           ]
@@ -649,43 +1786,71 @@
               "greek": "ὁ ἰχθύς, -ύος",
               "english": "Fish",
               "examples": [
-                {"greek": "τοὺς ἰχθῦς ἐδίδου", "english": "he gave the fish", "reference": "Mark 6:41"},
-                {"greek": "ἰχθῦς ἔχομεν ἕπτα", "english": "we have seven fish", "reference": "Mark 8:7"}
+                {
+                  "greek": "τοὺς ἰχθῦς ἐδίδου",
+                  "english": "he gave the fish",
+                  "reference": "Mark 6:41"
+                },
+                {
+                  "greek": "ἰχθῦς ἔχομεν ἕπτα",
+                  "english": "we have seven fish",
+                  "reference": "Mark 8:7"
+                }
               ]
             },
             {
               "greek": "τὸ κρέας, -έως",
               "english": "Meat",
               "examples": [
-                {"greek": "τὸ κρέας ἐσθίετε", "english": "you eat meat", "reference": "Implicit"}
+                {
+                  "greek": "τὸ κρέας ἐσθίετε",
+                  "english": "you eat meat",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "τὸ ᾠόν, -οῦ",
               "english": "Egg",
               "examples": [
-                {"greek": "ᾠόν δώσει αὐτῷ", "english": "will give him an egg", "reference": "Implicit"}
+                {
+                  "greek": "ᾠόν δώσει αὐτῷ",
+                  "english": "will give him an egg",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "τὸ λάχανον",
               "english": "Vegetable, herb",
               "examples": [
-                {"greek": "τὸ λάχανον φαγεῖν", "english": "to eat the vegetable", "reference": "Implicit"}
+                {
+                  "greek": "τὸ λάχανον φαγεῖν",
+                  "english": "to eat the vegetable",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "τὸ σῦκον / ἡ συκῆ",
               "english": "Fig / fig tree",
               "examples": [
-                {"greek": "ἡ συκῆ κατάρατος", "english": "the fig tree is cursed", "reference": "Mark 11:21"}
+                {
+                  "greek": "ἡ συκῆ κατάρατος",
+                  "english": "the fig tree is cursed",
+                  "reference": "Mark 11:21"
+                }
               ]
             },
             {
               "greek": "ἡ σταφυλή",
               "english": "Bunch of grapes",
               "examples": [
-                {"greek": "σταφυλαῖς ἐπιζητῶ", "english": "I seek for grapes", "reference": "Implicit"}
+                {
+                  "greek": "σταφυλαῖς ἐπιζητῶ",
+                  "english": "I seek for grapes",
+                  "reference": "Implicit"
+                }
               ]
             }
           ]
@@ -697,45 +1862,81 @@
               "greek": "τὸ ποτήριον",
               "english": "Cup",
               "examples": [
-                {"greek": "τὸ ποτήριον τοῦτο", "english": "this cup", "reference": "Mark 14:23"},
-                {"greek": "ἔπιον ἐκ τοῦ ποτηρίου", "english": "they drank from the cup", "reference": "Mark 14:23"}
+                {
+                  "greek": "τὸ ποτήριον τοῦτο",
+                  "english": "this cup",
+                  "reference": "Mark 14:23"
+                },
+                {
+                  "greek": "ἔπιον ἐκ τοῦ ποτηρίου",
+                  "english": "they drank from the cup",
+                  "reference": "Mark 14:23"
+                }
               ]
             },
             {
               "greek": "ὁ πίναξ, -ακος",
               "english": "Platter, plate",
               "examples": [
-                {"greek": "ἐπὶ τῷ πίνακι", "english": "on the plate", "reference": "Mark 6:25"},
-                {"greek": "ἡ κεφαλὴ ἐν πίνακι", "english": "the head on a plate", "reference": "Mark 6:28"}
+                {
+                  "greek": "ἐπὶ τῷ πίνακι",
+                  "english": "on the plate",
+                  "reference": "Mark 6:25"
+                },
+                {
+                  "greek": "ἡ κεφαλὴ ἐν πίνακι",
+                  "english": "the head on a plate",
+                  "reference": "Mark 6:28"
+                }
               ]
             },
             {
               "greek": "τὸ κοχλιάριον",
               "english": "Spoon",
               "examples": [
-                {"greek": "κοχλιάριον ἔχε", "english": "have a spoon", "reference": "Implicit"}
+                {
+                  "greek": "κοχλιάριον ἔχε",
+                  "english": "have a spoon",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "ἡ τράπεζα, -ης",
               "english": "Table",
               "examples": [
-                {"greek": "περὶ τὴν τράπεζαν", "english": "around the table", "reference": "Mark 14:18"},
-                {"greek": "τὴν τράπεζαν κατέστρεψεν", "english": "he overturned the table", "reference": "Mark 11:15"}
+                {
+                  "greek": "περὶ τὴν τράπεζαν",
+                  "english": "around the table",
+                  "reference": "Mark 14:18"
+                },
+                {
+                  "greek": "τὴν τράπεζαν κατέστρεψεν",
+                  "english": "he overturned the table",
+                  "reference": "Mark 11:15"
+                }
               ]
             },
             {
               "greek": "ὁ ξέστης",
               "english": "Pitcher, jug",
               "examples": [
-                {"greek": "ξέστης ὕδατος", "english": "pitcher of water", "reference": "Implicit"}
+                {
+                  "greek": "ξέστης ὕδατος",
+                  "english": "pitcher of water",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "τὸ τρύβλιον",
               "english": "Bowl, dish",
               "examples": [
-                {"greek": "τὸ τρύβλιον μέσον", "english": "the bowl in the middle", "reference": "Implicit"}
+                {
+                  "greek": "τὸ τρύβλιον μέσον",
+                  "english": "the bowl in the middle",
+                  "reference": "Implicit"
+                }
               ]
             }
           ]
@@ -747,41 +1948,65 @@
               "greek": "τὸ ἀγγεῖον",
               "english": "Container, vessel",
               "examples": [
-                {"greek": "ἐν ἀγγείοις ἐσμέν", "english": "we are in vessels", "reference": "Implicit"}
+                {
+                  "greek": "ἐν ἀγγείοις ἐσμέν",
+                  "english": "we are in vessels",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "ἡ ὑδρία",
               "english": "Water jar",
               "examples": [
-                {"greek": "ἡ ὑδρία πεπληρωμένη", "english": "the jar was filled", "reference": "Implicit"}
+                {
+                  "greek": "ἡ ὑδρία πεπληρωμένη",
+                  "english": "the jar was filled",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "ὁ κόφινος / ἡ σπυρίς",
               "english": "Basket",
               "examples": [
-                {"greek": "κόφινος ἄρτων", "english": "a basket of bread", "reference": "Mark 6:43"}
+                {
+                  "greek": "κόφινος ἄρτων",
+                  "english": "a basket of bread",
+                  "reference": "Mark 6:43"
+                }
               ]
             },
             {
               "greek": "ὁ κλίβανος",
               "english": "Oven",
               "examples": [
-                {"greek": "ὡς ὁ κλίβανος", "english": "like an oven", "reference": "Implicit"}
+                {
+                  "greek": "ὡς ὁ κλίβανος",
+                  "english": "like an oven",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "τὸ πῦρ, πυρός",
               "english": "Fire",
               "examples": [
-                {"greek": "ῥῖψαι εἰς τὸ πῦρ", "english": "to cast into the fire", "reference": "Mark 9:22"}
+                {
+                  "greek": "ῥῖψαι εἰς τὸ πῦρ",
+                  "english": "to cast into the fire",
+                  "reference": "Mark 9:22"
+                }
               ]
             }
           ]
         }
       ],
-      "principles": ["Neuter nouns: ἔλαιον, ὕδωρ, γάλα, κρέας, ᾠόν, ποτήριον, πῦρ", "Masculine nouns: ἄρτος, σῖτος, κόκκος, οἶνος, ἰχθύς, πίναξ, κλίβανος, ξέστης", "Feminine nouns: τράπεζα, ζύμη, ὑδρία, σπυρίς, συκῆ, σταφυλή"],
+      "principles": [
+        "Neuter nouns: ἔλαιον, ὕδωρ, γάλα, κρέας, ᾠόν, ποτήριον, πῦρ",
+        "Masculine nouns: ἄρτος, σῖτος, κόκκος, οἶνος, ἰχθύς, πίναξ, κλίβανος, ξέστης",
+        "Feminine nouns: τράπεζα, ζύμη, ὑδρία, σπυρίς, συκῆ, σταφυλή"
+      ],
       "drill_instruction": "Substitution Drill: Teacher names a food or vessel item, students respond with accusative constructions. Example: Teacher says 'ἄρτος', students say 'δός μοι τὸν ἄρτον', 'φέρε τὸν ἄρτον', 'ἐσθίε τὸν ἄρτον', etc."
     },
     {
@@ -798,37 +2023,65 @@
               "greek": "καθεύδω",
               "english": "I sleep",
               "examples": [
-                {"greek": "καθεύδουσιν", "english": "they are sleeping", "reference": "Mark 4:27"},
-                {"greek": "κατακοιμίζομαι καὶ καθεύδω", "english": "I lie down and sleep", "reference": "Mark 5:39"}
+                {
+                  "greek": "καθεύδουσιν",
+                  "english": "they are sleeping",
+                  "reference": "Mark 4:27"
+                },
+                {
+                  "greek": "κατακοιμίζομαι καὶ καθεύδω",
+                  "english": "I lie down and sleep",
+                  "reference": "Mark 5:39"
+                }
               ]
             },
             {
               "greek": "κοιμάομαι",
               "english": "I fall asleep, lie down",
               "examples": [
-                {"greek": "ἐκοιμήθησαν", "english": "they fell asleep", "reference": "Mark 4:38"},
-                {"greek": "κοιμηθῶμεν", "english": "let us go to sleep", "reference": "Implicit"}
+                {
+                  "greek": "ἐκοιμήθησαν",
+                  "english": "they fell asleep",
+                  "reference": "Mark 4:38"
+                },
+                {
+                  "greek": "κοιμηθῶμεν",
+                  "english": "let us go to sleep",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "γρηγορέω",
               "english": "I stay awake, keep watch",
               "examples": [
-                {"greek": "γρηγορεῖτε", "english": "stay awake!", "reference": "Mark 13:37"}
+                {
+                  "greek": "γρηγορεῖτε",
+                  "english": "stay awake!",
+                  "reference": "Mark 13:37"
+                }
               ]
             },
             {
               "greek": "νυστάζω",
               "english": "I grow drowsy",
               "examples": [
-                {"greek": "νυστάζω ἀπὸ τοῦ πυρὸς", "english": "I am drowsy from the fire", "reference": "Implicit"}
+                {
+                  "greek": "νυστάζω ἀπὸ τοῦ πυρὸς",
+                  "english": "I am drowsy from the fire",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "ἀναπαύομαι",
               "english": "I rest",
               "examples": [
-                {"greek": "ἀναπαύσονται ἐκ τῶν κόπων αὐτῶν", "english": "they will rest from their toils", "reference": "Implicit"}
+                {
+                  "greek": "ἀναπαύσονται ἐκ τῶν κόπων αὐτῶν",
+                  "english": "they will rest from their toils",
+                  "reference": "Implicit"
+                }
               ]
             }
           ]
@@ -840,28 +2093,44 @@
               "greek": "ἐγείρω",
               "english": "I awaken (transitive)",
               "examples": [
-                {"greek": "ἔγειρε αὐτόν", "english": "wake him up", "reference": "Mark 1:31"}
+                {
+                  "greek": "ἔγειρε αὐτόν",
+                  "english": "wake him up",
+                  "reference": "Mark 1:31"
+                }
               ]
             },
             {
               "greek": "ἐγείρομαι",
               "english": "I get up (middle)",
               "examples": [
-                {"greek": "ἠγέρθη", "english": "he got up", "reference": "Mark 5:41"}
+                {
+                  "greek": "ἠγέρθη",
+                  "english": "he got up",
+                  "reference": "Mark 5:41"
+                }
               ]
             },
             {
               "greek": "ἀνίσταμαι",
               "english": "I rise, stand up",
               "examples": [
-                {"greek": "ἀνέστη", "english": "he rose", "reference": "Mark 10:49"}
+                {
+                  "greek": "ἀνέστη",
+                  "english": "he rose",
+                  "reference": "Mark 10:49"
+                }
               ]
             },
             {
               "greek": "διεγείρω",
               "english": "I wake someone thoroughly",
               "examples": [
-                {"greek": "διηγέρθη ἐκ τοῦ ὕπνου", "english": "he was awakened from sleep", "reference": "Implicit"}
+                {
+                  "greek": "διηγέρθη ἐκ τοῦ ὕπνου",
+                  "english": "he was awakened from sleep",
+                  "reference": "Implicit"
+                }
               ]
             }
           ]
@@ -873,35 +2142,55 @@
               "greek": "ἡ κλίνη, -ης",
               "english": "Bed, couch",
               "examples": [
-                {"greek": "ἐπὶ τὴν κλίνην", "english": "onto the bed", "reference": "Mark 7:30"}
+                {
+                  "greek": "ἐπὶ τὴν κλίνην",
+                  "english": "onto the bed",
+                  "reference": "Mark 7:30"
+                }
               ]
             },
             {
               "greek": "ὁ κράβαττος, -ου",
               "english": "Mat, pallet",
               "examples": [
-                {"greek": "ἆρον τὸν κράβαττόν σου", "english": "pick up your mat", "reference": "Mark 2:9"}
+                {
+                  "greek": "ἆρον τὸν κράβαττόν σου",
+                  "english": "pick up your mat",
+                  "reference": "Mark 2:9"
+                }
               ]
             },
             {
               "greek": "τὸ προσκεφάλαιον",
               "english": "Pillow, cushion",
               "examples": [
-                {"greek": "τὸ προσκεφάλαιον κάτω", "english": "the pillow underneath", "reference": "Implicit"}
+                {
+                  "greek": "τὸ προσκεφάλαιον κάτω",
+                  "english": "the pillow underneath",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "ἡ στρωμνή",
               "english": "Bedding, mattress, blanket",
               "examples": [
-                {"greek": "δός μοι ἄλλην στρωμνήν", "english": "give me another blanket", "reference": "Implicit"}
+                {
+                  "greek": "δός μοι ἄλλην στρωμνήν",
+                  "english": "give me another blanket",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "τὸ στρῶμα",
               "english": "Mattress, coverlet",
               "examples": [
-                {"greek": "τὸ στρῶμα αὐτοῦ", "english": "his bedding", "reference": "Implicit"}
+                {
+                  "greek": "τὸ στρῶμα αὐτοῦ",
+                  "english": "his bedding",
+                  "reference": "Implicit"
+                }
               ]
             }
           ]
@@ -913,28 +2202,44 @@
               "greek": "τὸ ἱμάτιον",
               "english": "Cloak, outer garment",
               "examples": [
-                {"greek": "ἐπεβάλοντο ἱμάτια", "english": "they cast on garments", "reference": "Mark 15:20"}
+                {
+                  "greek": "ἐπεβάλοντο ἱμάτια",
+                  "english": "they cast on garments",
+                  "reference": "Mark 15:20"
+                }
               ]
             },
             {
               "greek": "ὁ χιτών, -ῶνος",
               "english": "Tunic, inner garment",
               "examples": [
-                {"greek": "τὸν χιτῶνα αὐτοῦ", "english": "his tunic", "reference": "Mark 15:24"}
+                {
+                  "greek": "τὸν χιτῶνα αὐτοῦ",
+                  "english": "his tunic",
+                  "reference": "Mark 15:24"
+                }
               ]
             },
             {
               "greek": "ἡ χλαῖνα",
               "english": "Thick cloak used as blanket",
               "examples": [
-                {"greek": "χλαῖνα πορφυρέα", "english": "a purple cloak", "reference": "Mark 15:17"}
+                {
+                  "greek": "χλαῖνα πορφυρέα",
+                  "english": "a purple cloak",
+                  "reference": "Mark 15:17"
+                }
               ]
             },
             {
               "greek": "ἡ σινδών, -όνος",
               "english": "Linen sheet, wrap",
               "examples": [
-                {"greek": "ἡ σινδών καθαρά", "english": "the fine linen", "reference": "Mark 15:46"}
+                {
+                  "greek": "ἡ σινδών καθαρά",
+                  "english": "the fine linen",
+                  "reference": "Mark 15:46"
+                }
               ]
             }
           ]
@@ -946,21 +2251,33 @@
               "greek": "σανδάλιον",
               "english": "Sandal",
               "examples": [
-                {"greek": "ὑπόδημα τῶν ποδῶν", "english": "footwear", "reference": "Implicit"}
+                {
+                  "greek": "ὑπόδημα τῶν ποδῶν",
+                  "english": "footwear",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "ὑπόδημα",
               "english": "Shoe",
               "examples": [
-                {"greek": "τὰ ὑποδήματα αὐτοῦ", "english": "his shoes", "reference": "Mark 1:7"}
+                {
+                  "greek": "τὰ ὑποδήματα αὐτοῦ",
+                  "english": "his shoes",
+                  "reference": "Mark 1:7"
+                }
               ]
             },
             {
               "greek": "ζώνη",
               "english": "Belt, girdle",
               "examples": [
-                {"greek": "ζώνη περιεσπάρη", "english": "a belt girded about", "reference": "Implicit"}
+                {
+                  "greek": "ζώνη περιεσπάρη",
+                  "english": "a belt girded about",
+                  "reference": "Implicit"
+                }
               ]
             }
           ]
@@ -972,27 +2289,44 @@
               "greek": "ὁ κοιτών, -ῶνος",
               "english": "Bedroom, sleeping chamber",
               "examples": [
-                {"greek": "εἰσέρχομαι εἰς τὸν κοιτῶνα", "english": "I am going into the bedroom", "reference": "Implicit"}
+                {
+                  "greek": "εἰσέρχομαι εἰς τὸν κοιτῶνα",
+                  "english": "I am going into the bedroom",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "τὸ ταμεῖον",
               "english": "Inner room, private room",
               "examples": [
-                {"greek": "τὸ ταμεῖόν σου", "english": "your inner chamber", "reference": "Implicit"}
+                {
+                  "greek": "τὸ ταμεῖόν σου",
+                  "english": "your inner chamber",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "τὸ ἀνάγαιον",
               "english": "Upper room",
               "examples": [
-                {"greek": "ἀνάγαιον ἐστέλιστο", "english": "the upper room was prepared", "reference": "Mark 14:15"}
+                {
+                  "greek": "ἀνάγαιον ἐστέλιστο",
+                  "english": "the upper room was prepared",
+                  "reference": "Mark 14:15"
+                }
               ]
             }
           ]
         }
       ],
-      "principles": ["Neuter nouns: ἱμάτιον, τὸ ταμεῖον, ἀνάγαιον", "Masculine: χιτών, κραβάττος, κοιτών", "Feminine: κλίνη, χλαῖνα, σινδών, ζώνη, στρωμνή", "Imperative forms: ἔγειρε! ἀνάστηθι! γρηγόρει! κοιμηθῶμεν"],
+      "principles": [
+        "Neuter nouns: ἱμάτιον, τὸ ταμεῖον, ἀνάγαιον",
+        "Masculine: χιτών, κραβάττος, κοιτών",
+        "Feminine: κλίνη, χλαῖνα, σινδών, ζώνη, στρωμνή",
+        "Imperative forms: ἔγειρε! ἀνάστηθι! γρηγόρει! κοιμηθῶμεν"
+      ],
       "drill_instruction": "Substitution Drill: Teacher gives imperative commands for sleep/waking actions. Example: Teacher says 'κοιμᾶσθε' (you sleep), students respond 'κοιμηθῶμεν ἤδη' (let us sleep now), 'ἀνάστηθι' (rise), etc. Builds imperative fluency for rest routines."
     },
     {
@@ -1009,36 +2343,60 @@
               "greek": "ἡ νύξ, νυκτός",
               "english": "Night",
               "examples": [
-                {"greek": "ἐν τῇ νυκτί", "english": "in the night", "reference": "Mark 6:48"},
-                {"greek": "καλὴν νύκτα", "english": "good night", "reference": "Implicit"}
+                {
+                  "greek": "ἐν τῇ νυκτί",
+                  "english": "in the night",
+                  "reference": "Mark 6:48"
+                },
+                {
+                  "greek": "καλὴν νύκτα",
+                  "english": "good night",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "τὸ σκότος",
               "english": "Darkness",
               "examples": [
-                {"greek": "ἐν τῷ σκότει", "english": "in the darkness", "reference": "Mark 14:72"}
+                {
+                  "greek": "ἐν τῷ σκότει",
+                  "english": "in the darkness",
+                  "reference": "Mark 14:72"
+                }
               ]
             },
             {
               "greek": "ὀψέ",
               "english": "Evening (c. 6–9 p.m.)",
               "examples": [
-                {"greek": "ὀψὲ γενομένης", "english": "when it became evening", "reference": "Mark 6:47"}
+                {
+                  "greek": "ὀψὲ γενομένης",
+                  "english": "when it became evening",
+                  "reference": "Mark 6:47"
+                }
               ]
             },
             {
               "greek": "πρωΐ",
               "english": "Early, in the morning",
               "examples": [
-                {"greek": "πρωΐ σφόδρα", "english": "very early in the morning", "reference": "Mark 1:35"}
+                {
+                  "greek": "πρωΐ σφόδρα",
+                  "english": "very early in the morning",
+                  "reference": "Mark 1:35"
+                }
               ]
             },
             {
               "greek": "ὁ ὄρθρος",
               "english": "Daybreak, dawn",
               "examples": [
-                {"greek": "τοῦ ὄρθρου", "english": "at dawn", "reference": "Implicit"}
+                {
+                  "greek": "τοῦ ὄρθρου",
+                  "english": "at dawn",
+                  "reference": "Implicit"
+                }
               ]
             }
           ]
@@ -1050,21 +2408,33 @@
               "greek": "μεσονύκτιον",
               "english": "Midnight (c. 9–12 p.m.)",
               "examples": [
-                {"greek": "μεσονύκτιον κρίσεως", "english": "at midnight when judgment comes", "reference": "Implicit"}
+                {
+                  "greek": "μεσονύκτιον κρίσεως",
+                  "english": "at midnight when judgment comes",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "ἀλεκτοροφωνία",
               "english": "Cockcrow (c. 12–3 a.m.)",
               "examples": [
-                {"greek": "πρὶν ἀλεκτοροφωνίας", "english": "before the cockcrow", "reference": "Mark 13:35"}
+                {
+                  "greek": "πρὶν ἀλεκτοροφωνίας",
+                  "english": "before the cockcrow",
+                  "reference": "Mark 13:35"
+                }
               ]
             },
             {
               "greek": "νυκτός",
               "english": "By night (genitive of time)",
               "examples": [
-                {"greek": "δι᾽ ὅλης τῆς νυκτός", "english": "throughout the whole night", "reference": "Implicit"}
+                {
+                  "greek": "δι᾽ ὅλης τῆς νυκτός",
+                  "english": "throughout the whole night",
+                  "reference": "Implicit"
+                }
               ]
             }
           ]
@@ -1076,21 +2446,33 @@
               "greek": "ὁ ὕπνος, -ου",
               "english": "Sleep",
               "examples": [
-                {"greek": "εἰς ὕπνον ἀπῆλθον", "english": "they went into sleep", "reference": "Implicit"}
+                {
+                  "greek": "εἰς ὕπνον ἀπῆλθον",
+                  "english": "they went into sleep",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "τὸ ἐνύπνιον",
               "english": "Dream",
               "examples": [
-                {"greek": "ἐνύπνιον εἶδεν", "english": "he saw a dream", "reference": "Implicit"}
+                {
+                  "greek": "ἐνύπνιον εἶδεν",
+                  "english": "he saw a dream",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "τὸ ὄναρ",
               "english": "Dream (κατ' ὄναρ = in a dream)",
               "examples": [
-                {"greek": "κατ' ὄναρ ὤφθη", "english": "appeared in a dream", "reference": "Implicit"}
+                {
+                  "greek": "κατ' ὄναρ ὤφθη",
+                  "english": "appeared in a dream",
+                  "reference": "Implicit"
+                }
               ]
             }
           ]
@@ -1102,35 +2484,55 @@
               "greek": "ἡ σελήνη",
               "english": "Moon",
               "examples": [
-                {"greek": "ἡ σελήνη ἐσκοτίσθη", "english": "the moon was darkened", "reference": "Implicit"}
+                {
+                  "greek": "ἡ σελήνη ἐσκοτίσθη",
+                  "english": "the moon was darkened",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "οἱ ἀστέρες",
               "english": "Stars",
               "examples": [
-                {"greek": "ἀστέρας ὄψεσθε", "english": "you will see stars", "reference": "Implicit"}
+                {
+                  "greek": "ἀστέρας ὄψεσθε",
+                  "english": "you will see stars",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "ὁ ἀλέκτωρ, -ορος",
               "english": "Rooster",
               "examples": [
-                {"greek": "ἀλέκτωρ ἐφώνησεν", "english": "the rooster crowed", "reference": "Mark 14:68"}
+                {
+                  "greek": "ἀλέκτωρ ἐφώνησεν",
+                  "english": "the rooster crowed",
+                  "reference": "Mark 14:68"
+                }
               ]
             },
             {
               "greek": "ὁ λύχνος",
               "english": "Lamp",
               "examples": [
-                {"greek": "τὸν λύχνον σβέσον", "english": "put out the lamp", "reference": "Implicit"}
+                {
+                  "greek": "τὸν λύχνον σβέσον",
+                  "english": "put out the lamp",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "ἡ λυχνία",
               "english": "Lampstand",
               "examples": [
-                {"greek": "ἡ λυχνία ἐπὶ τὴν λυχνιαν", "english": "the lamp on the lampstand", "reference": "Implicit"}
+                {
+                  "greek": "ἡ λυχνία ἐπὶ τὴν λυχνιαν",
+                  "english": "the lamp on the lampstand",
+                  "reference": "Implicit"
+                }
               ]
             }
           ]
@@ -1142,55 +2544,88 @@
               "greek": "ὁ οἶκος / ἡ οἰκία",
               "english": "House, household",
               "examples": [
-                {"greek": "ὁ οἶκος αὐτοῦ", "english": "his house", "reference": "Mark 3:25"}
+                {
+                  "greek": "ὁ οἶκος αὐτοῦ",
+                  "english": "his house",
+                  "reference": "Mark 3:25"
+                }
               ]
             },
             {
               "greek": "τὸ ἀνάγαιον",
               "english": "Upper room",
               "examples": [
-                {"greek": "ἀνάγαιον ἐστέλιστο", "english": "the upper room was prepared", "reference": "Mark 14:15"}
+                {
+                  "greek": "ἀνάγαιον ἐστέλιστο",
+                  "english": "the upper room was prepared",
+                  "reference": "Mark 14:15"
+                }
               ]
             },
             {
               "greek": "τὸ ταμεῖον",
               "english": "Inner room, private room",
               "examples": [
-                {"greek": "εἰς τὸ ταμεῖόν σου", "english": "into your private chamber", "reference": "Implicit"}
+                {
+                  "greek": "εἰς τὸ ταμεῖόν σου",
+                  "english": "into your private chamber",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "τὸ ὑπερῷον",
               "english": "Upper storey",
               "examples": [
-                {"greek": "τὸ ὑπερῷον τῆς πόλεως", "english": "the upper storey of the city", "reference": "Implicit"}
+                {
+                  "greek": "τὸ ὑπερῷον τῆς πόλεως",
+                  "english": "the upper storey of the city",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "τὸ δῶμα",
               "english": "Roof, housetop",
               "examples": [
-                {"greek": "ἐπὶ τῷ δώματι", "english": "on the roof", "reference": "Mark 13:15"}
+                {
+                  "greek": "ἐπὶ τῷ δώματι",
+                  "english": "on the roof",
+                  "reference": "Mark 13:15"
+                }
               ]
             },
             {
               "greek": "ἡ θύρα",
               "english": "Door",
               "examples": [
-                {"greek": "κλεῖσον τὴν θύραν", "english": "shut the door", "reference": "Implicit"}
+                {
+                  "greek": "κλεῖσον τὴν θύραν",
+                  "english": "shut the door",
+                  "reference": "Implicit"
+                }
               ]
             },
             {
               "greek": "ἡ αὐλή",
               "english": "Courtyard",
               "examples": [
-                {"greek": "ἐν τῇ αὐλῇ", "english": "in the courtyard", "reference": "Mark 14:66"}
+                {
+                  "greek": "ἐν τῇ αὐλῇ",
+                  "english": "in the courtyard",
+                  "reference": "Mark 14:66"
+                }
               ]
             }
           ]
         }
       ],
-      "principles": ["Feminine: νύξ, σελήνη, λυχνία, θύρα, αὐλή, οἰκία", "Neuter: σκότος, ταμεῖον, ἀνάγαιον, ὑπερῷον, δῶμα, ἐνύπνιον, ὄναρ", "Masculine: ἀλέκτωρ, λύχνος, ὄρθρος, οἶκος, ὕπνος", "Genitive of time: νυκτός (by night), πρωΐ (in early morning)"],
+      "principles": [
+        "Feminine: νύξ, σελήνη, λυχνία, θύρα, αὐλή, οἰκία",
+        "Neuter: σκότος, ταμεῖον, ἀνάγαιον, ὑπερῷον, δῶμα, ἐνύπνιον, ὄναρ",
+        "Masculine: ἀλέκτωρ, λύχνος, ὄρθρος, οἶκος, ὕπνος",
+        "Genitive of time: νυκτός (by night), πρωΐ (in early morning)"
+      ],
       "drill_instruction": "Substitution Drill: Teacher provides time expressions, students respond with nocturnal activities. Example: Teacher says 'μεσονύκτιον', students say 'μεσονύκτιον καθεύδουσιν', 'μεσονύκτιον ἀναπαύονται', etc. Builds vocabulary for understanding Mark's night scenes and dream narratives."
     },
     {
@@ -1207,34 +2642,62 @@
               "greek": "ἡ περίοδος",
               "english": "The sentence",
               "examples": [
-                {"greek": "περίοδος = ἄρτος + ῥῆμα + ἄλλα", "english": "A sentence = noun + verb + others", "reference": "Grammar principle"}
-              ]
+                {
+                  "greek": "περίοδος = ἄρτος + ῥῆμα + ἄλλα",
+                  "english": "A sentence = noun + verb + others",
+                  "reference": "Grammar principle"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ἡ περίοδος. συνάγω πάντα εἰς λόγον τέλειον· ἀρχὴν ἔχω καὶ τέλος.",
+              "narrative_english": "I am the sentence. I gather everything into one complete utterance: I have a beginning and an end."
             },
             {
               "greek": "τὸ ὄνομα",
               "english": "The noun",
               "examples": [
-                {"greek": "Ἰησοῦς, θεός, ἀγάπη", "english": "Jesus, God, love (nouns)", "reference": "Mark 1:1"}
-              ]
+                {
+                  "greek": "Ἰησοῦς, θεός, ἀγάπη",
+                  "english": "Jesus, God, love (nouns)",
+                  "reference": "Mark 1:1"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι τὸ ὄνομα. ὀνομάζω ἀνθρώπους καὶ πράγματα καὶ τόπους. ἔχω γένος καὶ ἀριθμὸν καὶ πτῶσιν.",
+              "narrative_english": "I am the noun. I name people and things and places. I have gender, number and case."
             },
             {
               "greek": "τὸ ῥῆμα",
               "english": "The verb",
               "examples": [
-                {"greek": "λέγει, ποιεῖ, εἶ", "english": "says, does, is (verbs)", "reference": "Mark 1:15"}
-              ]
+                {
+                  "greek": "λέγει, ποιεῖ, εἶ",
+                  "english": "says, does, is (verbs)",
+                  "reference": "Mark 1:15"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι τὸ ῥῆμα. λέγω τί ποιεῖ τις ἢ τί πάσχει ἢ τί ἐστιν. ἄνευ ἐμοῦ οὐδεμία περίοδος.",
+              "narrative_english": "I am the verb. I tell what someone does, or undergoes, or is. Without me there is no sentence."
             },
             {
               "greek": "τὸ ἐπίθετον",
               "english": "The adjective",
               "examples": [
-                {"greek": "ἀγάπη ἀγάπη, ἱερὸς ναός, βασιλεία μεγάλη", "english": "great love, holy temple, great kingdom (adjectives modifying nouns)", "reference": "Mark 11:11"}
-              ]
+                {
+                  "greek": "ἀγάπη ἀγάπη, ἱερὸς ναός, βασιλεία μεγάλη",
+                  "english": "great love, holy temple, great kingdom (adjectives modifying nouns)",
+                  "reference": "Mark 11:11"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι τὸ ἐπίθετον. πρόσκειμαι τῷ ὀνόματι καὶ λέγω ποῖόν ἐστιν· ἕπομαι δὲ αὐτῷ γένει καὶ ἀριθμῷ καὶ πτώσει.",
+              "narrative_english": "I am the adjective. I attach to the noun and say what kind it is — and I follow it in gender, number and case."
             }
           ]
         }
       ],
-      "principles": ["The sentence (περίοδος) is built from nouns (ὄνομα) and verbs (ῥῆμα)", "Adjectives (ἐπίθετον) modify nouns and agree in gender, number, and case", "Every clause needs a verb; nouns and adjectives support the verb"],
+      "principles": [
+        "The sentence (περίοδος) is built from nouns (ὄνομα) and verbs (ῥῆμα)",
+        "Adjectives (ἐπίθετον) modify nouns and agree in gender, number, and case",
+        "Every clause needs a verb; nouns and adjectives support the verb"
+      ],
       "drill_instruction": "Identification Drill: Read sentences from Mark and identify the core parts: τὸ ὄνομα (noun), τὸ ῥῆμα (verb), τὸ ἐπίθετον (adjective). Example: 'ὁ θεὸς ἀγαπᾷ τὸν κόσμον' — ὄνομα (θεός), ῥῆμα (ἀγαπᾷ), ὄνομα (κόσμος)."
     },
     {
@@ -1251,34 +2714,63 @@
               "greek": "ἡ ἀντωνυμία",
               "english": "The pronoun",
               "examples": [
-                {"greek": "ἐγώ, σύ, αὐτός", "english": "I, you, he/she/it (pronouns)", "reference": "Mark 1:2"}
-              ]
+                {
+                  "greek": "ἐγώ, σύ, αὐτός",
+                  "english": "I, you, he/she/it (pronouns)",
+                  "reference": "Mark 1:2"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ἡ ἀντωνυμία. ἵσταμαι ἀντὶ τοῦ ὀνόματος, ἵνα μὴ πολλάκις τὸ αὐτὸ λέγῃς.",
+              "narrative_english": "I am the pronoun. I stand in place of the noun, so that you need not say the same thing over and over."
             },
             {
               "greek": "τὸ ἄρθρον",
               "english": "The article",
               "examples": [
-                {"greek": "ὁ λόγος, ἡ ἀλήθεια, τὸ φῶς", "english": "the word, the truth, the light (articles marking nouns)", "reference": "John 1:1"}
-              ]
+                {
+                  "greek": "ὁ λόγος, ἡ ἀλήθεια, τὸ φῶς",
+                  "english": "the word, the truth, the light (articles marking nouns)",
+                  "reference": "John 1:1"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι τὸ ἄρθρον. δεικνύω γένος καὶ ἀριθμὸν καὶ πτῶσιν· καὶ ποιῶ τὸ ὄνομα γνώριμον. οὐ ταὐτόν ἐστιν «ὁ ἄνθρωπος» καὶ «ἄνθρωπος».",
+              "narrative_english": "I am the article. I show gender, number and case — and I make the noun definite. \"The man\" is not the same as \"a man.\""
             },
             {
               "greek": "ἡ πρόθεσις",
               "english": "The preposition",
               "examples": [
-                {"greek": "ἐν τῷ ἱερῷ, εἰς τὴν οἰκίαν, ἀπὸ Ναζαρέτ", "english": "in the temple, into the house, from Nazareth (prepositions + case)", "reference": "Mark 1:21"}
-              ]
+                {
+                  "greek": "ἐν τῷ ἱερῷ, εἰς τὴν οἰκίαν, ἀπὸ Ναζαρέτ",
+                  "english": "in the temple, into the house, from Nazareth (prepositions + case)",
+                  "reference": "Mark 1:21"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ἡ πρόθεσις. κεῖμαι πρὸ τοῦ ὀνόματος καὶ δεικνύω ποῦ, πόθεν, ποῖ, μετὰ τίνος. ἡ δὲ πτῶσις ἀλλάσσει τὴν ἐμὴν δύναμιν.",
+              "narrative_english": "I am the preposition. I lie before the noun and show where, from where, to where, with whom — and the case changes my force."
             },
             {
               "greek": "τὸ ἐπίρρημα",
               "english": "The adverb",
               "examples": [
-                {"greek": "εὐθὺς (immediately), πάλιν (again), σήμερον (today)", "english": "immediately, again, today (adverbs modifying verbs)", "reference": "Mark 1:12"}
-              ]
+                {
+                  "greek": "εὐθὺς (immediately), πάλιν (again), σήμερον (today)",
+                  "english": "immediately, again, today (adverbs modifying verbs)",
+                  "reference": "Mark 1:12"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι τὸ ἐπίρρημα. περὶ τοῦ ῥήματος λέγω πῶς ἢ πότε ἢ ποῦ γίνεταί τι. οὐ κλίνομαι δέ· ἀεὶ τὸ αὐτό εἰμι.",
+              "narrative_english": "I am the adverb. About the verb I say how or when or where something happens. But I do not decline — I am always the same."
             }
           ]
         }
       ],
-      "principles": ["Pronouns (ἀντωνυμία) replace nouns and agree in person, number, gender", "The article (ἄρθρον) marks definiteness and agrees with nouns", "Prepositions (πρόθεσις) govern specific cases to show relationships", "Adverbs (ἐπίρρημα) modify verbs and are indeclinable"],
+      "principles": [
+        "Pronouns (ἀντωνυμία) replace nouns and agree in person, number, gender",
+        "The article (ἄρθρον) marks definiteness and agrees with nouns",
+        "Prepositions (πρόθεσις) govern specific cases to show relationships",
+        "Adverbs (ἐπίρρημα) modify verbs and are indeclinable"
+      ],
       "drill_instruction": "Substitution Drill: Replace nouns with pronouns; add articles to bare nouns; add prepositions before nouns to change meaning. Example: 'θεός ἀγαπᾷ κόσμος' → 'ὁ θεὸς ἀγαπᾷ τὸν κόσμον' (adding articles and case agreement)."
     },
     {
@@ -1295,34 +2787,63 @@
               "greek": "ὁ σύνδεσμος",
               "english": "The conjunction",
               "examples": [
-                {"greek": "καί (and), ἀλλά (but), ὅτι (that), ὅταν (when)", "english": "and, but, that, when (conjunctions linking clauses)", "reference": "Mark 1:14"}
-              ]
+                {
+                  "greek": "καί (and), ἀλλά (but), ὅτι (that), ὅταν (when)",
+                  "english": "and, but, that, when (conjunctions linking clauses)",
+                  "reference": "Mark 1:14"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ὁ σύνδεσμος. συνδέω λέξεις καὶ περιόδους. ὁ δὲ Μᾶρκος φιλεῖ με σφόδρα· καί … καί … καί …",
+              "narrative_english": "I am the conjunction. I bind words and sentences together. And Mark loves me dearly: \"and … and … and …\""
             },
             {
               "greek": "ἡ μετοχή",
               "english": "The participle",
               "examples": [
-                {"greek": "λέγων, ἰδών, γενόμενος", "english": "saying, seeing, becoming (verbal adjectives)", "reference": "Mark 1:4"}
-              ]
+                {
+                  "greek": "λέγων, ἰδών, γενόμενος",
+                  "english": "saying, seeing, becoming (verbal adjectives)",
+                  "reference": "Mark 1:4"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ἡ μετοχή. μετέχω ἀμφοτέρων· καὶ ῥῆμά εἰμι καὶ ὄνομα. διὰ τοῦτο οὕτως καλοῦμαι.",
+              "narrative_english": "I am the participle. I share in both: I am verb and noun at once. That is exactly why I am called \"the sharer.\""
             },
             {
               "greek": "τὸ ἀπαρέμφατον",
               "english": "The infinitive",
               "examples": [
-                {"greek": "λέγειν, ἰδεῖν, γενέσθαι", "english": "to say, to see, to become (verbal nouns)", "reference": "Mark 1:15"}
-              ]
+                {
+                  "greek": "λέγειν, ἰδεῖν, γενέσθαι",
+                  "english": "to say, to see, to become (verbal nouns)",
+                  "reference": "Mark 1:15"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι τὸ ἀπαρέμφατον. οὐκ ἐμφαίνω πρόσωπον οὐδὲ ἀριθμόν· ἁπλῶς λέγω τὴν πρᾶξιν. διὰ τοῦτο ἀ-παρ-έμφατον καλοῦμαι.",
+              "narrative_english": "I am the infinitive. I do not indicate person or number; I simply state the action. That is why I am called \"the non-indicating one.\""
             },
             {
               "greek": "τὸ ἐπιφώνημα",
               "english": "The interjection",
               "examples": [
-                {"greek": "ὦ, ἀμήν, αἲ αἲ", "english": "O! amen, woe! (exclamations)", "reference": "Mark 15:34"}
-              ]
+                {
+                  "greek": "ὦ, ἀμήν, αἲ αἲ",
+                  "english": "O! amen, woe! (exclamations)",
+                  "reference": "Mark 15:34"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι τὸ ἐπιφώνημα. οὐ συντάσσομαι οὐδενί· μόνον κράζω.",
+              "narrative_english": "I am the interjection. I am construed with nothing at all — I simply cry out."
             }
           ]
         }
       ],
-      "principles": ["Conjunctions (σύνδεσμος) link equal clauses or introduce dependent clauses", "Participles (μετοχή) combine verbal and adjectival functions", "Infinitives (ἀπαρέμφατον) function as verbal nouns", "Interjections (ἐπιφώνημα) express emotion and are indeclinable"],
+      "principles": [
+        "Conjunctions (σύνδεσμος) link equal clauses or introduce dependent clauses",
+        "Participles (μετοχή) combine verbal and adjectival functions",
+        "Infinitives (ἀπαρέμφατον) function as verbal nouns",
+        "Interjections (ἐπιφώνημα) express emotion and are indeclinable"
+      ],
       "drill_instruction": "Recognition Drill: Identify participles vs. infinitives in Mark's sentences; recognize conjunctions that signal purpose, result, reason, and time. Recognize that participles modify nouns while infinitives serve as objects."
     },
     {
@@ -1339,41 +2860,75 @@
               "greek": "ἡ ὀνομαστική",
               "english": "The nominative (subject)",
               "examples": [
-                {"greek": "ὁ θεὸς ἀγαπᾷ", "english": "God loves (nominative subject)", "reference": "John 3:16"}
-              ]
+                {
+                  "greek": "ὁ θεὸς ἀγαπᾷ",
+                  "english": "God loves (nominative subject)",
+                  "reference": "John 3:16"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ἡ ὀνομαστική. ἀποκρίνομαι πρὸς τὸ «τίς;» ἐγὼ γάρ εἰμι ἡ ποιοῦσα, καὶ μετ' ἐμοῦ συμφωνεῖ τὸ ῥῆμα.",
+              "narrative_english": "I am the nominative. I answer the question \"who?\" — for I am the one doing, and the verb agrees with me."
             },
             {
               "greek": "ἡ γενική",
               "english": "The genitive (possession, source)",
               "examples": [
-                {"greek": "ὁ λόγος τοῦ θεοῦ", "english": "the word of God (genitive showing possession)", "reference": "Mark 7:13"}
-              ]
+                {
+                  "greek": "ὁ λόγος τοῦ θεοῦ",
+                  "english": "the word of God (genitive showing possession)",
+                  "reference": "Mark 7:13"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ἡ γενική. ἀποκρίνομαι πρὸς τὸ «τίνος;» λέγω τίνος ἐστίν, πόθεν, ποίου γένους, καὶ πότε.",
+              "narrative_english": "I am the genitive. I answer \"whose? of what?\" — I say what a thing belongs to, where it comes from, of what kind it is, and when."
             },
             {
               "greek": "ἡ δοτική",
               "english": "The dative (indirect object, location)",
               "examples": [
-                {"greek": "δίδωμι αὐτῷ", "english": "I give to him (dative indirect object)", "reference": "Mark 12:17"}
-              ]
+                {
+                  "greek": "δίδωμι αὐτῷ",
+                  "english": "I give to him (dative indirect object)",
+                  "reference": "Mark 12:17"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ἡ δοτική. ἀποκρίνομαι πρὸς τὸ «τίνι;» ἐμοὶ δίδοται, ἐμοὶ λέγεται, ἐν ἐμοὶ καὶ σὺν ἐμοὶ γίνεται τὸ ἔργον.",
+              "narrative_english": "I am the dative. I answer \"to whom?\" — to me it is given, to me it is spoken; in me and with me the deed is done."
             },
             {
               "greek": "ἡ αἰτιατική",
               "english": "The accusative (direct object, movement)",
               "examples": [
-                {"greek": "Ἰησοῦν ἠκολούθησαν", "english": "they followed Jesus (accusative direct object)", "reference": "Mark 1:20"}
-              ]
+                {
+                  "greek": "Ἰησοῦν ἠκολούθησαν",
+                  "english": "they followed Jesus (accusative direct object)",
+                  "reference": "Mark 1:20"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ἡ αἰτιατική. ἀποκρίνομαι πρὸς τὸ «τίνα;» ἢ «τί;» εἰς ἐμὲ τελευτᾷ ἡ πρᾶξις· ἐγὼ γάρ εἰμι ἡ πάσχουσα.",
+              "narrative_english": "I am the accusative. I answer \"whom? what?\" — the action ends in me, for I am the one undergoing it."
             },
             {
               "greek": "ἡ κλητική",
               "english": "The vocative (address)",
               "examples": [
-                {"greek": "ὦ διδάσκαλε", "english": "O teacher! (vocative address)", "reference": "Mark 4:38"}
-              ]
+                {
+                  "greek": "ὦ διδάσκαλε",
+                  "english": "O teacher! (vocative address)",
+                  "reference": "Mark 4:38"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ἡ κλητική. δι' ἐμοῦ καλεῖς τινα καὶ στρέφεις πρὸς σεαυτόν. οὐ λέγω περί τινος, ἀλλὰ πρός τινα.",
+              "narrative_english": "I am the vocative. Through me you call someone and turn him toward you. I do not speak about a person — I speak to him."
             }
           ]
         }
       ],
-      "principles": ["Cases show the relationship of nouns to verbs and other words", "Nominative = subject; Accusative = direct object; Genitive/Dative show other relationships", "Each case has its own article form in all genders and numbers"],
+      "principles": [
+        "Cases show the relationship of nouns to verbs and other words",
+        "Nominative = subject; Accusative = direct object; Genitive/Dative show other relationships",
+        "Each case has its own article form in all genders and numbers"
+      ],
       "drill_instruction": "Case Identification Drill: Read Mark sentences and identify the case of each noun. Example: 'τὸν θεὸν ἀγαπῶ' — θεόν is accusative (object). 'ἡ ἀγάπη τοῦ θεοῦ' — θεοῦ is genitive (possession).",
       "paradigms": [
         {
@@ -1408,22 +2963,40 @@
               "greek": "τὸ ἀρσενικόν",
               "english": "Masculine",
               "examples": [
-                {"greek": "ὁ ἀνθρωπος, ὁ θεός, ὁ κύριος", "english": "man, God, Lord (masculine nouns)", "reference": "Mark 1:17"}
-              ]
+                {
+                  "greek": "ὁ ἀνθρωπος, ὁ θεός, ὁ κύριος",
+                  "english": "man, God, Lord (masculine nouns)",
+                  "reference": "Mark 1:17"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι τὸ ἀρσενικόν. λέγε με μετὰ τοῦ «ὁ» καὶ τοῦ «οὗτος».",
+              "narrative_english": "I am the masculine. Speak me with \"ὁ\" and \"οὗτος\"."
             },
             {
               "greek": "τὸ θηλυκόν",
               "english": "Feminine",
               "examples": [
-                {"greek": "ἡ γυνή, ἡ αλήθεια, ἡ ψυχή", "english": "woman, truth, soul (feminine nouns)", "reference": "Mark 5:25"}
-              ]
+                {
+                  "greek": "ἡ γυνή, ἡ αλήθεια, ἡ ψυχή",
+                  "english": "woman, truth, soul (feminine nouns)",
+                  "reference": "Mark 5:25"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι τὸ θηλυκόν. λέγε με μετὰ τοῦ «ἡ» καὶ τοῦ «αὕτη».",
+              "narrative_english": "I am the feminine. Speak me with \"ἡ\" and \"αὕτη\"."
             },
             {
               "greek": "τὸ οὐδέτερον",
               "english": "Neuter",
               "examples": [
-                {"greek": "τὸ τέκνον, τὸ φῶς, τὸ ὕδωρ", "english": "child, light, water (neuter nouns)", "reference": "Mark 10:14"}
-              ]
+                {
+                  "greek": "τὸ τέκνον, τὸ φῶς, τὸ ὕδωρ",
+                  "english": "child, light, water (neuter nouns)",
+                  "reference": "Mark 10:14"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι τὸ οὐδέτερον, ὅτι οὐδέτερόν εἰμι· οὔτε ἀρσενικὸν οὔτε θηλυκόν. λέγε με μετὰ τοῦ «τό».",
+              "narrative_english": "I am the neuter, because I am \"neither of the two\" — neither masculine nor feminine. Speak me with \"τό\"."
             }
           ]
         },
@@ -1434,20 +3007,36 @@
               "greek": "ὁ ἑνικός",
               "english": "Singular (one)",
               "examples": [
-                {"greek": "ὁ ἀνθρωπος", "english": "one man (singular)", "reference": "Mark 1:17"}
-              ]
+                {
+                  "greek": "ὁ ἀνθρωπος",
+                  "english": "one man (singular)",
+                  "reference": "Mark 1:17"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ὁ ἑνικός. εἷς εἰμι καὶ μόνος.",
+              "narrative_english": "I am the singular. I am one, and alone."
             },
             {
               "greek": "ὁ πληθυντικός",
               "english": "Plural (many)",
               "examples": [
-                {"greek": "οἱ ἀνθρωποι", "english": "many men (plural)", "reference": "Mark 1:17"}
-              ]
+                {
+                  "greek": "οἱ ἀνθρωποι",
+                  "english": "many men (plural)",
+                  "reference": "Mark 1:17"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ὁ πληθυντικός. πολλοί ἐσμεν.",
+              "narrative_english": "I am the plural. We are many."
             }
           ]
         }
       ],
-      "principles": ["Gender is grammatical (not always semantic) — learn gender with each noun", "Adjectives, articles, and pronouns must agree with nouns in gender and number", "Plural forms are used for 2 or more; dual (ὁ δυϊκός) is rare in Koine Greek"],
+      "principles": [
+        "Gender is grammatical (not always semantic) — learn gender with each noun",
+        "Adjectives, articles, and pronouns must agree with nouns in gender and number",
+        "Plural forms are used for 2 or more; dual (ὁ δυϊκός) is rare in Koine Greek"
+      ],
       "drill_instruction": "Agreement Drill: Give a noun; student responds with agreeing article, adjective, and pronoun. Example: Teacher says 'ψυχή' → Student says 'ἡ ἁγία ψυχή, αὕτη' (feminine singular article, adjective, pronoun).",
       "paradigms": [
         {
@@ -1486,41 +3075,75 @@
               "greek": "ὁ ἐνεστώς",
               "english": "The present (ongoing action)",
               "examples": [
-                {"greek": "λέγει (he says)", "english": "present action, speaking now", "reference": "Mark 1:24"}
-              ]
+                {
+                  "greek": "λέγει (he says)",
+                  "english": "present action, speaking now",
+                  "reference": "Mark 1:24"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ὁ ἐνεστώς. νῦν ἐνέστηκα· βλέπε, γίνεται καὶ ἔτι γίνεται.",
+              "narrative_english": "I am the present. I stand here now — look, it is happening, and still happening."
             },
             {
               "greek": "ὁ ἀόριστος",
               "english": "The aorist (simple past action)",
               "examples": [
-                {"greek": "εἶπεν (he said)", "english": "simple completed action in past", "reference": "Mark 1:25"}
-              ]
+                {
+                  "greek": "εἶπεν (he said)",
+                  "english": "simple completed action in past",
+                  "reference": "Mark 1:25"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ὁ ἀόριστος, τουτέστιν ὁ μὴ ὡρισμένος. λέγω ὅτι ἐγένετο· οὐ λέγω δὲ πόσον χρόνον οὐδὲ ποσάκις. ὁρῶ γὰρ τὴν πρᾶξιν ὡς ἕν.",
+              "narrative_english": "I am the aorist — \"the undefined one.\" I say that it happened; I do not say for how long or how often. I see the action as a single whole."
             },
             {
               "greek": "ὁ παρακείμενος",
               "english": "The perfect (completed with ongoing result)",
               "examples": [
-                {"greek": "γέγραπται (it stands written)", "english": "completed action with lasting result", "reference": "Mark 7:6"}
-              ]
+                {
+                  "greek": "γέγραπται (it stands written)",
+                  "english": "completed action with lasting result",
+                  "reference": "Mark 7:6"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ὁ παρακείμενος. πάλαι ἐπράχθη τὸ ἔργον, ἀλλ' ἔτι πάρεστι τὸ ἀποτέλεσμα· διὰ τοῦτο παρά-κειμαι.",
+              "narrative_english": "I am the perfect. The deed was done long ago, but its result is still present — that is why I am called \"the one lying alongside.\""
             },
             {
               "greek": "ὁ μέλλων",
               "english": "The future (action to come)",
               "examples": [
-                {"greek": "λέξει (he will say)", "english": "future action", "reference": "Mark 13:11"}
-              ]
+                {
+                  "greek": "λέξει (he will say)",
+                  "english": "future action",
+                  "reference": "Mark 13:11"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ὁ μέλλων. οὔπω γέγονα, γενήσομαι δέ.",
+              "narrative_english": "I am the future. I have not happened yet — but I will."
             },
             {
               "greek": "ὁ ὑπερσυντελικός",
               "english": "The pluperfect (prior to past event)",
               "examples": [
-                {"greek": "ἐλήλυθει (he had come)", "english": "completed before another past action", "reference": "Mark 15:45"}
-              ]
+                {
+                  "greek": "ἐλήλυθει (he had come)",
+                  "english": "completed before another past action",
+                  "reference": "Mark 15:45"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ὁ ὑπερσυντελικός. πρὶν ἐκεῖνο γενέσθαι, ἐγὼ ἤδη ἐγεγόνειν. σπάνιος δέ εἰμι.",
+              "narrative_english": "I am the pluperfect. Before that other thing happened, I had already happened. But I am rare."
             }
           ]
         }
       ],
-      "principles": ["Greek tense emphasizes aspect (how action occurs) more than time (when)", "Aorist = undefined aspect (punctiliar); Present = ongoing; Perfect = completed with result", "All tenses can express past, present, or future depending on context"],
+      "principles": [
+        "Greek tense emphasizes aspect (how action occurs) more than time (when)",
+        "Aorist = undefined aspect (punctiliar); Present = ongoing; Perfect = completed with result",
+        "All tenses can express past, present, or future depending on context"
+      ],
       "drill_instruction": "Aspect Recognition Drill: Read Mark sentences and identify whether the tense is punctiliar (aorist), ongoing (present), or resultative (perfect). Note how aspect changes meaning.",
       "paradigms": [
         {
@@ -1551,27 +3174,43 @@
               "greek": "ἡ ἐνεργητική",
               "english": "The active voice (subject acts)",
               "examples": [
-                {"greek": "ὁ θεὸς ἀγαπᾷ τὸν κόσμον", "english": "God loves the world (subject does the action)", "reference": "John 3:16"}
+                {
+                  "greek": "ὁ θεὸς ἀγαπᾷ τὸν κόσμον",
+                  "english": "God loves the world (subject does the action)",
+                  "reference": "John 3:16"
+                }
               ]
             },
             {
               "greek": "ἡ μέση",
               "english": "The middle voice (subject acts for itself)",
               "examples": [
-                {"greek": "λαμβάνεται (he receives for himself)", "english": "subject acts with reflexive interest", "reference": "John 1:12"}
+                {
+                  "greek": "λαμβάνεται (he receives for himself)",
+                  "english": "subject acts with reflexive interest",
+                  "reference": "John 1:12"
+                }
               ]
             },
             {
               "greek": "ἡ παθητική",
               "english": "The passive voice (subject is acted upon)",
               "examples": [
-                {"greek": "ὁ κόσμος ἀγαπᾶται ὑπὸ τοῦ θεοῦ", "english": "the world is loved by God (subject receives the action)", "reference": "John 3:16"}
+                {
+                  "greek": "ὁ κόσμος ἀγαπᾶται ὑπὸ τοῦ θεοῦ",
+                  "english": "the world is loved by God (subject receives the action)",
+                  "reference": "John 3:16"
+                }
               ]
             }
           ]
         }
       ],
-      "principles": ["Active = subject does the action; Passive = subject receives the action; Middle = subject acts on/for itself", "Middle voice is more common in Greek than in English and needs to be recognized carefully", "Passive voice often appears without an expressed agent (agent understood)"],
+      "principles": [
+        "Active = subject does the action; Passive = subject receives the action; Middle = subject acts on/for itself",
+        "Middle voice is more common in Greek than in English and needs to be recognized carefully",
+        "Passive voice often appears without an expressed agent (agent understood)"
+      ],
       "drill_instruction": "Voice Conversion Drill: Convert active sentences to passive and vice versa. Example: 'Ἰησοῦς ἐδίδασκεν' (active) → 'ἐδίδασκεν ὑπὸ Ἰησοῦ' (passive equivalent).",
       "paradigms": [
         {
@@ -1606,34 +3245,63 @@
               "greek": "ἡ ὁριστική",
               "english": "The indicative (factual statements)",
               "examples": [
-                {"greek": "ὁ θεὸς ἀγαπᾷ", "english": "God loves (statement of fact)", "reference": "John 3:16"}
-              ]
+                {
+                  "greek": "ὁ θεὸς ἀγαπᾷ",
+                  "english": "God loves (statement of fact)",
+                  "reference": "John 3:16"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ἡ ὁριστική. ὁρίζω καὶ λέγω· οὕτως ἔχει. μόνη δὲ ἐγὼ ἔχω πάντας τοὺς χρόνους.",
+              "narrative_english": "I am the indicative. I define and declare: this is how it is. And I alone possess all the tenses."
             },
             {
               "greek": "ἡ ὑποτακτική",
               "english": "The subjunctive (dependent/conditional)",
               "examples": [
-                {"greek": "ἵνα ζήσῃ (in order that he may live)", "english": "subjunctive expressing purpose/condition", "reference": "Mark 5:23"}
-              ]
+                {
+                  "greek": "ἵνα ζήσῃ (in order that he may live)",
+                  "english": "subjunctive expressing purpose/condition",
+                  "reference": "Mark 5:23"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ἡ ὑποτακτική. οὐ λέγω τὸ ὄν, ἀλλὰ τὸ ἐνδεχόμενον καὶ τὸ βουλητόν. φιλῶ δὲ τὸ «ἵνα» καὶ τὸ «ἐάν».",
+              "narrative_english": "I am the subjunctive. I do not state what is, but what may be and what is wanted. And I love \"ἵνα\" and \"ἐάν\"."
             },
             {
               "greek": "ἡ προστακτική",
               "english": "The imperative (commands)",
               "examples": [
-                {"greek": "πιστεύε (believe!)", "english": "imperative command", "reference": "Mark 5:36"}
-              ]
+                {
+                  "greek": "πιστεύε (believe!)",
+                  "english": "imperative command",
+                  "reference": "Mark 5:36"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ἡ προστακτική. προστάσσω σοι· ποίησον τοῦτο νῦν. οὐ λέγω περὶ τοῦ μέλλοντος, ἀλλὰ κελεύω.",
+              "narrative_english": "I am the imperative. I give you an order: do this now. I do not talk about the future — I command."
             },
             {
               "greek": "ἡ εὐκτική",
               "english": "The optative (wishes, rare in Koine)",
               "examples": [
-                {"greek": "εἴη (may it be)", "english": "optative expressing wish", "reference": "Luke 1:29"}
-              ]
+                {
+                  "greek": "εἴη (may it be)",
+                  "english": "optative expressing wish",
+                  "reference": "Luke 1:29"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι ἡ εὐκτική. εὔχομαι· γένοιτο ὃ βούλομαι. σπανία δέ εἰμι ἐν τῇ κοινῇ — ὀλίγαι μοι λείπονται φωναί.",
+              "narrative_english": "I am the optative. I pray: may what I wish come to pass. But I am rare in Koine — only a few of my forms are left."
             }
           ]
         }
       ],
-      "principles": ["Indicative states reality (past, present, future possible)", "Subjunctive appears in dependent clauses and expresses contingency/potential", "Imperative commands direct action (sing., plur., sometimes prohibitive)", "Optative (rare in Koine) expresses wishes or remote conditions"],
+      "principles": [
+        "Indicative states reality (past, present, future possible)",
+        "Subjunctive appears in dependent clauses and expresses contingency/potential",
+        "Imperative commands direct action (sing., plur., sometimes prohibitive)",
+        "Optative (rare in Koine) expresses wishes or remote conditions"
+      ],
       "drill_instruction": "Mood Recognition Drill: Read Mark sentences and identify the mood. Note which moods appear with which particles (ἵνα with subjunctive, μή with prohibitions, etc.).",
       "paradigms": [
         {
@@ -1664,27 +3332,49 @@
               "greek": "τὸ πρῶτον πρόσωπον",
               "english": "First person (I/we)",
               "examples": [
-                {"greek": "λέγω (I say), λέγομεν (we say)", "english": "first person singular/plural", "reference": "Mark 1:38"}
-              ]
+                {
+                  "greek": "λέγω (I say), λέγομεν (we say)",
+                  "english": "first person singular/plural",
+                  "reference": "Mark 1:38"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι τὸ πρῶτον πρόσωπον. ἐγὼ λαλῶ· ἡμεῖς λαλοῦμεν.",
+              "narrative_english": "I am the first person. I speak; we speak."
             },
             {
               "greek": "τὸ δεύτερον πρόσωπον",
               "english": "Second person (you)",
               "examples": [
-                {"greek": "λέγεις (you say), λέγετε (you all say)", "english": "second person singular/plural", "reference": "Mark 10:51"}
-              ]
+                {
+                  "greek": "λέγεις (you say), λέγετε (you all say)",
+                  "english": "second person singular/plural",
+                  "reference": "Mark 10:51"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι τὸ δεύτερον πρόσωπον. πρὸς σὲ λέγω· σὺ ἀκούεις, ὑμεῖς ἀκούετε.",
+              "narrative_english": "I am the second person. I speak to you: you hear, you (all) hear."
             },
             {
               "greek": "τὸ τρίτον πρόσωπον",
               "english": "Third person (he/she/it/they)",
               "examples": [
-                {"greek": "λέγει (he says), λέγουσιν (they say)", "english": "third person singular/plural", "reference": "Mark 1:25"}
-              ]
+                {
+                  "greek": "λέγει (he says), λέγουσιν (they say)",
+                  "english": "third person singular/plural",
+                  "reference": "Mark 1:25"
+                }
+              ],
+              "narrative": "ἐγώ εἰμι τὸ τρίτον πρόσωπον. περὶ ἄλλου λέγω· αὐτὸς λαλεῖ, αὐτοὶ λαλοῦσιν. ἐν δὲ τῷ διηγήματι ἐγὼ βασιλεύω.",
+              "narrative_english": "I am the third person. I speak about someone else: he speaks, they speak. And in narrative, I reign."
             }
           ]
         }
       ],
-      "principles": ["Person is marked on verbs through endings (first: -ω/-μι; second: -ς/ε; third: -ει/-ουσι(ν))", "Pronouns (ἐγώ, σύ, αὐτός) often repeat the person marked on the verb for emphasis", "Person combines with number (singular/plural) and tense/mood to create complete verbal forms"],
+      "principles": [
+        "Person is marked on verbs through endings (first: -ω/-μι; second: -ς/ε; third: -ει/-ουσι(ν))",
+        "Pronouns (ἐγώ, σύ, αὐτός) often repeat the person marked on the verb for emphasis",
+        "Person combines with number (singular/plural) and tense/mood to create complete verbal forms"
+      ],
       "drill_instruction": "Verb Parsing Drill: Given a Greek verb, identify its person and number. Example: 'λέγουσιν' = 3rd person plural. 'λέγω' = 1st person singular."
     },
     {
@@ -1702,7 +3392,11 @@
               "greek": "Take one true statement and surround it with questions before moving on.",
               "english": "The information is not the point — the repetition is.",
               "examples": [
-                {"greek": "τοῦτο βιβλίον ἐστίν. τί ἐστιν τοῦτο; — βιβλίον. βιβλίον ἐστὶν ἢ ποτήριον; — βιβλίον. ποῦ ἐστιν τὸ βιβλίον; — ἐπὶ τῆς τραπέζης. τίνος ἐστὶν τὸ βιβλίον; — ἐμόν ἐστιν.", "english": "This is a book. What is this? — A book. Is it a book or a cup? — A book. Where is the book? — On the table. Whose is the book? — It is mine.", "reference": "Circling Method"}
+                {
+                  "greek": "τοῦτο βιβλίον ἐστίν. τί ἐστιν τοῦτο; — βιβλίον. βιβλίον ἐστὶν ἢ ποτήριον; — βιβλίον. ποῦ ἐστιν τὸ βιβλίον; — ἐπὶ τῆς τραπέζης. τίνος ἐστὶν τὸ βιβλίον; — ἐμόν ἐστιν.",
+                  "english": "This is a book. What is this? — A book. Is it a book or a cup? — A book. Where is the book? — On the table. Whose is the book? — It is mine.",
+                  "reference": "Circling Method"
+                }
               ]
             }
           ]
@@ -1714,7 +3408,11 @@
               "greek": "Keep the frame, change one slot. You feel the endings shift in your mouth instead of on paper.",
               "english": "Morphology through repetition.",
               "examples": [
-                {"greek": "ὁ Ἰησοῦς λαλεῖ. → οἱ μαθηταὶ λαλοῦσιν. → οἱ μαθηταὶ ἀκούουσιν. → ἀκούουσιν. → ἤκουον. → ἤκουσαν. → ἀκούσουσιν.", "english": "Jesus speaks. → The disciples speak. → The disciples listen. → They listen. → They were listening. → They heard. → They will hear.", "reference": "Substitution Drill"}
+                {
+                  "greek": "ὁ Ἰησοῦς λαλεῖ. → οἱ μαθηταὶ λαλοῦσιν. → οἱ μαθηταὶ ἀκούουσιν. → ἀκούουσιν. → ἤκουον. → ἤκουσαν. → ἀκούσουσιν.",
+                  "english": "Jesus speaks. → The disciples speak. → The disciples listen. → They listen. → They were listening. → They heard. → They will hear.",
+                  "reference": "Substitution Drill"
+                }
               ]
             }
           ]
@@ -1726,7 +3424,11 @@
               "greek": "Describe what is around you and what people are doing, in the simplest Koine you have. Small, constant, out loud.",
               "english": "Make immediate experience into Greek.",
               "examples": [
-                {"greek": "ὁ ἀδελφὸς γράφει. ἡ ἀδελφὴ ἐσθίει. ὁ λύχνος ἐπὶ τῆς τραπέζης ἐστίν. νῦν ἐσθίω· εἶτα καθευδήσω.", "english": "The brother is writing. The sister is eating. The lamp is on the table. Now I am eating; then I will sleep.", "reference": "Narration Method"}
+                {
+                  "greek": "ὁ ἀδελφὸς γράφει. ἡ ἀδελφὴ ἐσθίει. ὁ λύχνος ἐπὶ τῆς τραπέζης ἐστίν. νῦν ἐσθίω· εἶτα καθευδήσω.",
+                  "english": "The brother is writing. The sister is eating. The lamp is on the table. Now I am eating; then I will sleep.",
+                  "reference": "Narration Method"
+                }
               ]
             }
           ]
@@ -1738,7 +3440,11 @@
               "greek": "One person commands, the others obey in silence. No translation, no explanation — comprehension shows up in the body before it reaches the tongue.",
               "english": "Total Physical Response: action proves understanding.",
               "examples": [
-                {"greek": "ἔγειρε· ἐλθὲ πρὸς τὴν θύραν· ἄνοιξον αὐτήν· κάθισον. λάβε τὸ ποτήριον καὶ δὸς αὐτὸ τῷ ἀδελφῷ.", "english": "Get up; come to the door; open it; sit down. Take the cup and give it to your brother.", "reference": "TPR Method"}
+                {
+                  "greek": "ἔγειρε· ἐλθὲ πρὸς τὴν θύραν· ἄνοιξον αὐτήν· κάθισον. λάβε τὸ ποτήριον καὶ δὸς αὐτὸ τῷ ἀδελφῷ.",
+                  "english": "Get up; come to the door; open it; sit down. Take the cup and give it to your brother.",
+                  "reference": "TPR Method"
+                }
               ]
             }
           ]
@@ -1750,7 +3456,11 @@
               "greek": "Read a paragraph of Mark, close the book, and answer three questions aloud. Two or three sentences is plenty. This single habit exercises every tier of fluency at once.",
               "english": "Production from memory.",
               "examples": [
-                {"greek": "τίς; τί γίνεται; διὰ τί; πρῶτον … εἶτα … καὶ εὐθύς … τέλος …", "english": "Who is in the scene? What happens? Why? First … then … and immediately … finally …", "reference": "Retelling Method"}
+                {
+                  "greek": "τίς; τί γίνεται; διὰ τί; πρῶτον … εἶτα … καὶ εὐθύς … τέλος …",
+                  "english": "Who is in the scene? What happens? Why? First … then … and immediately … finally …",
+                  "reference": "Retelling Method"
+                }
               ]
             }
           ]
@@ -1762,7 +3472,11 @@
               "greek": "Never translate the parsing question. Ask in Greek, answer in Greek, in a fixed order.",
               "english": "Parsing makes grammar automatic.",
               "examples": [
-                {"greek": "τί μέρος λόγου ἐστίν; — ῥῆμα. ἐν ποίῳ χρόνῳ; — ἀόριστος. ποία διάθεσις; — παθητική. ποῖον πρόσωπον; — τρίτον, ἑνικόν.", "english": "What part of speech? — A verb. In what tense? — Aorist. What voice? — Passive. What person? — Third, singular.", "reference": "Parsing Method"}
+                {
+                  "greek": "τί μέρος λόγου ἐστίν; — ῥῆμα. ἐν ποίῳ χρόνῳ; — ἀόριστος. ποία διάθεσις; — παθητική. ποῖον πρόσωπον; — τρίτον, ἑνικόν.",
+                  "english": "What part of speech? — A verb. In what tense? — Aorist. What voice? — Passive. What person? — Third, singular.",
+                  "reference": "Parsing Method"
+                }
               ]
             }
           ]

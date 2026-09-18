@@ -49,6 +49,14 @@ export default function SheetBrowser({ sheets, selectedSheetId, onMarkStudied })
                         </div>
                         <div className="text-slate-200 mb-4">{term.english}</div>
 
+                        {term.narrative && (
+                          <div className="bg-slate-900 rounded p-3 mb-4 border-l-4 border-yellow-600">
+                            <div className="text-xs text-yellow-600 uppercase font-semibold mb-2">First-person narrative</div>
+                            <div className="greek-text text-yellow-200 text-sm mb-2 italic">{term.narrative}</div>
+                            <div className="text-slate-400 text-sm">{term.narrative_english}</div>
+                          </div>
+                        )}
+
                         {term.examples && term.examples.length > 0 && (
                           <div className="mt-4 space-y-3 pl-4 border-l-2 border-slate-600">
                             {term.examples.map((ex, exIdx) => (
@@ -74,6 +82,14 @@ export default function SheetBrowser({ sheets, selectedSheetId, onMarkStudied })
                     {term.greek}
                   </div>
                   <div className="text-slate-200 mb-4">{term.english}</div>
+
+                  {term.narrative && (
+                    <div className="bg-slate-900 rounded p-3 mb-4 border-l-4 border-yellow-600">
+                      <div className="text-xs text-yellow-600 uppercase font-semibold mb-2">First-person narrative</div>
+                      <div className="greek-text text-yellow-200 text-sm mb-2 italic">{term.narrative}</div>
+                      <div className="text-slate-400 text-sm">{term.narrative_english}</div>
+                    </div>
+                  )}
 
                   {term.examples && term.examples.length > 0 && (
                     <div className="mt-4 space-y-3 pl-4 border-l-2 border-slate-600">
