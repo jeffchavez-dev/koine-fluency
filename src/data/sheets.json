@@ -2698,7 +2698,9 @@
         "Adjectives (ἐπίθετον) modify nouns and agree in gender, number, and case",
         "Every clause needs a verb; nouns and adjectives support the verb"
       ],
-      "drill_instruction": "Identification Drill: Read sentences from Mark and identify the core parts: τὸ ὄνομα (noun), τὸ ῥῆμα (verb), τὸ ἐπίθετον (adjective). Example: 'ὁ θεὸς ἀγαπᾷ τὸν κόσμον' — ὄνομα (θεός), ῥῆμα (ἀγαπᾷ), ὄνομα (κόσμος)."
+      "drill_instruction": "Identification Drill: Read sentences from Mark and identify the core parts: τὸ ὄνομα (noun), τὸ ῥῆμα (verb), τὸ ἐπίθετον (adjective). Example: 'ὁ θεὸς ἀγαπᾷ τὸν κόσμον' — ὄνομα (θεός), ῥῆμα (ἀγαπᾷ), ὄνομα (κόσμος).",
+      "parse_instruction": "Speak the grammar: point at a word and let it introduce itself — τί εἶ σύ; — ὄνομά εἰμι. Two students, one text, five minutes: the fastest grammar drill there is.",
+      "pedagogical_note": "Grammar is easier to remember when it speaks. Let each term say who it is in the first person, then hear it at work in Mark. Read the Greek aloud; the definition and the language are learned together."
     },
     {
       "id": 12,
@@ -2771,7 +2773,9 @@
         "Prepositions (πρόθεσις) govern specific cases to show relationships",
         "Adverbs (ἐπίρρημα) modify verbs and are indeclinable"
       ],
-      "drill_instruction": "Substitution Drill: Replace nouns with pronouns; add articles to bare nouns; add prepositions before nouns to change meaning. Example: 'θεός ἀγαπᾷ κόσμος' → 'ὁ θεὸς ἀγαπᾷ τὸν κόσμον' (adding articles and case agreement)."
+      "drill_instruction": "Substitution Drill: Replace nouns with pronouns; add articles to bare nouns; add prepositions before nouns to change meaning. Example: 'θεός ἀγαπᾷ κόσμος' → 'ὁ θεὸς ἀγαπᾷ τὸν κόσμον' (adding articles and case agreement).",
+      "parse_instruction": "The article is your parsing key. When a noun's ending is ambiguous, the little word in front of it almost always resolves gender, number and case at once. Learn ὁ ἡ τό in full before anything else.",
+      "pedagogical_note": "These supporting parts of speech make nouns work: pronouns replace them, articles mark them, prepositions position them, adverbs modify the verbs around them."
     },
     {
       "id": 13,
@@ -2844,7 +2848,9 @@
         "Infinitives (ἀπαρέμφατον) function as verbal nouns",
         "Interjections (ἐπιφώνημα) express emotion and are indeclinable"
       ],
-      "drill_instruction": "Recognition Drill: Identify participles vs. infinitives in Mark's sentences; recognize conjunctions that signal purpose, result, reason, and time. Recognize that participles modify nouns while infinitives serve as objects."
+      "drill_instruction": "Recognition Drill: Identify participles vs. infinitives in Mark's sentences; recognize conjunctions that signal purpose, result, reason, and time. Recognize that participles modify nouns while infinitives serve as objects.",
+      "parse_instruction": "Identify participles vs. infinitives in Mark's sentences; recognize conjunctions that signal purpose, result, reason, and time. Recognize that participles modify nouns while infinitives serve as objects.",
+      "pedagogical_note": "Mark's style in one line: he prefers the participle and the paratactic καί to the elegant subordination of literary Attic. Once you hear ἀναστὰς ἐξῆλθεν as a single motion — 'getting up, he went out' — you are reading Mark rather than decoding him."
     },
     {
       "id": 14,
@@ -2947,7 +2953,10 @@
           "title": "Plural Case Paradigm: θεοί (gods)",
           "example": "NOM: οἱ θεοί (the gods) | GEN: τῶν θεῶν (of gods) | DAT: τοῖς θεοῖς (to gods) | ACC: τοὺς θεούς (gods - object)"
         }
-      ]
+      ],
+      "parse_instruction": "A case is an answer waiting for its question. Learn the question and the case follows. πτῶσις means 'a falling' — the ancients pictured the noun falling away from its upright nominative form.",
+      "pedagogical_note": "The five cases form the skeleton of Greek syntax. Each answers a question: nominative (τίς;), genitive (τίνος;), dative (τίνι;), accusative (τίνα;), vocative (for direct address).",
+      "parsing_order": "For nouns: gender, number, case"
     },
     {
       "id": 15,
@@ -3059,7 +3068,10 @@
           "title": "Adjective Agreement: ἔργον (work)",
           "example": "SINGULAR: τὸ μέγα ἔργον (the great work - neut. sg.) | PLURAL: τὰ μέγα ἔργα (the great works - neut. pl.)"
         }
-      ]
+      ],
+      "parse_instruction": "Agreement drill: take any noun and make an adjective chase it through the cases — τὸ πνεῦμα τὸ ἀκάθαρτον, τοῦ πνεύματος τοῦ ἀκαθάρτου, τῷ πνεύματι τῷ ἀκαθάρτῳ … Say it as a chant. Agreement becomes muscle memory, not a rule.",
+      "pedagogical_note": "Gender in Greek is grammatical, not biological. Trust the article, not the ending. Neuter plural subjects take singular verbs — a Greek peculiarity that surprises English speakers.",
+      "parsing_order": "For nouns: gender, number, case"
     },
     {
       "id": 16,
@@ -3158,7 +3170,10 @@
           "title": "Perfect Indicative Paradigm (λέλυκα - I have loosed)",
           "example": "λέλυκα (I have loosed), λέλυκας (you have loosed), λέλυκε(ν) (he has loosed), λελύκαμεν (we have loosed), λελύκατε (you have loosed), λελύκασι(ν) (they have loosed)"
         }
-      ]
+      ],
+      "parse_instruction": "Aspect before time: ask not only 'when?' but 'how is the speaker looking at it?' Imperfect = watching the film. Aorist = looking at the photograph. Perfect = seeing the scar the event left behind.",
+      "pedagogical_note": "Greek tense tells you two things at once: when the action happens and how the speaker views it — as a flowing line, a single point, or a completed state that still stands.",
+      "parsing_order": "For verbs: tense, voice, mood, person, number"
     },
     {
       "id": 17,
@@ -3229,7 +3244,10 @@
           "title": "Aorist Passive (ἐλύθην - I was loosed)",
           "example": "ἐλύθην (I was loosed), ἐλύθης (you were loosed), ἐλύθη (he was loosed), ἐλύθημεν (we were loosed), ἐλύθητε (you were loosed), ἐλύθησαν (they were loosed)"
         }
-      ]
+      ],
+      "parse_instruction": "Middle or passive? In the present and imperfect, middle and passive share one form — only the context decides. λύεται 'he is loosing for himself' or 'he is being loosed.' The aorist and future distinguish them: ἐλύσατο (mid.) vs ἐλύθη (pass.)",
+      "pedagogical_note": "διάθεσις means 'disposition' — how the subject is disposed toward its own verb: doing it, doing it to itself, or having it done to it.",
+      "parsing_order": "For verbs: tense, voice, mood, person, number"
     },
     {
       "id": 18,
@@ -3316,7 +3334,10 @@
           "title": "Optative Paradigm (if only I would loose - rare)",
           "example": "λύοιμι (if only I would loose), λύοις (if only you would loose), λύοι (if only he would loose)"
         }
-      ]
+      ],
+      "parse_instruction": "Never translate the parsing question. Ask in Greek, answer in Greek, in a fixed order. τί μέρος λόγου ἐστίν; — ῥῆμα. ἐν ποίῳ χρόνῳ; — ἀόριστος. This is the single habit that turns parsing into speech.",
+      "pedagogical_note": "ἔγκλισις means 'a leaning.' Mood is the angle at which the speaker leans toward reality — stating it, commanding it, entertaining it, or merely wishing it.",
+      "parsing_order": "For verbs: tense, voice, mood, person, number"
     },
     {
       "id": 19,
@@ -3375,7 +3396,28 @@
         "Pronouns (ἐγώ, σύ, αὐτός) often repeat the person marked on the verb for emphasis",
         "Person combines with number (singular/plural) and tense/mood to create complete verbal forms"
       ],
-      "drill_instruction": "Verb Parsing Drill: Given a Greek verb, identify its person and number. Example: 'λέγουσιν' = 3rd person plural. 'λέγω' = 1st person singular."
+      "drill_instruction": "Verb Parsing Drill: Given a Greek verb, identify its person and number. Example: 'λέγουσιν' = 3rd person plural. 'λέγω' = 1st person singular.",
+      "parse_instruction": "Ask in Greek, answer in Greek. Point at a word: τί μέρος λόγου ἐστίν; — ῥῆμα. — ἐν ποίῳ χρόνῳ; — ἀόριστος. Never translate the question. This is the single habit that turns parsing into speech.",
+      "pedagogical_note": "Person in Greek verbs is shown by the ending. First person is the speaker, second is the listener, third is everyone else. In narrative, the third person reigns.",
+      "parsing_order_verb": "Verb: tense, voice, mood, person, number",
+      "parsing_order_noun": "Noun: gender, number, case",
+      "parsing_examples": [
+        {
+          "greek": "τί ἐστιν «ἐβαπτίσθη»?",
+          "answer": "ῥῆμά ἐστιν· ἀόριστος, παθητική, ὁριστική, τρίτον πρόσωπον, ἑνικός.",
+          "english": "What is ἐβαπτίσθη? — It is a verb: aorist, passive, indicative, third person, singular."
+        },
+        {
+          "greek": "τί ἐστιν «τῇ θαλάσσῃ»?",
+          "answer": "ὄνομά ἐστιν· θηλυκόν, ἑνικόν, δοτική.",
+          "english": "What is τῇ θαλάσσῃ? — A noun: feminine, singular, dative."
+        },
+        {
+          "greek": "τί ἐστιν «ἀναβαίνων»?",
+          "answer": "μετοχή ἐστιν· ἐνεστώς, ἐνεργητική, ἀρσενικόν, ἑνικόν, ὀνομαστική.",
+          "english": "What is ἀναβαίνων? — A participle: present, active, masculine, singular, nominative."
+        }
+      ]
     },
     {
       "id": 20,

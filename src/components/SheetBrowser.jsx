@@ -35,6 +35,57 @@ export default function SheetBrowser({ sheets, selectedSheetId, onMarkStudied })
       {/* Content */}
       <div className="flex-1 p-3 overflow-auto">
         <div className="max-w-4xl">
+          {/* Pedagogical Introduction */}
+          {sheet.pedagogical_note && (
+            <div className="bg-slate-800 rounded-lg p-4 mb-6 border-l-4 border-green-600">
+              <p className="text-slate-300 italic text-sm">{sheet.pedagogical_note}</p>
+            </div>
+          )}
+
+          {/* Parse Instruction */}
+          {sheet.parse_instruction && (
+            <div className="bg-slate-800 rounded-lg p-4 mb-6 border-l-4 border-blue-600">
+              <div className="text-xs text-blue-400 uppercase font-semibold mb-2">How to Practice</div>
+              <p className="text-slate-300 text-sm">{sheet.parse_instruction}</p>
+            </div>
+          )}
+
+          {/* Parsing Order (Fixed Formula) */}
+          {(sheet.parsing_order || sheet.parsing_order_verb) && (
+            <div className="bg-slate-800 rounded-lg p-4 mb-6 border-l-4 border-purple-600">
+              <div className="text-xs text-purple-400 uppercase font-semibold mb-3">The Order to Say It</div>
+              {sheet.parsing_order && (
+                <p className="text-slate-300 text-sm mb-2">{sheet.parsing_order}</p>
+              )}
+              {sheet.parsing_order_verb && (
+                <div className="space-y-2">
+                  <div className="text-slate-300 text-sm">
+                    <span className="font-semibold">Verb:</span> {sheet.parsing_order_verb}
+                  </div>
+                  <div className="text-slate-300 text-sm">
+                    <span className="font-semibold">Noun:</span> {sheet.parsing_order_noun}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Parsing Examples (for Sheet 19) */}
+          {sheet.parsing_examples && (
+            <div className="bg-slate-800 rounded-lg p-4 mb-6 border-l-4 border-yellow-600">
+              <div className="text-xs text-yellow-400 uppercase font-semibold mb-4">Parsing Examples</div>
+              <div className="space-y-4">
+                {sheet.parsing_examples.map((example, idx) => (
+                  <div key={idx} className="bg-slate-900 rounded p-3">
+                    <div className="greek-text text-yellow-300 font-semibold mb-2">{example.greek}</div>
+                    <div className="greek-text text-slate-300 text-sm mb-2">{example.answer}</div>
+                    <div className="text-slate-400 italic text-sm">{example.english}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           {/* Terms List - Handle both flat terms and sections */}
           {sheet.sections ? (
             <div className="space-y-6">
